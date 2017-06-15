@@ -1,0 +1,163 @@
+Jun 14, 2017 7:33:18 AM taurusjunit.CustomRunner main
+INFO: Starting: [/Users/daper01/Documents/OSLo/Selenium/java/2017-06-14_07-33-14.692439/runner.properties]
+Jun 14, 2017 7:33:18 AM taurusjunit.CustomRunner processJAR
+INFO: Processing JAR: /Users/daper01/Documents/OSLo/Selenium/java/2017-06-14_07-33-14.692439/classes/compiled.jar
+Jun 14, 2017 7:33:18 AM taurusjunit.CustomRunner processJAR
+INFO: TestCase.class.isAssignableFrom(Blazedemoju) = false
+Jun 14, 2017 7:33:18 AM taurusjunit.CustomRunner processJAR
+INFO: has_annotations(Blazedemoju) = true
+Jun 14, 2017 7:33:18 AM taurusjunit.CustomRunner processJAR
+INFO: class added to tests: Blazedemoju
+Jun 14, 2017 7:33:18 AM taurusjunit.CustomRunner main
+INFO: Running with classes: [class Blazedemoju]
+Jun 14, 2017 7:33:18 AM taurusjunit.TaurusReporter <init>
+INFO: LDJSON file: /Users/daper01/Documents/OSLo/Selenium/java/2017-06-14_07-33-14.692439/selenium_tests_report.ldjson
+Jun 14, 2017 7:33:18 AM taurusjunit.CustomListener testRunStarted
+INFO: Run Started: null
+Jun 14, 2017 7:33:18 AM taurusjunit.CustomListener testStarted
+INFO: started blazedemoju(Blazedemoju)
+1497450798996	geckodriver	INFO	Listening on 127.0.0.1:16610
+1497450800216	mozprofile::profile	INFO	Using profile path /var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/rust_mozprofile.hz7FX1mXopKF
+1497450800217	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1497450800231	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50307
+1497450802005	Marionette	INFO	Listening on port 50307
+Jun 14, 2017 7:33:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1497450802396	Marionette	WARN	Using deprecated data structure for setting timeouts
+2017-06-14 07:33:22.422 plugin-container[1959:53726] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9733, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-14 07:33:22.423 plugin-container[1959:53726] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1497450806387	Marionette	INFO	New connections will no longer be accepted
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+Jun 14, 2017 7:33:26 AM taurusjunit.CustomListener testFinished
+INFO: finished blazedemoju(Blazedemoju)
+Jun 14, 2017 7:33:26 AM taurusjunit.CustomListener testRunFinished
+INFO: Run Finished, successful=true, run count=1
+Jun 14, 2017 7:33:26 AM taurusjunit.CustomRunner main
+INFO: Elapsed: 8154, limit: 0.0
+Jun 14, 2017 7:33:26 AM taurusjunit.CustomListener testRunStarted
+INFO: Run Started: null
+Jun 14, 2017 7:33:26 AM taurusjunit.CustomListener testStarted
+INFO: started blazedemoju(Blazedemoju)
+1497450806542	geckodriver	INFO	Listening on 127.0.0.1:28236
+1497450807584	mozprofile::profile	INFO	Using profile path /var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/rust_mozprofile.ZZzfhFqFm3pf
+1497450807585	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1497450807589	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50460
+1497450809106	Marionette	INFO	Listening on port 50460
+Jun 14, 2017 7:33:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1497450809492	Marionette	WARN	Using deprecated data structure for setting timeouts
+2017-06-14 07:33:29.551 plugin-container[1963:54309] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-14 07:33:29.552 plugin-container[1963:54309] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1497450812114	Marionette	INFO	New connections will no longer be accepted
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+Jun 14, 2017 7:33:32 AM taurusjunit.CustomListener testFinished
+INFO: finished blazedemoju(Blazedemoju)
+Jun 14, 2017 7:33:32 AM taurusjunit.CustomListener testRunFinished
+INFO: Run Finished, successful=true, run count=1
+Jun 14, 2017 7:33:32 AM taurusjunit.CustomRunner main
+INFO: Elapsed: 13857, limit: 0.0
+Jun 14, 2017 7:33:32 AM taurusjunit.CustomListener testRunStarted
+INFO: Run Started: null
+Jun 14, 2017 7:33:32 AM taurusjunit.CustomListener testStarted
+INFO: started blazedemoju(Blazedemoju)
+1497450812277	geckodriver	INFO	Listening on 127.0.0.1:2893
+1497450812320	mozprofile::profile	INFO	Using profile path /var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/rust_mozprofile.ghg7Ml1EXyTO
+1497450812321	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1497450812325	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50727
+1497450813865	Marionette	INFO	Listening on port 50727
+Jun 14, 2017 7:33:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1497450814196	Marionette	WARN	Using deprecated data structure for setting timeouts
+2017-06-14 07:33:34.253 plugin-container[1966:54828] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x973b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-14 07:33:34.254 plugin-container[1966:54828] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1497450817869	Marionette	INFO	New connections will no longer be accepted
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+Jun 14, 2017 7:33:37 AM taurusjunit.CustomListener testFinished
+INFO: finished blazedemoju(Blazedemoju)
+Jun 14, 2017 7:33:37 AM taurusjunit.CustomListener testRunFinished
+INFO: Run Finished, successful=true, run count=1
+Jun 14, 2017 7:33:37 AM taurusjunit.CustomRunner main
+INFO: Elapsed: 19612, limit: 0.0
+Jun 14, 2017 7:33:37 AM taurusjunit.CustomListener testRunStarted
+INFO: Run Started: null
+Jun 14, 2017 7:33:37 AM taurusjunit.CustomListener testStarted
+INFO: started blazedemoju(Blazedemoju)
+1497450818013	geckodriver	INFO	Listening on 127.0.0.1:21958
+1497450818066	mozprofile::profile	INFO	Using profile path /var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/rust_mozprofile.5zZjuRbkgm2B
+1497450818068	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1497450818071	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50876
+1497450819744	Marionette	INFO	Listening on port 50876
+Jun 14, 2017 7:33:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1497450820071	Marionette	WARN	Using deprecated data structure for setting timeouts
+2017-06-14 07:33:40.131 plugin-container[1983:55521] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-14 07:33:40.132 plugin-container[1983:55521] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9703, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1497450822812	Marionette	INFO	New connections will no longer be accepted
+Jun 14, 2017 7:33:42 AM taurusjunit.CustomListener testFinished
+INFO: finished blazedemoju(Blazedemoju)
+Jun 14, 2017 7:33:42 AM taurusjunit.CustomListener testRunFinished
+INFO: Run Finished, successful=true, run count=1
+Jun 14, 2017 7:33:42 AM taurusjunit.CustomRunner main
+INFO: Elapsed: 24555, limit: 0.0
+Jun 14, 2017 7:33:42 AM taurusjunit.CustomListener testRunStarted
+INFO: Run Started: null
+Jun 14, 2017 7:33:42 AM taurusjunit.CustomListener testStarted
+INFO: started blazedemoju(Blazedemoju)
+1497450822951	geckodriver	INFO	Listening on 127.0.0.1:24746
+1497450822999	mozprofile::profile	INFO	Using profile path /var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/rust_mozprofile.0tzlWBjsiyLL
+1497450823001	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1497450823004	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51027
+1497450824516	Marionette	INFO	Listening on port 51027
+Jun 14, 2017 7:33:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1497450824844	Marionette	WARN	Using deprecated data structure for setting timeouts
+2017-06-14 07:33:44.902 plugin-container[2000:56096] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9537, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-14 07:33:44.903 plugin-container[2000:56096] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9807, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+2017-06-14 07:34:44.101 firefox-bin[1999:55912] IMKInputSession presentFunctionRowItemTextInputViewWithEndpoint:completionHandler: : *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+1497450887379	Marionette	INFO	New connections will no longer be accepted
+Jun 14, 2017 7:34:47 AM taurusjunit.CustomListener testFailure
+SEVERE: failed blazedemoju(Blazedemoju): Unable to locate element: input.btn.btn-primary
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.0', revision: 'b526bd5', time: '2017-03-07 11:21:31 -0800'
+System info: host: 'daper01mac1124', ip: '2602:304:cf25:a500:edac:f6c4:f907:e53f', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/rust_mozprofile.0tzlWBjsiyLL, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=16.4.0, moz:processID=1999, browserName=firefox, platformName=darwin}]
+Session ID: a7371de8-96a2-1549-a033-3a2ed488dd9c
+*** Element info: {Using=css selector, value=input.btn.btn-primary}
+Jun 14, 2017 7:34:47 AM taurusjunit.CustomListener testFinished
+INFO: finished blazedemoju(Blazedemoju)
+Jun 14, 2017 7:34:47 AM taurusjunit.CustomListener testRunFinished
+INFO: Run Finished, successful=false, run count=1
+Jun 14, 2017 7:34:47 AM taurusjunit.CustomRunner main
+INFO: Elapsed: 89151, limit: 0.0
+Jun 14, 2017 7:34:47 AM taurusjunit.TaurusReporter close
+INFO: Closing LDJSON reporter stream

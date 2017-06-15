@@ -1,0 +1,18 @@
+{
+ "scenarios": {
+  "simple": {
+   "script": "blazedemo_easy_peasy.jmx"
+  }
+ }, 
+ "execution": {
+  "concurrency": 50, 
+  "hold-for": "2m", 
+  "scenario": "simple", 
+  "executor": "jmeter"
+ }, 
+ "modules": {
+  "blazemeter": {
+   "token": "********"
+  }
+ }
+}

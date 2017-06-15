@@ -1,0 +1,22 @@
+{
+ "scenarios": {
+  "simple": {
+   "script": "blazedemo_easy_peasy.jmx"
+  }
+ }, 
+ "execution": {
+  "scenario": "simple", 
+  "ramp-up": "1m", 
+  "hold-for": "25m", 
+  "concurrency": {
+   "local": 50, 
+   "cloud": 500
+  }, 
+  "executor": "jmeter"
+ }, 
+ "modules": {
+  "blazemeter": {
+   "token": "********"
+  }
+ }
+}

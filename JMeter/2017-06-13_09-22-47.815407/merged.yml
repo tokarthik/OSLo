@@ -1,0 +1,13 @@
+---
+execution:
+  concurrency: 50
+  executor: jmeter
+  hold-for: 2m
+  scenario: simple
+modules:
+  blazemeter:
+    token: '********'
+scenarios:
+  simple:
+    script: blazedemo_easy_peasy.jmx
+

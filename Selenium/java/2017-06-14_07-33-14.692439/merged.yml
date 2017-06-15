@@ -1,0 +1,16 @@
+---
+execution:
+- executor: selenium
+  iterations: 5
+  scenario: bdm
+modules:
+  blazemeter:
+    token: '********'
+  selenium:
+    selenium-tools:
+      junit:
+        compile-target-java: 1.8
+scenarios:
+  bdm:
+    script: Blazedemoju.java
+

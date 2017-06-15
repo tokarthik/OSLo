@@ -1,0 +1,11 @@
+---
+execution:
+  executor: jmeter
+  scenario: simple
+modules:
+  blazemeter:
+    token: '********'
+scenarios:
+  simple:
+    script: blazedemo_easy_peasy.jmx
+

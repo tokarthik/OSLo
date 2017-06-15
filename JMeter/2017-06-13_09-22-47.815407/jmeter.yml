@@ -1,0 +1,9 @@
+execution:
+  executor: jmeter
+  concurrency: 50
+  hold-for: 2m
+  scenario: simple
+
+scenarios:
+  simple:
+    script: blazedemo_easy_peasy.jmx

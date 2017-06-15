@@ -1,0 +1,70 @@
+{
+ "local-bzt-version": "1.9.1", 
+ "scenarios": {
+  "blazeDemo_Selenium_with_unit_chrome.py": {
+   "additional-classpath": [], 
+   "script": "blazeDemo_Selenium_with_unit_chrome.py"
+  }
+ }, 
+ "execution": [
+  {
+   "scenario": "blazeDemo_Selenium_with_unit_chrome.py", 
+   "runner": "nose", 
+   "locations": {
+    "us-central1-a": 1
+   }, 
+   "concurrency": 1, 
+   "executor": "selenium", 
+   "hold-for": "20m"
+  }
+ ], 
+ "modules": {
+  "selenium": {
+   "additional-classpath": []
+  }, 
+  "gatling": {
+   "properties": {
+    "gatling.data.file.bufferSize": 256
+   }
+  }, 
+  "grinder": {
+   "properties": {
+    "grinder.useConsole": false
+   }
+  }, 
+  "jmeter": {
+   "properties": {
+    "jmeter.save.saveservice.autoflush": "true", 
+    "jmeterengine.force.system.exit": "true", 
+    "jmeter.save.saveservice.connect_time": "true", 
+    "summariser.name": "", 
+    "mode": "Stripped"
+   }
+  }
+ }, 
+ "services": [
+  {
+   "run-at": "local", 
+   "local": [
+    {
+     "metrics": [
+      "cpu", 
+      "mem", 
+      "bytes-sent", 
+      "bytes-recv", 
+      "disk-read", 
+      "disk-write", 
+      "disk-space", 
+      "engine-loop", 
+      "conn-all"
+     ]
+    }
+   ], 
+   "module": "monitoring"
+  }, 
+  {
+   "run-at": "local", 
+   "module": "capturehar"
+  }
+ ]
+}

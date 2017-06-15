@@ -1,12 +1,15 @@
----
-  execution: 
-    concurrency: 1
-    # iterations: 1
-    hold-for: 20m
-    executor: selenium
-    runner: nose
-    scenario:
-      script: ./blazeDemo_Selenium_with_unit_chrome.py
+execution: 
+- concurrency: 1
+  iterations: 5
+  # hold-for: 20m
+  executor: selenium
+  runner: nose
+  scenario:
+    script: ./blazeDemo_Selenium_with_unit_chrome.py
+- concurrency: 200
+  executor: jmeter
+  scenario:
+    script: ./my_fake_jmeter_script.jmx
 
-  services:
-  - capturehar
+services:
+- capturehar

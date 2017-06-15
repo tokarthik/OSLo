@@ -1,0 +1,16 @@
+{
+ "scenarios": {
+  "simple": {
+   "script": "blazedemo_easy_peasy.jmx"
+  }
+ }, 
+ "execution": {
+  "scenario": "simple", 
+  "executor": "jmeter"
+ }, 
+ "modules": {
+  "blazemeter": {
+   "token": "********"
+  }
+ }
+}

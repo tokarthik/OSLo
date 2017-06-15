@@ -1,0 +1,12 @@
+execution:
+  executor: jmeter
+  concurrency: 
+    local: 50
+    cloud: 500
+  hold-for: 25m
+  ramp-up: 1m
+  scenario: simple
+
+scenarios:
+  simple:
+    script: blazedemo_easy_peasy.jmx

@@ -1,0 +1,6 @@
+Writing log file to: /Users/daper01/Documents/OSLo/JMeter/2017-06-13_09-22-08.328499/jmeter.log
+Created the tree successfully using /Users/daper01/Documents/OSLo/JMeter/modified_blazedemo_easy_peasy.jmx
+Starting the test @ Tue Jun 13 09:22:10 PDT 2017 (1497370930576)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+Tidying up ...    @ Tue Jun 13 09:22:20 PDT 2017 (1497370940931)
+... end of run

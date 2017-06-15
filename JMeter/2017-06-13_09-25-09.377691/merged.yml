@@ -1,0 +1,16 @@
+---
+execution:
+  concurrency:
+    cloud: 500
+    local: 50
+  executor: jmeter
+  hold-for: 25m
+  ramp-up: 1m
+  scenario: simple
+modules:
+  blazemeter:
+    token: '********'
+scenarios:
+  simple:
+    script: blazedemo_easy_peasy.jmx
+
