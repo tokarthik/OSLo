@@ -26,12 +26,12 @@ scenarios:
 
 execution:
 - executor: jmeter
-  concurrency: 1
-  hold-for: 20s
-  # ramp-up: 30s
+  concurrency: 100
+  hold-for: 30s
+  ramp-up: 30s
   scenario: blazedemo
 
-# provisioning: cloud
+provisioning: cloud
 
 reporting:
 - module: final-stats
