@@ -14,7 +14,7 @@ scenarios:
           fromPort: Boston
           toPort: Berlin
         label: 'Reserve Page'
-      - url: 'http://blazedemo.com.purchase.php'
+      - url: 'http://blazedemo.com/purchase.php'
         method: POST
         body:
           airline: Virgin America
@@ -22,6 +22,7 @@ scenarios:
           fromPort: Boston
           price: '472.56'
           toPort: Berlin
+        label: 'Purchase Page'
 
 execution:
 - executor: jmeter
