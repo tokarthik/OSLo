@@ -31,11 +31,8 @@ execution:
   # ramp-up: 30s
   scenario: blazedemo
 
-# provisioning: cloud
-
 reporting:
-- module: final-stats
-  summary: true
+  module: final_stats
   dump-xml: stats.xml
 
 modules:

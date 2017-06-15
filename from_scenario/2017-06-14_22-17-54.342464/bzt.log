@@ -1,0 +1,117 @@
+[2017-06-14 22:17:54,285 INFO root] Taurus CLI Tool v1.9.1
+[2017-06-14 22:17:54,286 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/bzt_swUcbn.log', 'option': None, 'aliases': []}
+[2017-06-14 22:17:54,286 DEBUG root] Python: CPython 2.7.13
+[2017-06-14 22:17:54,286 DEBUG root] OS: ('Darwin', 'daper01mac1124', '16.4.0', 'Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64', 'x86_64', 'i386')
+[2017-06-14 22:17:54,286 INFO root] Starting with configs: ['JM_from_scenario.yml']
+[2017-06-14 22:17:54,286 DEBUG root] Adding personal config: /Users/daper01/.bzt-rc
+[2017-06-14 22:17:54,286 INFO Engine] Configuring...
+[2017-06-14 22:17:54,286 DEBUG Engine] Reading extension configs from: /usr/local/etc/bzt.d
+[2017-06-14 22:17:54,286 DEBUG Engine.Configuration] Configs: ['/usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml', '/usr/local/etc/bzt.d/99-installID.yml']
+[2017-06-14 22:17:54,286 DEBUG Engine.Configuration] Reading /usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml
+[2017-06-14 22:17:54,286 DEBUG Engine.Configuration] Reading /usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2017-06-14 22:17:54,310 DEBUG Engine.Configuration] Reading /usr/local/etc/bzt.d/99-installID.yml
+[2017-06-14 22:17:54,310 DEBUG Engine.Configuration] Reading /usr/local/etc/bzt.d/99-installID.yml as YAML
+[2017-06-14 22:17:54,311 DEBUG Engine.Configuration] Configs: ['/Users/daper01/.bzt-rc', 'JM_from_scenario.yml']
+[2017-06-14 22:17:54,311 DEBUG Engine.Configuration] Reading /Users/daper01/.bzt-rc
+[2017-06-14 22:17:54,311 DEBUG Engine.Configuration] Reading /Users/daper01/.bzt-rc as YAML
+[2017-06-14 22:17:54,311 DEBUG Engine.Configuration] Reading JM_from_scenario.yml
+[2017-06-14 22:17:54,311 DEBUG Engine.Configuration] Reading JM_from_scenario.yml as YAML
+[2017-06-14 22:17:54,317 DEBUG root] Configs: ['/Users/daper01/.bzt-rc', 'JM_from_scenario.yml']
+[2017-06-14 22:17:54,317 DEBUG root] Reading /Users/daper01/.bzt-rc
+[2017-06-14 22:17:54,317 DEBUG root] Reading /Users/daper01/.bzt-rc as YAML
+[2017-06-14 22:17:54,318 DEBUG root] Reading JM_from_scenario.yml
+[2017-06-14 22:17:54,318 DEBUG root] Reading JM_from_scenario.yml as YAML
+[2017-06-14 22:17:54,337 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.9.1&installID=784f43782a15
+[2017-06-14 22:17:54,342 INFO Engine] Artifacts dir: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464
+[2017-06-14 22:17:54,342 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/effective
+[2017-06-14 22:17:54,344 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/effective.yml
+[2017-06-14 22:17:54,369 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/effective.json
+[2017-06-14 22:17:54,370 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/merged.yml
+[2017-06-14 22:17:54,370 DEBUG root] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/merged.yml
+[2017-06-14 22:17:54,375 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/merged.json
+[2017-06-14 22:17:54,375 DEBUG root] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/merged.json
+[2017-06-14 22:17:54,376 DEBUG Engine] Add existing artifact (move=False): JM_from_scenario.yml
+[2017-06-14 22:17:54,376 DEBUG Engine] Copying JM_from_scenario.yml to /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/JM_from_scenario.yml
+[2017-06-14 22:17:54,376 DEBUG root] Closing log handler: /var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/bzt_swUcbn.log
+[2017-06-14 22:17:54,377 DEBUG root] Switched writing logs to /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/bzt.log
+[2017-06-14 22:17:54,377 INFO Engine] Preparing...
+[2017-06-14 22:17:54,377 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2017-06-14 22:17:54,377 DEBUG root] Importing module: bzt.modules.aggregator
+[2017-06-14 22:17:54,380 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2017-06-14 22:17:54,381 DEBUG Engine.consolidator] Exception in dehumanize_time(inf)
+[2017-06-14 22:17:54,381 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2017-06-14 22:17:54,381 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': 'bzt.modules.monitoring.Monitoring'})
+[2017-06-14 22:17:54,381 DEBUG root] Importing module: bzt.modules.monitoring
+[2017-06-14 22:17:54,420 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2017-06-14 22:17:54,420 DEBUG Engine] Module config: local defaultdict(None, {'class': 'bzt.modules.provisioning.Local'})
+[2017-06-14 22:17:54,420 DEBUG root] Importing module: bzt.modules.provisioning
+[2017-06-14 22:17:54,421 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/lib/python2.7/site-packages/bzt/modules/provisioning.pyc'>
+[2017-06-14 22:17:54,421 DEBUG Engine] Module config: jmeter defaultdict(None, {'properties': defaultdict(None, {'jmeter.save.saveservice.autoflush': 'true', 'summariser.name': '', 'jmeter.save.saveservice.connect_time': 'true', 'mode': 'Stripped', 'jmeterengine.force.system.exit': 'true'}), 'class': 'bzt.modules.jmeter.JMeterExecutor', 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst']})
+[2017-06-14 22:17:54,421 DEBUG root] Importing module: bzt.modules.jmeter
+[2017-06-14 22:17:54,432 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/usr/local/lib/python2.7/site-packages/bzt/modules/jmeter.pyc'>
+[2017-06-14 22:17:54,432 DEBUG Engine.local] Preparing executor: jmeter/4559096336
+[2017-06-14 22:17:54,433 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/jmeter.log
+[2017-06-14 22:17:54,433 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2017-06-14 22:17:54,434 DEBUG Engine.jmeter] Port 4445 is free
+[2017-06-14 22:17:54,434 DEBUG Engine.jmeter] Using port 4445 for management
+[2017-06-14 22:17:54,434 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2017-06-14 22:17:54,543 DEBUG Engine.jmeter.JavaVM] JavaVM output: java version "1.8.0_121"
+Java(TM) SE Runtime Environment (build 1.8.0_121-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode)
+
+[2017-06-14 22:17:54,543 DEBUG Engine.jmeter.TclLibrary] We don't need to check tcl library on this platform
+[2017-06-14 22:17:54,543 DEBUG Engine.jmeter.JMeter] Trying jmeter: /Users/daper01/.bzt/jmeter-taurus/bin/jmeter.sh
+[2017-06-14 22:17:54,544 DEBUG bzt.utils] Executing shell: ['/Users/daper01/.bzt/jmeter-taurus/bin/jmeter.sh', '-j', '/var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/jmeterh9YLZ8log', '--version']
+[2017-06-14 22:17:55,041 DEBUG Engine.jmeter.JMeter] JMeter check: Writing log file to: /var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/jmeterh9YLZ8log
+    _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____     
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \   
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) | 
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <  
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 3.1 r1770033  
+
+Copyright (c) 1999-2016 The Apache Software Foundation
+
+ / None
+[2017-06-14 22:17:55,042 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/requests.jmx
+[2017-06-14 22:17:55,045 DEBUG JMeterScenarioBuilder] Saving JMX to: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/requests.jmx
+[2017-06-14 22:17:55,047 DEBUG Engine.jmeter] Load: LoadSpec(concurrency=1, throughput=None, ramp_up=None, hold=20.0, iterations=0, duration=20.0, steps=None)
+[2017-06-14 22:17:55,049 DEBUG Engine.jmeter] Original threads: 1.0
+[2017-06-14 22:17:55,050 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/kpi.jtl
+[2017-06-14 22:17:55,050 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/error.jtl
+[2017-06-14 22:17:55,050 DEBUG Engine.jmeter] Enforcing parent sample for transaction controller
+[2017-06-14 22:17:55,051 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/modified_requests.jmx
+[2017-06-14 22:17:55,051 DEBUG JMX] Saving JMX to: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/modified_requests.jmx
+[2017-06-14 22:17:55,051 DEBUG Engine.jmeter] Additional properties: defaultdict(None, {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'user.classpath': '/Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464', 'sampleresult.default.encoding': 'UTF-8', 'summariser.name': '', 'jmeterengine.force.system.exit': 'true', 'jmeter.save.saveservice.timestamp_format': 'ms', 'mode': 'Stripped', 'jmeterengine.nongui.maxport': 4445, 'jmeterengine.nongui.port': 4445})
+[2017-06-14 22:17:55,051 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/jmeter-bzt.properties
+[2017-06-14 22:17:55,051 DEBUG Engine.jmeter] Additional system properties defaultdict(None, {'sun.net.inetaddr.ttl': 0})
+[2017-06-14 22:17:55,051 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/system.properties
+[2017-06-14 22:17:55,052 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/jmeter.out
+[2017-06-14 22:17:55,052 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/jmeter.err
+[2017-06-14 22:17:55,052 ERROR root] Config Error: Module 'None' not found in list of available aliases ['ab', 'android-emulator', 'appium', 'blazemeter', 'capturehar', 'chrome-metric-reporter', 'chrome-profiler', 'cloud', 'console', 'consolidator', 'final-stats', 'final_stats', 'functional-consolidator', 'gatling', 'grinder', 'install-checker', 'jmeter', 'junit', 'junit-xml', 'local', 'locust', 'mocha', 'monitoring', 'nose', 'passfail', 'pbench', 'proxy2jmx', 'rspec', 'screenshoter', 'selenium', 'shellexec', 'siege', 'testng', 'tsung', 'unpacker']
+[2017-06-14 22:17:55,053 DEBUG root] TaurusConfigError: Module 'None' not found in list of available aliases ['ab', 'android-emulator', 'appium', 'blazemeter', 'capturehar', 'chrome-metric-reporter', 'chrome-profiler', 'cloud', 'console', 'consolidator', 'final-stats', 'final_stats', 'functional-consolidator', 'gatling', 'grinder', 'install-checker', 'jmeter', 'junit', 'junit-xml', 'local', 'locust', 'mocha', 'monitoring', 'nose', 'passfail', 'pbench', 'proxy2jmx', 'rspec', 'screenshoter', 'selenium', 'shellexec', 'siege', 'testng', 'tsung', 'unpacker']
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/bzt/cli.py", line 212, in perform
+    self.engine.prepare()
+  File "/usr/local/lib/python2.7/site-packages/bzt/engine.py", line 131, in prepare
+    self.__prepare_reporters()
+  File "/usr/local/lib/python2.7/site-packages/bzt/engine.py", line 468, in __prepare_reporters
+    instance = self.instantiate_module(cls)
+  File "/usr/local/lib/python2.7/site-packages/bzt/engine.py", line 375, in instantiate_module
+    classobj = self.__load_module(alias)
+  File "/usr/local/lib/python2.7/site-packages/bzt/engine.py", line 348, in __load_module
+    raise TaurusConfigError(msg)
+TaurusConfigError: Module 'None' not found in list of available aliases ['ab', 'android-emulator', 'appium', 'blazemeter', 'capturehar', 'chrome-metric-reporter', 'chrome-profiler', 'cloud', 'console', 'consolidator', 'final-stats', 'final_stats', 'functional-consolidator', 'gatling', 'grinder', 'install-checker', 'jmeter', 'junit', 'junit-xml', 'local', 'locust', 'mocha', 'monitoring', 'nose', 'passfail', 'pbench', 'proxy2jmx', 'rspec', 'screenshoter', 'selenium', 'shellexec', 'siege', 'testng', 'tsung', 'unpacker']
+[2017-06-14 22:17:55,053 INFO Engine] Post-processing...
+[2017-06-14 22:17:55,053 DEBUG Engine.local] Post-process jmeter/blazedemo
+[2017-06-14 22:17:55,053 DEBUG Engine] Add existing artifact (move=True): /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/modified_requests.jmx
+[2017-06-14 22:17:55,053 DEBUG Engine] No need to copy /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/modified_requests.jmx
+[2017-06-14 22:17:55,053 DEBUG Engine.jmeter.JTLErrorsReader] File not exists: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/error.jtl
+[2017-06-14 22:17:55,054 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] File not appeared yet: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/kpi.jtl
+[2017-06-14 22:17:55,054 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] No data to start reading yet
+[2017-06-14 22:17:55,054 DEBUG Engine.jmeter.JTLReader] Buffer len: 0
+[2017-06-14 22:17:55,054 DEBUG Engine.consolidator] Consolidator buffer[0]: []
+[2017-06-14 22:17:55,055 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/effective.yml
+[2017-06-14 22:17:55,082 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/effective.json
+[2017-06-14 22:17:55,083 INFO root] Artifacts dir: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464
+[2017-06-14 22:17:55,083 WARNING root] Done performing with code: 1
+[2017-06-14 22:17:55,083 DEBUG root] Closing log handler: /Users/daper01/Documents/OSLo/from_scenario/2017-06-14_22-17-54.342464/bzt.log
