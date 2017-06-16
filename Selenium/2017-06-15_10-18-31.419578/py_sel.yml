@@ -1,7 +1,0 @@
-execution:
-  executor: selenium
-  concurrency: 1
-  # hold-for: 5m
-  iterations: 2
-  scenario:
-    script: blazeDemo_Selenium_with_unit_chrome.py

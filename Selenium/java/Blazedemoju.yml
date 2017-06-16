@@ -6,7 +6,7 @@ scenarios:
 execution:
   - executor: selenium
     scenario: bdm
-    iterations: 5
+    hold-for: 5m
 
 modules:
   selenium:

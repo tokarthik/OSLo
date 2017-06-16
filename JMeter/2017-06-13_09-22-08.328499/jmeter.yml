@@ -1,7 +1,0 @@
-execution:
-  executor: jmeter
-  scenario: simple
-
-scenarios:
-  simple:
-    script: blazedemo_easy_peasy.jmx

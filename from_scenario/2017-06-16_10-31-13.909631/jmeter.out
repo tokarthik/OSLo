@@ -1,7 +1,0 @@
-Writing log file to: /Users/daper01/Documents/OSLo/from_scenario/2017-06-16_10-31-13.909631/jmeter.log
-Created the tree successfully using /Users/daper01/Documents/OSLo/from_scenario/2017-06-16_10-31-13.909631/modified_requests.jmx
-Starting the test @ Fri Jun 16 10:31:15 PDT 2017 (1497634275623)
-Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
-Command: Shutdown received from /127.0.0.1
-Tidying up ...    @ Fri Jun 16 10:32:30 PDT 2017 (1497634350544)
-... end of run
