@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FinalStatus>
+  <ReportURL>https://a.blazemeter.com/app/#/masters/16324684</ReportURL>
+  <Group label="">
+    <avg_ct value="0">
+      <name>avg_ct</name>
+      <value>0</value>
+    </avg_ct>
+    <stdev_rt value="0">
+      <name>stdev_rt</name>
+      <value>0</value>
+    </stdev_rt>
+    <avg_lt value="1.52295">
+      <name>avg_lt</name>
+      <value>1.52295</value>
+    </avg_lt>
+    <bytes value="0">
+      <name>bytes</name>
+      <value>0</value>
+    </bytes>
+    <perc value="1.35700" param="95.0">
+      <name>perc/95.0</name>
+      <value>1.35700</value>
+    </perc>
+    <perc value="1.21700" param="90.0">
+      <name>perc/90.0</name>
+      <value>1.21700</value>
+    </perc>
+    <perc value="3.75200" param="99.0">
+      <name>perc/99.0</name>
+      <value>3.75200</value>
+    </perc>
+    <succ value="0">
+      <name>succ</name>
+      <value>0</value>
+    </succ>
+    <throughput value="94697">
+      <name>throughput</name>
+      <value>94697</value>
+    </throughput>
+    <concurrency value="3">
+      <name>concurrency</name>
+      <value>3</value>
+    </concurrency>
+    <avg_rt value="1.66706">
+      <name>avg_rt</name>
+      <value>1.66706</value>
+    </avg_rt>
+    <fail value="0">
+      <name>fail</name>
+      <value>0</value>
+    </fail>
+  </Group>
+  <Group label="Welcome Page">
+    <avg_ct value="0">
+      <name>avg_ct</name>
+      <value>0</value>
+    </avg_ct>
+    <stdev_rt value="0">
+      <name>stdev_rt</name>
+      <value>0</value>
+    </stdev_rt>
+    <avg_lt value="1.55452">
+      <name>avg_lt</name>
+      <value>1.55452</value>
+    </avg_lt>
+    <bytes value="0">
+      <name>bytes</name>
+      <value>0</value>
+    </bytes>
+    <perc value="1.31800" param="95.0">
+      <name>perc/95.0</name>
+      <value>1.31800</value>
+    </perc>
+    <perc value="1.17700" param="90.0">
+      <name>perc/90.0</name>
+      <value>1.17700</value>
+    </perc>
+    <perc value="4.46400" param="99.0">
+      <name>perc/99.0</name>
+      <value>4.46400</value>
+    </perc>
+    <succ value="0">
+      <name>succ</name>
+      <value>0</value>
+    </succ>
+    <throughput value="21819">
+      <name>throughput</name>
+      <value>21819</value>
+    </throughput>
+    <concurrency value="67">
+      <name>concurrency</name>
+      <value>67</value>
+    </concurrency>
+    <avg_rt value="1.55457">
+      <name>avg_rt</name>
+      <value>1.55457</value>
+    </avg_rt>
+    <fail value="0">
+      <name>fail</name>
+      <value>0</value>
+    </fail>
+  </Group>
+  <Group label="Purchase Page">
+    <avg_ct value="0">
+      <name>avg_ct</name>
+      <value>0</value>
+    </avg_ct>
+    <stdev_rt value="0">
+      <name>stdev_rt</name>
+      <value>0</value>
+    </stdev_rt>
+    <avg_lt value="1.65453">
+      <name>avg_lt</name>
+      <value>1.65453</value>
+    </avg_lt>
+    <bytes value="0">
+      <name>bytes</name>
+      <value>0</value>
+    </bytes>
+    <perc value="1.41100" param="95.0">
+      <name>perc/95.0</name>
+      <value>1.41100</value>
+    </perc>
+    <perc value="1.27800" param="90.0">
+      <name>perc/90.0</name>
+      <value>1.27800</value>
+    </perc>
+    <perc value="3.43200" param="99.0">
+      <name>perc/99.0</name>
+      <value>3.43200</value>
+    </perc>
+    <succ value="0">
+      <name>succ</name>
+      <value>0</value>
+    </succ>
+    <throughput value="23621">
+      <name>throughput</name>
+      <value>23621</value>
+    </throughput>
+    <concurrency value="5">
+      <name>concurrency</name>
+      <value>5</value>
+    </concurrency>
+    <avg_rt value="1.79140">
+      <name>avg_rt</name>
+      <value>1.79140</value>
+    </avg_rt>
+    <fail value="0">
+      <name>fail</name>
+      <value>0</value>
+    </fail>
+  </Group>
+  <Group label="Reserve Page">
+    <avg_ct value="0">
+      <name>avg_ct</name>
+      <value>0</value>
+    </avg_ct>
+    <stdev_rt value="0">
+      <name>stdev_rt</name>
+      <value>0</value>
+    </stdev_rt>
+    <avg_lt value="1.39576">
+      <name>avg_lt</name>
+      <value>1.39576</value>
+    </avg_lt>
+    <bytes value="0">
+      <name>bytes</name>
+      <value>0</value>
+    </bytes>
+    <perc value="1.28700" param="95.0">
+      <name>perc/95.0</name>
+      <value>1.28700</value>
+    </perc>
+    <perc value="1.15200" param="90.0">
+      <name>perc/90.0</name>
+      <value>1.15200</value>
+    </perc>
+    <perc value="3.72600" param="99.0">
+      <name>perc/99.0</name>
+      <value>3.72600</value>
+    </perc>
+    <succ value="0">
+      <name>succ</name>
+      <value>0</value>
+    </succ>
+    <throughput value="21723">
+      <name>throughput</name>
+      <value>21723</value>
+    </throughput>
+    <concurrency value="6">
+      <name>concurrency</name>
+      <value>6</value>
+    </concurrency>
+    <avg_rt value="1.61406">
+      <name>avg_rt</name>
+      <value>1.61406</value>
+    </avg_rt>
+    <fail value="0">
+      <name>fail</name>
+      <value>0</value>
+    </fail>
+  </Group>
+  <Group label="Confirmation Page">
+    <avg_ct value="0">
+      <name>avg_ct</name>
+      <value>0</value>
+    </avg_ct>
+    <stdev_rt value="0">
+      <name>stdev_rt</name>
+      <value>0</value>
+    </stdev_rt>
+    <avg_lt value="1.48353">
+      <name>avg_lt</name>
+      <value>1.48353</value>
+    </avg_lt>
+    <bytes value="0">
+      <name>bytes</name>
+      <value>0</value>
+    </bytes>
+    <perc value="1.41200" param="95.0">
+      <name>perc/95.0</name>
+      <value>1.41200</value>
+    </perc>
+    <perc value="1.26800" param="90.0">
+      <name>perc/90.0</name>
+      <value>1.26800</value>
+    </perc>
+    <perc value="4.17400" param="99.0">
+      <name>perc/99.0</name>
+      <value>4.17400</value>
+    </perc>
+    <succ value="0">
+      <name>succ</name>
+      <value>0</value>
+    </succ>
+    <throughput value="23485">
+      <name>throughput</name>
+      <value>23485</value>
+    </throughput>
+    <concurrency value="3">
+      <name>concurrency</name>
+      <value>3</value>
+    </concurrency>
+    <avg_rt value="1.70464">
+      <name>avg_rt</name>
+      <value>1.70464</value>
+    </avg_rt>
+    <fail value="0">
+      <name>fail</name>
+      <value>0</value>
+    </fail>
+  </Group>
+</FinalStatus>

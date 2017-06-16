@@ -1,0 +1,15 @@
+{
+ "execution": {
+  "concurrency": 1, 
+  "hold-for": "5m", 
+  "scenario": {
+   "script": "blazeDemo_Selenium_with_unit_chrome.py"
+  }, 
+  "executor": "selenium"
+ }, 
+ "modules": {
+  "blazemeter": {
+   "token": "********"
+  }
+ }
+}

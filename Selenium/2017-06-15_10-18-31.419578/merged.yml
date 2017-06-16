@@ -1,0 +1,11 @@
+---
+execution:
+  concurrency: 1
+  executor: selenium
+  iterations: 2
+  scenario:
+    script: blazeDemo_Selenium_with_unit_chrome.py
+modules:
+  blazemeter:
+    token: '********'
+
