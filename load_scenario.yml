@@ -1,0 +1,33 @@
+---
+scenarios:
+  blazedemo:
+    headers:
+      Upgrade-Insecure-Requests: '1'
+    retrieve-resources: false
+    requests:
+      - url: 'http://blazedemo.com/'
+        method: GET
+        label: 'Welcome Page'
+      - url: 'http://blazedemo.com/reserve.php'
+        method: POST
+        body:
+          fromPort: Boston
+          toPort: Berlin
+        label: 'Reserve Page'
+      - url: 'http://blazedemo.com/purchase.php'
+        method: POST
+        body:
+          airline: Virgin America
+          flight: '43'
+          fromPort: Boston
+          price: '472.56'
+          toPort: Berlin
+        label: 'Purchase Page'
+      - url: 'http://blazedemo.com/'
+        method: POST
+        body:
+          totally_fake_param: totally_fake_value
+        label: 'posting to welcome'
+      - url: 'http://blazedemo.com/confirmation.php'
+        method: GET
+        label: 'Confirmation Page'
