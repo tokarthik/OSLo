@@ -31,19 +31,3 @@ scenarios:
       - url: 'http://blazedemo.com/confirmation.php'
         method: GET
         label: 'Confirmation Page'
-
-execution:
-- executor: jmeter
-  scenario: blazedemo
-  concurrency: 
-    local: 50
-    cloud: 500
-  hold-for: 5m
-  ramp-up: 30s
-
-# provisioning: cloud
-
-reporting:
-- module: final-stats
-  summary: true
-  dump-xml: stats.xml
