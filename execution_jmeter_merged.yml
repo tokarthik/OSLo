@@ -1,0 +1,60 @@
+execution:
+- executor: jmeter
+  scenario: blazedemo
+  concurrency: 50
+  hold-for: 6m
+  ramp-up: 30s
+  locations:
+    us-west-1: 1
+    us-east-1: 2
+  # locations-weighted: false
+- executor: jmeter
+  scenario: blazedemo
+  concurrency:
+    local: 25
+    cloud: 300
+  hold-for: 30s
+  ramp-up: 6m
+  locations:
+    ap-south-1: 1
+    # us-east-1: 2
+  # locations-weighted: false
+
+scenarios:
+  blazedemo:
+    data-sources:
+    - path: './param.csv'
+      delimiter: ', '
+      variable-names: fromPort,toPort
+    headers:
+      Upgrade-Insecure-Requests: '1'
+    retrieve-resources: false
+    requests:
+      - url: 'http://blazedemo.com/'
+        method: GET
+        label: 'Welcome Page'
+      - url: 'http://blazedemo.com/reserve.php'
+        method: POST
+        body:
+          fromPort: ${fromPort}
+          toPort: ${toPort}
+        label: 'Reserve Page'
+      - url: 'http://blazedemo.com/purchase.php'
+        method: GET
+        label: 'Purchase Page'
+      - url: 'http://blazedemo.com/confirmation.php'
+        method: GET
+        label: 'Confirmation Page'
+
+reporting:
+- module: final-stats
+  summary: true
+  dump-xml: stats.xml
+
+settings:
+  artifacts-dir: ./artifacts/%Y-%m-%d_%H-%M-%S.%f
+
+modules:
+  cloud:
+    test: 'Taurus from Scenario'
+    report-name: 'Taurus from Scenario'
