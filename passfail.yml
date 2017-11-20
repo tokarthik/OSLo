@@ -1,4 +1,4 @@
 reporting:
 - module: passfail
   criteria:
-    Response time too long: avg-rt>1s
+    Response time too long: avg-rt>2s
