@@ -1,0 +1,22 @@
+{
+ "execution": {
+  "scenario": {
+   "script": "./BlazeDemo.scala", 
+   "simulation": "BlazeDemo", 
+   "keepalive": true
+  }, 
+  "executor": "gatling"
+ }, 
+ "modules": {
+  "blazemeter": {
+   "token": "********"
+  }, 
+  "gatling": {
+   "version": "2.2.4"
+  }, 
+  "cloud": {
+   "test": "gatling test", 
+   "report-name": "gatling test"
+  }
+ }
+}

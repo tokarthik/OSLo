@@ -1,0 +1,31 @@
+{
+ "scenarios": {
+  "properties": {
+   "grinder.runs": 0
+  }, 
+  "script_sample": {
+   "script": "grinder_sample_ramp.py"
+  }
+ }, 
+ "execution": [
+  {
+   "scenario": "script_sample", 
+   "ramp-up": "10m", 
+   "locations": {
+    "us-west-1": 1
+   }, 
+   "concurrency": {
+    "local": 100, 
+    "cloud": 500
+   }, 
+   "executor": "grinder", 
+   "locations-weighted": false, 
+   "hold-for": "5m"
+  }
+ ], 
+ "modules": {
+  "blazemeter": {
+   "token": "********"
+  }
+ }
+}

@@ -1,0 +1,4 @@
+modules:
+  blazemeter:
+    test: multi_taurus
+    report-name: multi_taurus

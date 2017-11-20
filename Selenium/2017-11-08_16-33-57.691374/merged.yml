@@ -1,0 +1,11 @@
+---
+execution:
+  concurrency: 1
+  executor: selenium
+  hold-for: 1m
+  scenario:
+    script: blazedemo_headless.py
+modules:
+  blazemeter:
+    token: '********'
+

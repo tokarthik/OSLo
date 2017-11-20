@@ -1,0 +1,637 @@
+[2017-06-27 13:43:38,519 INFO root] Taurus CLI Tool v1.9.3
+[2017-06-27 13:43:38,520 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/bzt_eQCMR5.log', 'option': None, 'aliases': ['cloud']}
+[2017-06-27 13:43:38,520 DEBUG root] Python: CPython 2.7.13
+[2017-06-27 13:43:38,520 DEBUG root] OS: ('Darwin', 'daper01mac1124', '16.4.0', 'Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64', 'x86_64', 'i386')
+[2017-06-27 13:43:38,520 INFO root] Starting with configs: ['load_scenario_from_csv.yml', 'execution_jmeter.yml']
+[2017-06-27 13:43:38,521 DEBUG root] Using personal config: /Users/daper01/.bzt-rc
+[2017-06-27 13:43:38,521 INFO Engine] Configuring...
+[2017-06-27 13:43:38,521 DEBUG Engine] Reading extension configs from: /usr/local/etc/bzt.d
+[2017-06-27 13:43:38,521 DEBUG Engine.Configuration] Configs: ['/usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml', '/usr/local/etc/bzt.d/99-installID.yml']
+[2017-06-27 13:43:38,521 DEBUG Engine.Configuration] Reading /usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2017-06-27 13:43:38,550 DEBUG Engine.Configuration] Reading /usr/local/etc/bzt.d/99-installID.yml as YAML
+[2017-06-27 13:43:38,550 DEBUG Engine.Configuration] Configs: ['/Users/daper01/.bzt-rc', 'load_scenario_from_csv.yml', 'execution_jmeter.yml']
+[2017-06-27 13:43:38,551 DEBUG Engine.Configuration] Reading /Users/daper01/.bzt-rc as YAML
+[2017-06-27 13:43:38,553 DEBUG Engine.Configuration] Reading load_scenario_from_csv.yml as YAML
+[2017-06-27 13:43:38,559 DEBUG Engine.Configuration] Reading execution_jmeter.yml as YAML
+[2017-06-27 13:43:38,561 DEBUG Engine.Configuration] Configs: ['/Users/daper01/.bzt-rc', 'load_scenario_from_csv.yml', 'execution_jmeter.yml']
+[2017-06-27 13:43:38,561 DEBUG Engine.Configuration] Reading /Users/daper01/.bzt-rc as YAML
+[2017-06-27 13:43:38,563 DEBUG Engine.Configuration] Reading load_scenario_from_csv.yml as YAML
+[2017-06-27 13:43:38,572 DEBUG Engine.Configuration] Reading execution_jmeter.yml as YAML
+[2017-06-27 13:43:38,593 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.9.3&installID=784f43782a15
+[2017-06-27 13:43:38,607 INFO Engine] Artifacts dir: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102
+[2017-06-27 13:43:38,608 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/effective
+[2017-06-27 13:43:38,614 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/effective.yml
+[2017-06-27 13:43:38,655 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/effective.json
+[2017-06-27 13:43:38,657 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/merged.yml
+[2017-06-27 13:43:38,658 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/merged.yml
+[2017-06-27 13:43:38,667 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/merged.json
+[2017-06-27 13:43:38,673 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/merged.json
+[2017-06-27 13:43:38,674 DEBUG Engine] Add existing artifact (move=False): load_scenario_from_csv.yml
+[2017-06-27 13:43:38,674 DEBUG Engine] Copying load_scenario_from_csv.yml to /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/load_scenario_from_csv.yml
+[2017-06-27 13:43:38,675 DEBUG Engine] Add existing artifact (move=False): execution_jmeter.yml
+[2017-06-27 13:43:38,675 DEBUG Engine] Copying execution_jmeter.yml to /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/execution_jmeter.yml
+[2017-06-27 13:43:38,675 DEBUG root] Closing log handler: /var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/bzt_eQCMR5.log
+[2017-06-27 13:43:38,676 DEBUG root] Switched writing logs to /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/bzt.log
+[2017-06-27 13:43:38,676 INFO Engine] Preparing...
+[2017-06-27 13:43:38,684 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2017-06-27 13:43:38,685 DEBUG root] Importing module: bzt.modules.aggregator
+[2017-06-27 13:43:38,699 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2017-06-27 13:43:38,699 DEBUG Engine.consolidator] Exception in dehumanize_time(inf)
+[2017-06-27 13:43:38,699 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2017-06-27 13:43:38,699 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': 'bzt.modules.monitoring.Monitoring'})
+[2017-06-27 13:43:38,700 DEBUG root] Importing module: bzt.modules.monitoring
+[2017-06-27 13:43:38,759 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2017-06-27 13:43:38,760 DEBUG Engine.monitoring] Should not run because of non-matching prov: cloud != local
+[2017-06-27 13:43:38,760 DEBUG Engine] Module config: cloud defaultdict(None, {'class': 'bzt.modules.blazemeter.CloudProvisioning', 'default-location': 'us-central1-a'})
+[2017-06-27 13:43:38,760 DEBUG root] Importing module: bzt.modules.blazemeter
+[2017-06-27 13:43:38,873 DEBUG easyprocess] version=0.2.3
+[2017-06-27 13:43:38,876 DEBUG pyvirtualdisplay] version=0.2.1
+[2017-06-27 13:43:38,877 DEBUG root] Loading class: 'CloudProvisioning' from <module 'bzt.modules.blazemeter' from '/usr/local/lib/python2.7/site-packages/bzt/modules/blazemeter.pyc'>
+[2017-06-27 13:43:38,877 DEBUG Engine] Module config: blazemeter defaultdict(None, {'token': '********', 'class': 'bzt.modules.blazemeter.BlazeMeterUploader'})
+[2017-06-27 13:43:38,877 DEBUG root] Importing module: bzt.modules.blazemeter
+[2017-06-27 13:43:38,877 DEBUG root] Loading class: 'BlazeMeterUploader' from <module 'bzt.modules.blazemeter' from '/usr/local/lib/python2.7/site-packages/bzt/modules/blazemeter.pyc'>
+[2017-06-27 13:43:38,877 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/accounts None
+[2017-06-27 13:43:39,220 DEBUG Engine] Taurus updates info: {"latest":"1.9.3","needsUpgrade":false}
+[2017-06-27 13:43:39,220 DEBUG Engine] Installation is up-to-date
+[2017-06-27 13:43:39,731 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:42,046 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/accounts HTTP/1.1" 200 1625
+[2017-06-27 13:43:42,052 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 2,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 125626,
+            "name": "Default Account",
+            "thumbnailUrl": null,
+            "salesforceId": null,
+      
+[2017-06-27 13:43:42,052 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces?accountId=125626&enabled=true&limit=100 None
+[2017-06-27 13:43:42,055 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:42,477 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces?accountId=125626&enabled=true&limit=100 HTTP/1.1" 200 3515
+[2017-06-27 13:43:42,481 DEBUG Engine.cloud] Response: {
+    "limit": 100,
+    "skip": 0,
+    "total": 5,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 119008,
+            "name": "Default workspace",
+            "userId": 339612,
+            "created": 1486702692,
+      
+[2017-06-27 13:43:42,483 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces?accountId=21166&enabled=true&limit=100 None
+[2017-06-27 13:43:42,485 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:42,915 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces?accountId=21166&enabled=true&limit=100 HTTP/1.1" 200 783
+[2017-06-27 13:43:42,919 DEBUG Engine.cloud] Response: {
+    "limit": 100,
+    "skip": 0,
+    "total": 1,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 133217,
+            "name": "DEMOs",
+            "userId": 307773,
+            "created": 1493664013,
+            "updat
+[2017-06-27 13:43:42,919 DEBUG Engine] Module config: jmeter defaultdict(None, {'properties': defaultdict(None, {'jmeter.save.saveservice.autoflush': 'true', 'summariser.name': '', 'jmeter.save.saveservice.connect_time': 'true', 'mode': 'Stripped', 'jmeterengine.force.system.exit': 'true'}), 'class': 'bzt.modules.jmeter.JMeterExecutor', 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst']})
+[2017-06-27 13:43:42,920 DEBUG root] Importing module: bzt.modules.jmeter
+[2017-06-27 13:43:42,933 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/usr/local/lib/python2.7/site-packages/bzt/modules/jmeter.pyc'>
+[2017-06-27 13:43:42,934 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/multi-tests?workspaceId=119008&name=Taurus+Cloud+Test None
+[2017-06-27 13:43:42,936 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:43,329 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/multi-tests?workspaceId=119008&name=Taurus+Cloud+Test HTTP/1.1" 200 109
+[2017-06-27 13:43:43,335 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-06-27 13:43:43,335 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/multi-tests?workspaceId=127980&name=Taurus+Cloud+Test None
+[2017-06-27 13:43:43,337 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:43,746 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/multi-tests?workspaceId=127980&name=Taurus+Cloud+Test HTTP/1.1" 200 109
+[2017-06-27 13:43:43,749 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-06-27 13:43:43,749 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/multi-tests?workspaceId=127984&name=Taurus+Cloud+Test None
+[2017-06-27 13:43:43,751 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:44,216 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/multi-tests?workspaceId=127984&name=Taurus+Cloud+Test HTTP/1.1" 200 109
+[2017-06-27 13:43:44,219 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-06-27 13:43:44,220 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/multi-tests?workspaceId=132723&name=Taurus+Cloud+Test None
+[2017-06-27 13:43:44,221 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:44,621 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/multi-tests?workspaceId=132723&name=Taurus+Cloud+Test HTTP/1.1" 200 109
+[2017-06-27 13:43:44,624 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-06-27 13:43:44,625 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/multi-tests?workspaceId=135886&name=Taurus+Cloud+Test None
+[2017-06-27 13:43:44,626 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:45,025 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/multi-tests?workspaceId=135886&name=Taurus+Cloud+Test HTTP/1.1" 200 109
+[2017-06-27 13:43:45,028 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-06-27 13:43:45,028 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/multi-tests?workspaceId=133217&name=Taurus+Cloud+Test None
+[2017-06-27 13:43:45,030 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:45,428 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/multi-tests?workspaceId=133217&name=Taurus+Cloud+Test HTTP/1.1" 200 109
+[2017-06-27 13:43:45,432 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-06-27 13:43:45,433 DEBUG Engine.cloud.ProjectFinder] Looked for collection: None
+[2017-06-27 13:43:45,433 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/tests?workspaceId=119008&name=Taurus+Cloud+Test None
+[2017-06-27 13:43:45,435 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:45,844 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/tests?workspaceId=119008&name=Taurus+Cloud+Test HTTP/1.1" 200 717
+[2017-06-27 13:43:45,848 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 1,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 5551396,
+            "name": "Taurus Cloud Test",
+            "userId": 339612,
+            "created": 1488354376,
+      
+[2017-06-27 13:43:45,848 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/tests?workspaceId=127980&name=Taurus+Cloud+Test None
+[2017-06-27 13:43:45,850 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:46,261 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/tests?workspaceId=127980&name=Taurus+Cloud+Test HTTP/1.1" 200 109
+[2017-06-27 13:43:46,264 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-06-27 13:43:46,264 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/tests?workspaceId=127984&name=Taurus+Cloud+Test None
+[2017-06-27 13:43:46,266 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:46,658 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/tests?workspaceId=127984&name=Taurus+Cloud+Test HTTP/1.1" 200 109
+[2017-06-27 13:43:46,661 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-06-27 13:43:46,661 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/tests?workspaceId=132723&name=Taurus+Cloud+Test None
+[2017-06-27 13:43:46,663 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:47,114 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/tests?workspaceId=132723&name=Taurus+Cloud+Test HTTP/1.1" 200 109
+[2017-06-27 13:43:47,118 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-06-27 13:43:47,118 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/tests?workspaceId=135886&name=Taurus+Cloud+Test None
+[2017-06-27 13:43:47,120 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:47,519 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/tests?workspaceId=135886&name=Taurus+Cloud+Test HTTP/1.1" 200 109
+[2017-06-27 13:43:47,522 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-06-27 13:43:47,523 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/tests?workspaceId=133217&name=Taurus+Cloud+Test None
+[2017-06-27 13:43:47,525 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:47,935 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/tests?workspaceId=133217&name=Taurus+Cloud+Test HTTP/1.1" 200 109
+[2017-06-27 13:43:47,937 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-06-27 13:43:47,938 DEBUG Engine.cloud.ProjectFinder] Looked for test: {u'updated': 1498152066, u'name': u'Taurus Cloud Test', u'kpiTrackingData': {}, u'created': 1488354376, u'projectId': 162568, u'userId': 339612, u'lastUpdatedById': 339612, u'configuration': {u'targetThreads': 0, u'type': u'taurus', u'canControlRampup': False, u'plugins': {u'taurus': {u'filename': u'taurus.yml'}}}, u'id': 5551396}
+[2017-06-27 13:43:47,938 DEBUG Engine.cloud.ProjectFinder] Detected test type: old
+[2017-06-27 13:43:47,938 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/user None
+[2017-06-27 13:43:47,941 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:48,344 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/user HTTP/1.1" 200 2118
+[2017-06-27 13:43:48,347 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 339612,
+        "email": "eric.dapp@blazemeter.com",
+        "access": 1498596227,
+        "login": 1498507509,
+        "firstName": "Eric",
+        "lastName": "Dapp",
+        "timez
+[2017-06-27 13:43:48,347 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/projects?workspaceId=119008&limit=99999 None
+[2017-06-27 13:43:48,349 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:48,744 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/projects?workspaceId=119008&limit=99999 HTTP/1.1" 200 2034
+[2017-06-27 13:43:48,746 DEBUG Engine.cloud] Response: {
+    "limit": 99999,
+    "skip": 0,
+    "total": 6,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 163658,
+            "name": "BlazeDemo Tests",
+            "userId": null,
+            "description": "",
+            
+[2017-06-27 13:43:48,747 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/projects?workspaceId=127980&limit=99999 None
+[2017-06-27 13:43:48,749 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:49,152 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/projects?workspaceId=127980&limit=99999 HTTP/1.1" 200 705
+[2017-06-27 13:43:49,157 DEBUG Engine.cloud] Response: {
+    "limit": 99999,
+    "skip": 0,
+    "total": 2,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 173138,
+            "name": "Default project",
+            "userId": null,
+            "description": null,
+          
+[2017-06-27 13:43:49,157 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/projects?workspaceId=127984&limit=99999 None
+[2017-06-27 13:43:49,160 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:49,555 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/projects?workspaceId=127984&limit=99999 HTTP/1.1" 200 396
+[2017-06-27 13:43:49,558 DEBUG Engine.cloud] Response: {
+    "limit": 99999,
+    "skip": 0,
+    "total": 1,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 173143,
+            "name": "Default project",
+            "userId": null,
+            "description": null,
+          
+[2017-06-27 13:43:49,558 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/projects?workspaceId=132723&limit=99999 None
+[2017-06-27 13:43:49,560 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:49,950 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/projects?workspaceId=132723&limit=99999 HTTP/1.1" 200 396
+[2017-06-27 13:43:49,956 DEBUG Engine.cloud] Response: {
+    "limit": 99999,
+    "skip": 0,
+    "total": 1,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 178588,
+            "name": "Default project",
+            "userId": null,
+            "description": null,
+          
+[2017-06-27 13:43:49,956 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/projects?workspaceId=135886&limit=99999 None
+[2017-06-27 13:43:49,960 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:50,362 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/projects?workspaceId=135886&limit=99999 HTTP/1.1" 200 665
+[2017-06-27 13:43:50,366 DEBUG Engine.cloud] Response: {
+    "limit": 99999,
+    "skip": 0,
+    "total": 2,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 182182,
+            "name": "Default project",
+            "userId": null,
+            "description": null,
+          
+[2017-06-27 13:43:50,366 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/projects?workspaceId=133217&limit=99999 None
+[2017-06-27 13:43:50,368 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:50,762 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/projects?workspaceId=133217&limit=99999 HTTP/1.1" 200 396
+[2017-06-27 13:43:50,766 DEBUG Engine.cloud] Response: {
+    "limit": 99999,
+    "skip": 0,
+    "total": 1,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 179141,
+            "name": "Default project",
+            "userId": null,
+            "description": null,
+          
+[2017-06-27 13:43:50,766 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/119008 None
+[2017-06-27 13:43:50,769 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:51,264 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/119008 HTTP/1.1" 200 None
+[2017-06-27 13:43:51,268 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 119008,
+        "name": "Default workspace",
+        "userId": 339612,
+        "created": 1486702692,
+        "updated": 1486702692,
+        "enabled": true,
+        "dedicatedIpsEnab
+[2017-06-27 13:43:51,274 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/127980 None
+[2017-06-27 13:43:51,277 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:51,770 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/127980 HTTP/1.1" 200 None
+[2017-06-27 13:43:51,775 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 127980,
+        "name": "Demo Workspace",
+        "userId": 339612,
+        "created": 1491255975,
+        "updated": 1491255975,
+        "enabled": true,
+        "dedicatedIpsEnabled
+[2017-06-27 13:43:51,780 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/127984 None
+[2017-06-27 13:43:51,782 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:52,278 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/127984 HTTP/1.1" 200 None
+[2017-06-27 13:43:52,283 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 127984,
+        "name": "Demo Workspace 2",
+        "userId": 339612,
+        "created": 1491261975,
+        "updated": 1491261975,
+        "enabled": true,
+        "dedicatedIpsEnabl
+[2017-06-27 13:43:52,288 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/132723 None
+[2017-06-27 13:43:52,290 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:52,785 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/132723 HTTP/1.1" 200 None
+[2017-06-27 13:43:52,788 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 132723,
+        "name": "QA Workspace",
+        "userId": 339612,
+        "created": 1493312851,
+        "updated": 1493312851,
+        "enabled": true,
+        "dedicatedIpsEnabled":
+[2017-06-27 13:43:52,793 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/135886 None
+[2017-06-27 13:43:52,796 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:53,307 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/135886 HTTP/1.1" 200 None
+[2017-06-27 13:43:53,312 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 135886,
+        "name": "scratch",
+        "userId": 339612,
+        "created": 1494801554,
+        "updated": 1494801554,
+        "enabled": true,
+        "dedicatedIpsEnabled": true
+[2017-06-27 13:43:53,316 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/133217 None
+[2017-06-27 13:43:53,319 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:43:53,813 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/133217 HTTP/1.1" 200 None
+[2017-06-27 13:43:53,816 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 133217,
+        "name": "DEMOs",
+        "userId": 307773,
+        "created": 1493664013,
+        "updated": 1493746137,
+        "enabled": true,
+        "dedicatedIpsEnabled": true,
+
+[2017-06-27 13:43:53,826 DEBUG Engine.cloud] All resource files are: ['./param.csv']
+[2017-06-27 13:43:53,826 DEBUG Engine.cloud] Replace file names in config: ['./param.csv'] with ['param.csv']
+[2017-06-27 13:43:53,826 DEBUG Engine.cloud] Replaced ./param.csv with param.csv
+[2017-06-27 13:43:53,828 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/cloud
+[2017-06-27 13:43:53,829 DEBUG root] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/cloud.yml
+[2017-06-27 13:43:53,844 DEBUG root] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/cloud.json
+[2017-06-27 13:43:53,844 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/web/elfinder/5551396?cmd=open&target=s1_Lw None
+[2017-06-27 13:43:53,847 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:44:04,423 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/web/elfinder/5551396?cmd=open&target=s1_Lw HTTP/1.1" 200 1470
+[2017-06-27 13:44:04,426 DEBUG Engine.cloud] Response: {"cwd":{"name":"data","size":0,"mime":"directory","read":1,"write":1,"parent_id":"users","hash":"s1_Lw","rootRev":"","options":{"path":"","url":"","tmbUrl":"","disabled":["mkdir","archive","extract","chmod"],"separator":"\/","copyOverwrite":1,"uploadOverwr
+[2017-06-27 13:44:04,426 DEBUG Engine.cloud] Test files: [u'param.csv', u'taurus.yml']
+[2017-06-27 13:44:04,426 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/web/elfinder/5551396?cmd=rm&targets[]=s1_cGFyYW0uY3N2&targets[]=s1_dGF1cnVzLnltbA None
+[2017-06-27 13:44:04,428 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:44:04,974 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/web/elfinder/5551396?cmd=rm&targets[]=s1_cGFyYW0uY3N2&targets[]=s1_dGF1cnVzLnltbA HTTP/1.1" 200 721
+[2017-06-27 13:44:04,976 DEBUG Engine.cloud] Response: {"removed":["s1_cGFyYW0uY3N2","s1_dGF1cnVzLnltbA"],"changed":[{"name":"data","size":0,"mime":"directory","read":1,"write":1,"parent_id":"users","hash":"s1_Lw","rootRev":"","options":{"path":"","url":"","tmbUrl":"","disabled":["mkdir","archive","extract","c
+[2017-06-27 13:44:04,977 DEBUG Engine.cloud] Successfully deleted 2 test files
+[2017-06-27 13:44:04,986 DEBUG Engine.cloud] Uploading files into the test: ['/Users/daper01/Documents/OSLo/from_scenario/param.csv']
+[2017-06-27 13:44:04,997 DEBUG Engine.cloud] Request: POST https://a.blazemeter.com/api/v4/tests/5551396/files --===============1351810265963329381==
+Content-Disposition: file; name="script"; filename="taurus.yml"
+Content-Type: application/octet-stream
+
+---
+execution:
+- concurrency: 200
+  executor: jmeter
+  hold-for: 2m
+  locations:
+    us-central1-a: 1
+  ramp-
+[2017-06-27 13:44:04,999 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:44:05,617 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/tests/5551396/files HTTP/1.1" 201 649
+[2017-06-27 13:44:05,621 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 5551396,
+        "name": "Taurus Cloud Test",
+        "userId": 339612,
+        "created": 1488354376,
+        "updated": 1498596245,
+        "configuration": {
+            "type": "t
+[2017-06-27 13:44:05,621 DEBUG Engine.cloud] Request: PATCH https://a.blazemeter.com/api/v4/tests/5551396 {
+ "configuration": {
+  "executionType": null
+ }
+}
+[2017-06-27 13:44:05,623 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:44:06,137 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "PATCH /api/v4/tests/5551396 HTTP/1.1" 200 1381
+[2017-06-27 13:44:06,141 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 5551396,
+        "name": "Taurus Cloud Test",
+        "userId": 339612,
+        "created": 1488354376,
+        "updated": 1498596246,
+        "projectId": 162568,
+        "lastUpdated
+[2017-06-27 13:44:06,141 DEBUG Engine] Module config: final-stats defaultdict(None, {'class': 'bzt.modules.reporting.FinalStatus'})
+[2017-06-27 13:44:06,141 DEBUG root] Importing module: bzt.modules.reporting
+[2017-06-27 13:44:06,143 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/lib/python2.7/site-packages/bzt/modules/reporting.pyc'>
+[2017-06-27 13:44:06,144 DEBUG Engine] Module config: console defaultdict(None, {'class': 'bzt.modules.console.ConsoleStatusReporter'})
+[2017-06-27 13:44:06,144 DEBUG root] Importing module: bzt.modules.console
+[2017-06-27 13:44:06,144 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/lib/python2.7/site-packages/bzt/modules/console.pyc'>
+[2017-06-27 13:44:06,154 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/effective.yml
+[2017-06-27 13:44:06,192 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/effective.json
+[2017-06-27 13:44:06,193 INFO Engine] Starting...
+[2017-06-27 13:44:06,193 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x104dc2890>
+[2017-06-27 13:44:06,193 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x1067b20d0>
+[2017-06-27 13:44:06,194 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x1067b2810>
+[2017-06-27 13:44:06,194 INFO Engine.console] Waiting for results...
+[2017-06-27 13:44:06,194 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x1067b2490>
+[2017-06-27 13:44:06,194 DEBUG Engine] Startup <bzt.modules.blazemeter.CloudProvisioning object at 0x1057fc910>
+[2017-06-27 13:44:06,194 INFO Engine.cloud.ProjectFinder.CloudTaurusTest] Initiating cloud test with https://a.blazemeter.com ...
+[2017-06-27 13:44:06,194 DEBUG Engine.cloud] Request: POST https://a.blazemeter.com/api/v4/tests/5551396/start None
+[2017-06-27 13:44:06,197 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:44:06,966 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/tests/5551396/start HTTP/1.1" 202 411
+[2017-06-27 13:44:06,971 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 16375442,
+        "name": "Taurus Cloud Test",
+        "userId": 339612,
+        "runnerUserId": 339612,
+        "created": 1498596246,
+        "updated": 1498596246,
+        "testId"
+[2017-06-27 13:44:06,972 INFO Engine.cloud] Started cloud test: https://a.blazemeter.com/app/#/masters/16375442
+[2017-06-27 13:44:07,212 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/effective.yml
+[2017-06-27 13:44:07,498 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/effective.json
+[2017-06-27 13:44:07,500 DEBUG root] Leveling down log file verbosity, use -v option to have DEBUG messages enabled
+[2017-06-27 13:44:08,050 INFO Engine.cloud] Cloud test status: INIT
+[2017-06-27 13:44:08,603 INFO Engine.console] Waiting for finish...
+[2017-06-27 13:44:13,178 INFO Engine.cloud] Cloud test status: BOOT_STARTING
+[2017-06-27 13:45:23,666 INFO Engine.cloud] Cloud test status: INIT_SCRIPT
+[2017-06-27 13:45:33,686 INFO Engine.cloud] Cloud test status: TAURUS_ENGINE_INIT
+[2017-06-27 13:46:34,219 INFO Engine.cloud] Cloud test status: DATA_RECIEVED
+[2017-06-27 13:49:16,906 INFO Engine.cloud] Cloud test status: ENDED
+[2017-06-27 13:49:16,926 INFO Engine.cloud] Test was stopped in the cloud: ENDED
+[2017-06-27 13:49:18,302 WARNING Engine] Please wait for graceful shutdown...
+[2017-06-27 13:49:18,322 DEBUG root] Leveled up log file verbosity
+[2017-06-27 13:49:18,323 INFO Engine] Shutting down...
+[2017-06-27 13:49:18,370 DEBUG Engine.console] Restoring logging streams, [<logging.StreamHandler object at 0x1057be150>]/{<logging.StreamHandler object at 0x1057be150>: <open file '<stdout>', mode 'w' at 0x104234150>}
+[2017-06-27 13:49:18,373 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/effective.yml
+[2017-06-27 13:49:18,452 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/effective.json
+[2017-06-27 13:49:18,453 INFO Engine] Post-processing...
+[2017-06-27 13:49:18,454 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/masters/16375442/full None
+[2017-06-27 13:49:18,456 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:49:18,885 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/masters/16375442/full HTTP/1.1" 200 4366
+[2017-06-27 13:49:18,890 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 16375442,
+        "name": "Taurus Cloud Test",
+        "userId": 339612,
+        "ended": 1498596555,
+        "runnerUserId": 339612,
+        "maxUsers": 200,
+        "created": 14985
+[2017-06-27 13:49:18,890 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/data/labels?master_id=16375442 None
+[2017-06-27 13:49:18,894 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:49:19,480 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/data/labels?master_id=16375442 HTTP/1.1" 200 968
+[2017-06-27 13:49:19,485 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": "ALL",
+            "name": "ALL",
+            "sessions": [
+                "r-t-5952c39870552"
+            ]
+        },
+        {
+            "id": "6e7d9dd12b9ae952b37
+[2017-06-27 13:49:19,485 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/data/kpis?interval=1&from=1498596511&master_ids%5B%5D=16375442&kpis%5B%5D=t&kpis%5B%5D=lt&kpis%5B%5D=by&kpis%5B%5D=n&kpis%5B%5D=ec&kpis%5B%5D=ts&kpis%5B%5D=na&labels%5B%5D=ALL&labels%5B%5D=6e7d9dd12b9ae952b37645e2df1f99d0&labels%5B%5D=82abaa0ca2f497bd8da64a1297f0c6a9&labels%5B%5D=3337ac94558b1dc857a9cfeed95b8eb7&labels%5B%5D=02c795eb3dbabd7d6d13003efeb01507 None
+[2017-06-27 13:49:19,488 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:49:19,909 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/data/kpis?interval=1&from=1498596511&master_ids%5B%5D=16375442&kpis%5B%5D=t&kpis%5B%5D=lt&kpis%5B%5D=by&kpis%5B%5D=n&kpis%5B%5D=ec&kpis%5B%5D=ts&kpis%5B%5D=na&labels%5B%5D=ALL&labels%5B%5D=6e7d9dd12b9ae952b37645e2df1f99d0&labels%5B%5D=82abaa0ca2f497bd8da64a1297f0c6a9&labels%5B%5D=3337ac94558b1dc857a9cfeed95b8eb7&labels%5B%5D=02c795eb3dbabd7d6d13003efeb01507 HTTP/1.1" 200 2714
+[2017-06-27 13:49:19,916 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "labelId": "02c795eb3dbabd7d6d13003efeb01507",
+            "labelName": "Welcome Page",
+            "label": "Welcome Page",
+            "kpis": [
+                {
+          
+[2017-06-27 13:49:19,916 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/masters/16375442/reports/aggregatereport/data None
+[2017-06-27 13:49:19,919 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-06-27 13:49:20,350 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/masters/16375442/reports/aggregatereport/data HTTP/1.1" 200 3418
+[2017-06-27 13:49:20,357 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "labelId": "ALL",
+            "labelName": "ALL",
+            "samples": 37743,
+            "avgResponseTime": 714,
+            "90line": 957,
+            "95line": 1028,
+    
+[2017-06-27 13:49:20,363 DEBUG Engine.consolidator] Consolidator buffer[3]: [1498596509, 1498596510, 1498596511]
+[2017-06-27 13:49:20,363 DEBUG Engine.consolidator] Merging into 1498596509
+[2017-06-27 13:49:20,364 DEBUG Engine.consolidator] Merging 1498596509
+[2017-06-27 13:49:20,369 DEBUG Engine.consolidator] Processed datapoint: 1498596509/None
+[2017-06-27 13:49:20,369 DEBUG Engine.consolidator] Merging into 1498596510
+[2017-06-27 13:49:20,369 DEBUG Engine.consolidator] Merging 1498596510
+[2017-06-27 13:49:20,377 DEBUG Engine.consolidator] Processed datapoint: 1498596510/None
+[2017-06-27 13:49:20,377 DEBUG Engine.consolidator] Merging into 1498596511
+[2017-06-27 13:49:20,377 DEBUG Engine.consolidator] Merging 1498596511
+[2017-06-27 13:49:20,384 DEBUG Engine.consolidator] Processed datapoint: 1498596511/None
+[2017-06-27 13:49:20,384 INFO Engine.final-stats] Test duration: 0:05:14
+[2017-06-27 13:49:20,384 INFO Engine.final-stats] Samples count: 37743, 0.00% failures
+[2017-06-27 13:49:20,384 INFO Engine.final-stats] Average times: total 0.715, latency 0.618, connect 0.000
+[2017-06-27 13:49:20,384 INFO Engine.final-stats] Percentile 90.0%: 0.619
+[2017-06-27 13:49:20,384 INFO Engine.final-stats] Percentile 95.0%: 0.654
+[2017-06-27 13:49:20,385 INFO Engine.final-stats] Percentile 99.0%: 0.747
+[2017-06-27 13:49:20,385 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2017-06-27 13:49:20,385 INFO Engine.final-stats] Test duration: 0:05:14
+[2017-06-27 13:49:20,385 INFO Engine.final-stats] Samples count: 37743, 0.00% failures
+[2017-06-27 13:49:20,385 INFO Engine.final-stats] Average times: total 0.715, latency 0.618, connect 0.000
+[2017-06-27 13:49:20,386 INFO Engine.final-stats] Percentile 90.0%: 0.619
+[2017-06-27 13:49:20,386 INFO Engine.final-stats] Percentile 95.0%: 0.654
+[2017-06-27 13:49:20,386 INFO Engine.final-stats] Percentile 99.0%: 0.747
+[2017-06-27 13:49:20,386 INFO Engine.final-stats] Dumping final status as XML: stats.xml
+[2017-06-27 13:49:20,398 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/effective.yml
+[2017-06-27 13:49:20,471 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/effective.json
+[2017-06-27 13:49:20,479 INFO root] Artifacts dir: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102
+[2017-06-27 13:49:20,480 INFO root] Done performing with code: 0
+[2017-06-27 13:49:20,480 DEBUG root] Closing log handler: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-43-38.594102/bzt.log

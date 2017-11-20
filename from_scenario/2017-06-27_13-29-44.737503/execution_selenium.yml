@@ -1,0 +1,5 @@
+execution:
+- executor: selenium
+  scenario: blazedemo
+  concurrency: 1
+  hold-for: 2m

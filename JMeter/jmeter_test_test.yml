@@ -1,0 +1,29 @@
+execution:
+- executor: jmeter
+  concurrency:
+    local: 20
+    cloud: 300
+  hold-for: 5m
+  ramp-up: 30s
+  throughput: 100
+  scenario: simple
+  locations:
+    us-west-1: 1
+    us-east-1: 2
+- executor: jmeter
+  concurrency:
+    local: 20
+    cloud: 300
+  hold-for: 5m
+  ramp-up: 30s
+  throughput: 100
+  scenario: two_tg
+  locations:
+    us-west-1: 1
+    us-east-1: 2
+
+scenarios:
+  simple:
+    script: blazedemo_easy_peasy.jmx
+  two_tg:
+    script: two_thread_groups.jmx

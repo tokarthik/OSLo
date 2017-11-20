@@ -1,0 +1,22 @@
+---
+execution:
+  concurrency:
+    cloud: 500
+    local: 50
+  executor: jmeter
+  hold-for: 5m
+  location:
+    us-east-1: 1
+    us-west-1: 1
+  ramp-up: 30s
+  scenario: two_tg
+  throughput: 100
+modules:
+  blazemeter:
+    token: '********'
+scenarios:
+  simple:
+    script: blazedemo_easy_peasy.jmx
+  two_tg:
+    script: two_thread_groups.jmx
+

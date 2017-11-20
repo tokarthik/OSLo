@@ -1,0 +1,11 @@
+scenarios:
+  blazedemo:
+    data-sources:
+    - path: './param.csv'
+      delimiter: ', '
+      variable-names: fromPort,toPort
+    headers:
+      Upgrade-Insecure-Requests: '1'
+    retrieve-resources: false
+    requests:
+      - url: 'http://blazemeter.com/'

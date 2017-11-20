@@ -1,0 +1,23 @@
+modules:
+  cloud:
+    token: <api-key goes here> # API Key
+    test: Sample Grinder Test  #control the test name in BlazeMeter
+
+execution:
+- executor: grinder
+  concurrency:
+    cloud: 500
+    local: 100
+  ramp-up: 10m
+  hold-for: 5m
+  # iterations: 1
+  scenario: script_sample
+  locations:
+    harbor-58dab32caf1098c9667b23ea: 10
+  locations-weighted: false
+
+scenarios:
+  script_sample:
+    script: grinder_sample_ramp.py
+  properties:
+    grinder.runs: 0

@@ -1,0 +1,921 @@
+worker.script_sample-0 worker process 0
+worker.script_sample-0 instrumentation agents: byte code transforming instrumenter for Jython 2.5; byte code transforming instrumenter for Java
+worker.script_sample-0 registered plug-in net.grinder.plugin.http.HTTPPlugin
+worker.script_sample-0 running "grinder_sample_ramp.py" using Jython 2.5.3 (2.5:c56500f08d34+, Aug 13 2012, 14:54:35) 
+[Java HotSpot(TM) 64-Bit Server VM (Oracle Corporation)]
+data.script_sample-0 Thread, Run, Test, Start time (ms since Epoch), Test time, Errors, HTTP response code, HTTP response length, HTTP response errors, Time to resolve host, Time to establish connection, Time to first byte, New connections
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 starting, will run forever
+worker.script_sample-0 sleeping for 30000 ms
+worker.script_sample-0 sleeping for 246000 ms
+worker.script_sample-0 sleeping for 252000 ms
+worker.script_sample-0 sleeping for 240000 ms
+worker.script_sample-0 sleeping for 234000 ms
+worker.script_sample-0 sleeping for 264000 ms
+worker.script_sample-0 sleeping for 300000 ms
+worker.script_sample-0 sleeping for 222000 ms
+worker.script_sample-0 sleeping for 258000 ms
+worker.script_sample-0 sleeping for 210000 ms
+worker.script_sample-0 sleeping for 216000 ms
+worker.script_sample-0 sleeping for 204000 ms
+worker.script_sample-0 sleeping for 312000 ms
+worker.script_sample-0 sleeping for 306000 ms
+worker.script_sample-0 sleeping for 318000 ms
+worker.script_sample-0 sleeping for 198000 ms
+worker.script_sample-0 sleeping for 192000 ms
+worker.script_sample-0 sleeping for 186000 ms
+worker.script_sample-0 sleeping for 228000 ms
+worker.script_sample-0 sleeping for 282000 ms
+worker.script_sample-0 sleeping for 294000 ms
+worker.script_sample-0 sleeping for 330000 ms
+worker.script_sample-0 sleeping for 180000 ms
+worker.script_sample-0 sleeping for 174000 ms
+worker.script_sample-0 sleeping for 288000 ms
+worker.script_sample-0 sleeping for 270000 ms
+worker.script_sample-0 sleeping for 168000 ms
+worker.script_sample-0 sleeping for 276000 ms
+worker.script_sample-0 sleeping for 162000 ms
+worker.script_sample-0 sleeping for 156000 ms
+worker.script_sample-0 sleeping for 150000 ms
+worker.script_sample-0 sleeping for 144000 ms
+worker.script_sample-0 sleeping for 372000 ms
+worker.script_sample-0 sleeping for 378000 ms
+worker.script_sample-0 sleeping for 348000 ms
+worker.script_sample-0 sleeping for 138000 ms
+worker.script_sample-0 sleeping for 132000 ms
+worker.script_sample-0 sleeping for 342000 ms
+worker.script_sample-0 sleeping for 336000 ms
+worker.script_sample-0 sleeping for 126000 ms
+worker.script_sample-0 sleeping for 120000 ms
+worker.script_sample-0 sleeping for 324000 ms
+worker.script_sample-0 sleeping for 96000 ms
+worker.script_sample-0 sleeping for 108000 ms
+worker.script_sample-0 sleeping for 114000 ms
+worker.script_sample-0 sleeping for 420000 ms
+worker.script_sample-0 sleeping for 102000 ms
+worker.script_sample-0 sleeping for 414000 ms
+worker.script_sample-0 sleeping for 426000 ms
+worker.script_sample-0 sleeping for 408000 ms
+worker.script_sample-0 sleeping for 90000 ms
+worker.script_sample-0 sleeping for 402000 ms
+worker.script_sample-0 sleeping for 432000 ms
+worker.script_sample-0 sleeping for 6000 ms
+worker.script_sample-0 sleeping for 396000 ms
+worker.script_sample-0 sleeping for 78000 ms
+worker.script_sample-0 sleeping for 438000 ms
+worker.script_sample-0 sleeping for 444000 ms
+worker.script_sample-0 sleeping for 66000 ms
+worker.script_sample-0 sleeping for 390000 ms
+worker.script_sample-0 sleeping for 60000 ms
+worker.script_sample-0 sleeping for 54000 ms
+worker.script_sample-0 sleeping for 462000 ms
+worker.script_sample-0 sleeping for 474000 ms
+worker.script_sample-0 sleeping for 48000 ms
+worker.script_sample-0 sleeping for 42000 ms
+worker.script_sample-0 sleeping for 468000 ms
+worker.script_sample-0 sleeping for 486000 ms
+worker.script_sample-0 sleeping for 480000 ms
+worker.script_sample-0 sleeping for 366000 ms
+worker.script_sample-0 sleeping for 36000 ms
+worker.script_sample-0 sleeping for 354000 ms
+worker.script_sample-0 sleeping for 498000 ms
+worker.script_sample-0 sleeping for 24000 ms
+worker.script_sample-0 start time is 1499458394207 ms since Epoch
+worker.script_sample-0 No sleep needed
+worker.script_sample-0 sleeping for 18000 ms
+worker.script_sample-0 sleeping for 540000 ms
+worker.script_sample-0 sleeping for 576000 ms
+worker.script_sample-0 sleeping for 582000 ms
+worker.script_sample-0 sleeping for 84000 ms
+worker.script_sample-0 sleeping for 588000 ms
+worker.script_sample-0 sleeping for 570000 ms
+worker.script_sample-0 sleeping for 72000 ms
+worker.script_sample-0 sleeping for 558000 ms
+worker.script_sample-0 sleeping for 450000 ms
+worker.script_sample-0 sleeping for 552000 ms
+worker.script_sample-0 sleeping for 546000 ms
+worker.script_sample-0 sleeping for 492000 ms
+worker.script_sample-0 sleeping for 384000 ms
+worker.script_sample-0 sleeping for 564000 ms
+worker.script_sample-0 sleeping for 12000 ms
+worker.script_sample-0 sleeping for 528000 ms
+worker.script_sample-0 sleeping for 534000 ms
+worker.script_sample-0 sleeping for 522000 ms
+worker.script_sample-0 sleeping for 504000 ms
+worker.script_sample-0 sleeping for 360000 ms
+worker.script_sample-0 sleeping for 516000 ms
+worker.script_sample-0 sleeping for 456000 ms
+worker.script_sample-0 sleeping for 594000 ms
+worker.script_sample-0 sleeping for 510000 ms
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data Test name for ID 1: User Group 2
+data.script_sample-0 0, 0, 0, 1499458394275, 497, 0, 200, 7711, 0, 128, 312, 488, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 0, 0, 1, 1499458394779, 172, 0, 200, 9691, 0, 0, 0, 170, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 1, 0, 1499458394954, 317, 0, 200, 6318, 0, 0, 171, 316, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8754 bytes
+data.script_sample-0 0, 1, 1, 1499458395273, 321, 0, 200, 8754, 0, 0, 0, 320, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 2, 0, 1499458395596, 338, 0, 200, 6318, 0, 0, 193, 336, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 2, 1, 1499458395935, 156, 0, 200, 10210, 0, 0, 0, 155, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 3, 0, 1499458396101, 339, 0, 200, 6318, 0, 0, 156, 338, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 3, 1, 1499458396451, 158, 0, 200, 7711, 0, 0, 0, 157, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 4, 0, 1499458396611, 298, 0, 200, 6318, 0, 0, 154, 297, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 4, 1, 1499458396912, 173, 0, 200, 7711, 0, 0, 0, 172, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 5, 0, 1499458397087, 285, 0, 200, 6318, 0, 0, 138, 284, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 5, 1, 1499458397374, 165, 0, 200, 10210, 0, 0, 0, 163, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 6, 0, 1499458397540, 294, 0, 200, 7711, 0, 0, 150, 293, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 6, 1, 1499458397839, 161, 0, 200, 10210, 0, 0, 0, 160, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 7, 0, 1499458398004, 280, 0, 200, 6318, 0, 0, 139, 279, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 7, 1, 1499458398289, 157, 0, 200, 10210, 0, 0, 0, 154, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 8, 0, 1499458398449, 290, 0, 200, 7711, 0, 0, 135, 282, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 8, 1, 1499458398740, 154, 0, 200, 10210, 0, 0, 0, 152, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 9, 0, 1499458398897, 317, 0, 200, 6318, 0, 0, 168, 316, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 9, 1, 1499458399215, 155, 0, 200, 10210, 0, 0, 0, 152, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 10, 0, 1499458399372, 347, 0, 200, 7711, 0, 0, 185, 346, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 0, 10, 1, 1499458399720, 165, 0, 200, 9690, 0, 0, 0, 165, 0
+worker.script_sample-0 slept for 6000ms
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 11, 0, 1499458399886, 1245, 0, 200, 7711, 0, 0, 146, 1244, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 11, 1, 1499458401134, 408, 0, 200, 10210, 0, 0, 0, 408, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 0, 0, 1499458400212, 1487, 0, 200, 7711, 0, 0, 1330, 1486, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8754 bytes
+data.script_sample-0 1, 0, 1, 1499458401701, 191, 0, 200, 8754, 0, 0, 0, 191, 0
+data.script_sample-0 0, 12, 0, 1499458401546, 346, 0, 200, 7711, 0, 0, 183, 343, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 0, 12, 1, 1499458401895, 168, 0, 200, 8753, 0, 0, 0, 168, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 1, 0, 1499458401895, 1061, 0, 200, 6318, 0, 0, 167, 1060, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 1, 1, 1, 1499458402957, 834, 0, 200, 10210, 0, 0, 0, 822, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 13, 0, 1499458402064, 1738, 0, 200, 7711, 0, 0, 890, 1735, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 13, 1, 1499458403803, 188, 0, 200, 7711, 0, 0, 0, 188, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 2, 0, 1499458403792, 416, 0, 200, 6318, 0, 0, 168, 375, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 14, 0, 1499458403992, 277, 0, 200, 7711, 0, 0, 136, 275, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 2, 1, 1499458404210, 171, 0, 200, 7711, 0, 0, 0, 170, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 0, 14, 1, 1499458404271, 183, 0, 200, 8753, 0, 0, 0, 182, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 3, 0, 1499458404382, 678, 0, 200, 6318, 0, 0, 136, 677, 1
+worker.script_sample-0 slept for 12000ms
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 3, 1, 1499458405062, 1707, 0, 200, 7711, 0, 0, 0, 1707, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 4, 0, 1499458406771, 1277, 0, 200, 6318, 0, 0, 1126, 1276, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 2, 0, 0, 1499458406217, 1884, 0, 200, 6318, 0, 0, 1715, 1881, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 1, 4, 1, 1499458408049, 155, 0, 200, 8753, 0, 0, 0, 154, 0
+data.script_sample-0 0, 15, 0, 1499458404455, 3748, 0, 200, 7711, 0, 0, 603, 3747, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 2, 0, 1, 1499458408102, 161, 0, 200, 9690, 0, 0, 0, 160, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 0, 15, 1, 1499458408205, 159, 0, 200, 9690, 0, 0, 0, 159, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 5, 0, 1499458408206, 318, 0, 200, 7711, 0, 0, 157, 317, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 2, 1, 0, 1499458408264, 324, 0, 200, 6318, 0, 0, 152, 323, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 16, 0, 1499458408366, 286, 0, 200, 7711, 0, 0, 145, 285, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 1, 5, 1, 1499458408524, 195, 0, 200, 8753, 0, 0, 0, 191, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 2, 1, 1, 1499458408589, 158, 0, 200, 10210, 0, 0, 0, 155, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 16, 1, 1499458408653, 163, 0, 200, 10210, 0, 0, 0, 161, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 6, 0, 1499458408720, 299, 0, 200, 7711, 0, 0, 136, 292, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 2, 2, 0, 1499458408748, 297, 0, 200, 6318, 0, 0, 144, 296, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 17, 0, 1499458408817, 282, 0, 200, 7711, 0, 0, 138, 281, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 1, 6, 1, 1499458409020, 147, 0, 200, 8753, 0, 0, 0, 145, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 2, 2, 1, 1499458409045, 157, 0, 200, 8753, 0, 0, 0, 154, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 17, 1, 1499458409100, 144, 0, 200, 10210, 0, 0, 0, 140, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 7, 0, 1499458409168, 302, 0, 200, 6318, 0, 0, 152, 301, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 2, 3, 0, 1499458409203, 326, 0, 200, 6318, 0, 0, 144, 317, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 18, 0, 1499458409245, 328, 0, 200, 6318, 0, 0, 151, 326, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 1, 7, 1, 1499458409471, 166, 0, 200, 10210, 0, 0, 0, 164, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 2, 3, 1, 1499458409530, 146, 0, 200, 8753, 0, 0, 0, 144, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 18, 1, 1499458409574, 158, 0, 200, 10210, 0, 0, 0, 157, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 8, 0, 1499458409639, 293, 0, 200, 6318, 0, 0, 136, 293, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 4, 0, 1499458409678, 340, 0, 200, 7711, 0, 0, 149, 305, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 19, 0, 1499458409733, 290, 0, 200, 7711, 0, 0, 137, 287, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 1, 8, 1, 1499458409933, 149, 0, 200, 9690, 0, 0, 0, 149, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 4, 1, 1499458410019, 167, 0, 200, 7711, 0, 0, 0, 153, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 19, 1, 1499458410024, 164, 0, 200, 10210, 0, 0, 0, 163, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 9, 0, 1499458410086, 305, 0, 200, 7711, 0, 0, 153, 304, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 5, 0, 1499458410190, 324, 0, 200, 7711, 0, 0, 136, 306, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 20, 0, 1499458410191, 326, 0, 200, 7711, 0, 0, 135, 323, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 1, 9, 1, 1499458410392, 143, 0, 200, 10210, 0, 0, 0, 139, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 5, 1, 1499458410514, 148, 0, 200, 7711, 0, 0, 0, 148, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 0, 20, 1, 1499458410518, 152, 0, 200, 9690, 0, 0, 0, 146, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 10, 0, 1499458410536, 303, 0, 200, 7711, 0, 0, 160, 302, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 2, 6, 0, 1499458410663, 305, 0, 200, 6318, 0, 0, 137, 303, 1
+data.script_sample-0 0, 21, 0, 1499458410671, 297, 0, 200, 6318, 0, 0, 137, 297, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 1, 10, 1, 1499458410840, 150, 0, 200, 10210, 0, 0, 0, 146, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 6, 1, 1499458410969, 141, 0, 200, 7711, 0, 0, 0, 139, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 21, 1, 1499458410969, 176, 0, 200, 7711, 0, 0, 0, 175, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 11, 0, 1499458410992, 332, 0, 200, 7711, 0, 0, 153, 330, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+data.script_sample-0 1, 11, 1, 1499458411325, 211, 0, 200, 9690, 0, 0, 0, 209, 0
+data.script_sample-0 0, 22, 0, 1499458411146, 390, 0, 200, 6319, 0, 0, 176, 390, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 2, 7, 0, 1499458411112, 426, 0, 200, 7712, 0, 0, 210, 424, 1
+worker.script_sample-0 slept for 18000ms
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 22, 1, 1499458411538, 1325, 0, 200, 10210, 0, 0, 0, 1111, 0
+data.script_sample-0 2, 7, 1, 1499458411539, 1324, 0, 200, 10210, 0, 0, 0, 1322, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 3, 0, 0, 1499458412216, 892, 0, 200, 6318, 0, 0, 710, 891, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 23, 0, 1499458412866, 402, 0, 200, 6318, 0, 0, 227, 401, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 3, 0, 1, 1499458413109, 161, 0, 200, 7712, 0, 0, 0, 159, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+data.script_sample-0 2, 8, 0, 1499458412866, 405, 0, 200, 6319, 0, 0, 227, 405, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 0, 23, 1, 1499458413269, 209, 0, 200, 8753, 0, 0, 0, 209, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 2, 8, 1, 1499458413272, 208, 0, 200, 10210, 0, 0, 0, 208, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 1, 0, 1499458413272, 504, 0, 200, 7711, 0, 0, 206, 504, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 3, 1, 1, 1499458413777, 330, 0, 200, 10210, 0, 0, 0, 330, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 24, 0, 1499458413480, 630, 0, 200, 6318, 0, 0, 296, 628, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 0, 24, 1, 1499458414113, 416, 0, 200, 9690, 0, 0, 0, 414, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 2, 0, 1499458414113, 551, 0, 200, 7711, 0, 0, 411, 551, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 2, 1, 1499458414665, 673, 0, 200, 10210, 0, 0, 0, 672, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 25, 0, 1499458414532, 806, 0, 200, 7711, 0, 0, 133, 806, 1
+data.script_sample-0 2, 9, 0, 1499458413485, 1853, 0, 200, 7711, 0, 0, 1178, 1853, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 0, 25, 1, 1499458415339, 464, 0, 200, 8753, 0, 0, 0, 463, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 9, 1, 1499458415340, 467, 0, 200, 7711, 0, 0, 0, 463, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 3, 0, 1499458415339, 631, 0, 200, 7711, 0, 0, 477, 621, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 26, 0, 1499458415804, 282, 0, 200, 6318, 0, 0, 136, 282, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 2, 10, 0, 1499458415809, 301, 0, 200, 6318, 0, 0, 151, 301, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 3, 3, 1, 1499458415971, 194, 0, 200, 9690, 0, 0, 0, 193, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 26, 1, 1499458416087, 157, 0, 200, 10210, 0, 0, 0, 156, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 10, 1, 1499458416111, 141, 0, 200, 7711, 0, 0, 0, 139, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 4, 0, 1499458416167, 711, 0, 200, 7711, 0, 0, 407, 709, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 2, 11, 0, 1499458416252, 644, 0, 200, 6318, 0, 0, 322, 640, 1
+data.script_sample-0 0, 27, 0, 1499458416245, 651, 0, 200, 7712, 0, 0, 330, 650, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 27, 1, 1499458416897, 212, 0, 200, 7711, 0, 0, 0, 212, 0
+data.script_sample-0 2, 11, 1, 1499458416896, 213, 0, 200, 10210, 0, 0, 0, 212, 0
+data.script_sample-0 1, 12, 0, 1499458411538, 5571, 0, 200, 7712, 0, 0, 1110, 5568, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 3, 4, 1, 1499458416879, 231, 0, 200, 9691, 0, 0, 0, 230, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 1, 12, 1, 1499458417110, 161, 0, 200, 9690, 0, 0, 0, 158, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 0, 28, 0, 1499458417111, 310, 0, 200, 7711, 0, 1, 156, 308, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 5, 0, 1499458417112, 309, 0, 200, 7712, 0, 0, 154, 309, 1
+data.script_sample-0 2, 12, 0, 1499458417112, 310, 0, 200, 7711, 0, 0, 155, 309, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 0, 28, 1, 1499458417422, 225, 0, 200, 9690, 0, 0, 0, 220, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 3, 5, 1, 1499458417422, 225, 0, 200, 7712, 0, 0, 0, 225, 0
+data.script_sample-0 2, 12, 1, 1499458417422, 225, 0, 200, 10210, 0, 0, 0, 225, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 13, 0, 1499458417273, 378, 0, 200, 6318, 0, 0, 221, 377, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 1, 13, 1, 1499458417651, 152, 0, 200, 10210, 0, 0, 0, 150, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 3, 6, 0, 1499458417649, 305, 0, 200, 6319, 0, 0, 153, 305, 1
+data.script_sample-0 2, 13, 0, 1499458417650, 304, 0, 200, 6318, 0, 0, 151, 304, 1
+data.script_sample-0 0, 29, 0, 1499458417649, 305, 0, 200, 6318, 0, 0, 153, 305, 1
+worker.script_sample-0 slept for 24000ms
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 2, 13, 1, 1499458417955, 448, 0, 200, 9691, 0, 0, 0, 448, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 6, 1, 1499458417955, 448, 0, 200, 9691, 0, 0, 0, 448, 0
+data.script_sample-0 0, 29, 1, 1499458417955, 448, 0, 200, 10210, 0, 0, 0, 447, 0
+data.script_sample-0 1, 14, 0, 1499458417804, 599, 0, 200, 7711, 0, 0, 149, 599, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 1, 14, 1, 1499458418405, 546, 0, 200, 9690, 0, 0, 0, 535, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 30, 0, 1499458418405, 696, 0, 200, 7711, 0, 0, 525, 695, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 7, 0, 1499458418405, 699, 0, 200, 7711, 0, 0, 524, 696, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+data.script_sample-0 2, 14, 0, 1499458418405, 700, 0, 200, 6319, 0, 0, 522, 699, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 15, 0, 1499458418951, 286, 0, 200, 6318, 0, 0, 141, 284, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 2, 14, 1, 1499458419105, 155, 0, 200, 10210, 0, 0, 0, 149, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 7, 1, 1499458419104, 176, 0, 200, 7711, 0, 0, 0, 162, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 0, 30, 1, 1499458419101, 184, 0, 200, 9691, 0, 0, 0, 183, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 1, 15, 1, 1499458419239, 163, 0, 200, 10210, 0, 0, 0, 163, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 31, 0, 1499458419287, 710, 0, 200, 7711, 0, 0, 180, 709, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+data.script_sample-0 3, 8, 0, 1499458419282, 732, 0, 200, 7711, 0, 0, 185, 716, 1
+data.script_sample-0 4, 0, 0, 1499458418212, 1802, 0, 200, 6318, 0, 0, 1189, 1802, 1
+data.script_sample-0 2, 15, 0, 1499458419264, 751, 0, 200, 6319, 0, 0, 138, 750, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 4, 0, 1, 1499458420015, 148, 0, 200, 10210, 0, 0, 0, 148, 0
+data.script_sample-0 1, 16, 0, 1499458419403, 760, 0, 200, 6318, 0, 0, 582, 752, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 0, 31, 1, 1499458419998, 167, 0, 200, 9691, 0, 0, 0, 165, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 3, 8, 1, 1499458420015, 152, 0, 200, 9691, 0, 0, 0, 150, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 2, 15, 1, 1499458420016, 153, 0, 200, 9691, 0, 0, 0, 151, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 16, 1, 1499458420164, 181, 0, 200, 7711, 0, 0, 0, 180, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 2, 16, 0, 1499458420171, 313, 0, 200, 6318, 0, 0, 151, 313, 1
+data.script_sample-0 0, 32, 0, 1499458420165, 319, 0, 200, 6318, 0, 0, 161, 318, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 1, 0, 1499458420164, 321, 0, 200, 6319, 0, 1, 163, 321, 1
+data.script_sample-0 3, 9, 0, 1499458420168, 317, 0, 200, 7711, 0, 0, 160, 317, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10211 bytes
+data.script_sample-0 4, 1, 1, 1499458420486, 169, 0, 200, 10211, 0, 0, 0, 168, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 3, 9, 1, 1499458420486, 169, 0, 200, 10210, 0, 0, 0, 168, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10211 bytes
+data.script_sample-0 2, 16, 1, 1499458420486, 174, 0, 200, 10211, 0, 0, 0, 169, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8754 bytes
+data.script_sample-0 0, 32, 1, 1499458420486, 174, 0, 200, 8754, 0, 0, 0, 174, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 17, 0, 1499458420348, 314, 0, 200, 7711, 0, 0, 165, 314, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 1, 17, 1, 1499458420663, 171, 0, 200, 10210, 0, 0, 0, 157, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 33, 0, 1499458420662, 279, 0, 200, 6318, 0, 0, 137, 277, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 10, 0, 1499458420657, 286, 0, 200, 7711, 0, 0, 137, 284, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 2, 17, 0, 1499458420662, 283, 0, 200, 7712, 0, 0, 132, 281, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+data.script_sample-0 4, 2, 0, 1499458420656, 291, 0, 200, 6319, 0, 0, 138, 289, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 2, 17, 1, 1499458420946, 157, 0, 200, 10210, 0, 0, 0, 155, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 0, 33, 1, 1499458420941, 162, 0, 200, 9691, 0, 0, 0, 162, 0
+data.script_sample-0 3, 10, 1, 1499458420944, 160, 0, 200, 9691, 0, 0, 0, 159, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 4, 2, 1, 1499458420947, 208, 0, 200, 9690, 0, 0, 0, 198, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 18, 0, 1499458420835, 370, 0, 200, 6318, 0, 0, 190, 369, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 1, 18, 1, 1499458421206, 143, 0, 200, 9690, 0, 0, 0, 141, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 34, 0, 1499458421105, 297, 0, 200, 6318, 0, 0, 137, 297, 1
+data.script_sample-0 3, 11, 0, 1499458421105, 297, 0, 200, 7711, 0, 0, 137, 297, 1
+data.script_sample-0 2, 18, 0, 1499458421105, 297, 0, 200, 7711, 0, 0, 137, 297, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 4, 3, 0, 1499458421156, 362, 0, 200, 6318, 0, 0, 144, 358, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 0, 34, 1, 1499458421403, 156, 0, 200, 8753, 0, 0, 0, 156, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 11, 1, 1499458421403, 171, 0, 200, 7711, 0, 0, 0, 170, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 18, 1, 1499458421403, 171, 0, 200, 7711, 0, 0, 0, 171, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 19, 0, 1499458421350, 356, 0, 200, 7711, 0, 0, 168, 355, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 4, 3, 1, 1499458421518, 189, 0, 200, 10210, 0, 0, 0, 188, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 35, 0, 1499458421560, 278, 0, 200, 6318, 0, 0, 134, 276, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 19, 0, 1499458421575, 280, 0, 200, 7711, 0, 0, 137, 277, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8754 bytes
+data.script_sample-0 1, 19, 1, 1499458421706, 174, 0, 200, 8754, 0, 0, 0, 152, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 3, 12, 0, 1499458421576, 306, 0, 200, 7712, 0, 0, 131, 304, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 2, 19, 1, 1499458421855, 167, 0, 200, 10210, 0, 0, 0, 167, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8754 bytes
+data.script_sample-0 4, 4, 0, 1499458421707, 316, 0, 200, 6318, 0, 0, 144, 316, 1
+data.script_sample-0 0, 35, 1, 1499458421839, 185, 0, 200, 8754, 0, 0, 0, 183, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 3, 12, 1, 1499458421887, 143, 0, 200, 8753, 0, 0, 0, 143, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 20, 0, 1499458421887, 312, 0, 200, 7711, 0, 0, 142, 311, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 4, 1, 1499458422030, 170, 0, 200, 7711, 0, 0, 0, 169, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 36, 0, 1499458422031, 276, 0, 200, 7711, 0, 0, 133, 275, 1
+data.script_sample-0 3, 13, 0, 1499458422031, 275, 0, 200, 6318, 0, 0, 130, 274, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 20, 0, 1499458422027, 282, 0, 200, 7711, 0, 0, 138, 280, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 1, 20, 1, 1499458422199, 157, 0, 200, 8753, 0, 0, 0, 152, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 36, 1, 1499458422307, 146, 0, 200, 10210, 0, 0, 0, 143, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 3, 13, 1, 1499458422307, 152, 0, 200, 9691, 0, 0, 0, 147, 0
+data.script_sample-0 2, 20, 1, 1499458422309, 150, 0, 200, 9690, 0, 0, 0, 149, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 5, 0, 1499458422203, 325, 0, 200, 7711, 0, 0, 147, 324, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 5, 1, 1499458422528, 175, 0, 200, 7711, 0, 0, 0, 174, 0
+data.script_sample-0 1, 21, 0, 1499458422358, 344, 0, 200, 6318, 0, 0, 170, 344, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 37, 0, 1499458422454, 281, 0, 200, 7711, 0, 0, 137, 277, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 21, 0, 1499458422461, 279, 0, 200, 7711, 0, 0, 136, 275, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 3, 14, 0, 1499458422461, 280, 0, 200, 6318, 0, 0, 137, 279, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 21, 1, 1499458422741, 142, 0, 200, 7711, 0, 0, 0, 141, 0
+data.script_sample-0 1, 21, 1, 1499458422703, 180, 0, 200, 8753, 0, 0, 0, 178, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 0, 37, 1, 1499458422736, 150, 0, 200, 7712, 0, 0, 0, 148, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 14, 1, 1499458422741, 154, 0, 200, 7711, 0, 0, 0, 146, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 6, 0, 1499458422703, 320, 0, 200, 7711, 0, 0, 159, 320, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 2, 22, 0, 1499458422884, 281, 0, 200, 6318, 0, 0, 139, 280, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 4, 6, 1, 1499458423024, 148, 0, 200, 9691, 0, 0, 0, 145, 0
+data.script_sample-0 1, 22, 0, 1499458422884, 288, 0, 200, 7712, 0, 0, 139, 287, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 15, 0, 1499458422896, 292, 0, 200, 6318, 0, 0, 150, 292, 1
+data.script_sample-0 0, 38, 0, 1499458422887, 301, 0, 200, 7711, 0, 0, 153, 301, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 22, 1, 1499458423165, 195, 0, 200, 7711, 0, 0, 0, 195, 0
+data.script_sample-0 1, 22, 1, 1499458423173, 187, 0, 200, 7711, 0, 0, 0, 187, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 0, 38, 1, 1499458423188, 172, 0, 200, 8753, 0, 0, 0, 172, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 15, 1, 1499458423188, 173, 0, 200, 7711, 0, 0, 0, 172, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 4, 7, 0, 1499458423173, 655, 0, 200, 6318, 0, 0, 185, 654, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 39, 0, 1499458423361, 614, 0, 200, 6318, 0, 0, 466, 611, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 4, 7, 1, 1499458423828, 153, 0, 200, 9691, 0, 0, 0, 152, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 2, 23, 0, 1499458423362, 629, 0, 200, 7712, 0, 0, 465, 619, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+data.script_sample-0 1, 23, 0, 1499458423362, 637, 0, 200, 6319, 0, 0, 466, 637, 1
+data.script_sample-0 3, 16, 0, 1499458423362, 637, 0, 200, 6318, 0, 0, 466, 629, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 39, 1, 1499458423975, 141, 0, 200, 7711, 0, 0, 0, 139, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 1, 23, 1, 1499458424000, 163, 0, 200, 8753, 0, 0, 0, 163, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 23, 1, 1499458423992, 171, 0, 200, 7711, 0, 0, 0, 171, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 16, 1, 1499458424000, 164, 0, 200, 7711, 0, 0, 0, 164, 0
+worker.script_sample-0 slept for 30000ms
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 4, 8, 0, 1499458423982, 345, 0, 200, 6318, 0, 0, 169, 344, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 40, 0, 1499458424117, 302, 0, 200, 7711, 0, 0, 157, 302, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 8, 1, 1499458424328, 156, 0, 200, 8753, 0, 0, 0, 151, 0
+data.script_sample-0 2, 24, 0, 1499458424166, 318, 0, 200, 7711, 0, 0, 150, 318, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 24, 0, 1499458424165, 321, 0, 200, 7712, 0, 0, 151, 319, 1
+data.script_sample-0 3, 17, 0, 1499458424166, 320, 0, 200, 6318, 0, 0, 151, 320, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 5, 0, 0, 1499458424202, 320, 0, 200, 7711, 0, 0, 168, 320, 1
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 0, 40, 1, 1499458424420, 168, 0, 200, 9690, 0, 0, 0, 153, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 2, 24, 1, 1499458424485, 147, 0, 200, 9690, 0, 0, 0, 143, 0
+data.script_sample-0 1, 24, 1, 1499458424487, 145, 0, 200, 7711, 0, 0, 0, 140, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+data.script_sample-0 5, 0, 1, 1499458424523, 150, 0, 200, 9690, 0, 0, 0, 149, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 3, 17, 1, 1499458424488, 185, 0, 200, 8753, 0, 0, 0, 185, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 4, 9, 0, 1499458424485, 344, 0, 200, 6318, 0, 3, 175, 344, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 5, 1, 0, 1499458424674, 310, 0, 200, 7712, 0, 0, 156, 309, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+data.script_sample-0 1, 25, 0, 1499458424633, 352, 0, 200, 6319, 0, 0, 159, 351, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 4, 9, 1, 1499458424830, 159, 0, 200, 7712, 0, 0, 0, 159, 0
+data.script_sample-0 3, 18, 0, 1499458424674, 314, 0, 200, 6319, 0, 0, 156, 311, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+data.script_sample-0 2, 25, 0, 1499458424633, 364, 0, 200, 6319, 0, 0, 162, 356, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 0, 41, 0, 1499458424588, 410, 0, 200, 7712, 0, 0, 178, 408, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 0, 41, 1, 1499458424999, 174, 0, 200, 10210, 0, 0, 0, 161, 0
+data.script_sample-0 3, 18, 1, 1499458424989, 184, 0, 200, 7712, 0, 0, 0, 184, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 1, 25, 1, 1499458424985, 188, 0, 200, 7712, 0, 0, 0, 188, 0
+data.script_sample-0 5, 1, 1, 1499458424984, 190, 0, 200, 9691, 0, 0, 0, 189, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8754 bytes
+data.script_sample-0 2, 25, 1, 1499458424998, 177, 0, 200, 8754, 0, 0, 0, 176, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 10, 0, 1499458424990, 291, 0, 200, 7711, 0, 0, 147, 290, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 10, 1, 1499458425282, 149, 0, 200, 7711, 0, 0, 0, 149, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 26, 0, 1499458425174, 313, 0, 200, 7711, 0, 0, 145, 313, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 5, 2, 0, 1499458425176, 313, 0, 200, 6318, 0, 0, 164, 312, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 19, 0, 1499458425176, 316, 0, 200, 7711, 0, 0, 165, 316, 1
+data.script_sample-0 0, 42, 0, 1499458425175, 317, 0, 200, 7712, 0, 0, 165, 316, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 2, 26, 0, 1499458425180, 314, 0, 200, 6318, 0, 0, 161, 313, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 1, 26, 1, 1499458425488, 145, 0, 200, 8753, 0, 0, 0, 139, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10211 bytes
+data.script_sample-0 0, 42, 1, 1499458425493, 155, 0, 200, 10211, 0, 0, 0, 154, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 5, 2, 1, 1499458425490, 159, 0, 200, 9691, 0, 0, 0, 158, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 3, 19, 1, 1499458425493, 157, 0, 200, 10210, 0, 0, 0, 156, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 2, 26, 1, 1499458425494, 156, 0, 200, 10210, 0, 0, 0, 154, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 11, 0, 1499458425440, 333, 0, 200, 7711, 0, 0, 181, 332, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 27, 0, 1499458425634, 302, 0, 200, 7711, 0, 0, 139, 301, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 5, 3, 0, 1499458425651, 291, 0, 200, 7711, 0, 0, 139, 291, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8754 bytes
+data.script_sample-0 4, 11, 1, 1499458425773, 169, 0, 200, 8754, 0, 0, 0, 169, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 43, 0, 1499458425651, 305, 0, 200, 6318, 0, 0, 141, 304, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 20, 0, 1499458425652, 305, 0, 200, 7711, 0, 0, 140, 304, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 27, 0, 1499458425652, 306, 0, 200, 7711, 0, 0, 140, 305, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 1, 27, 1, 1499458425936, 158, 0, 200, 10210, 0, 0, 0, 157, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8754 bytes
+data.script_sample-0 5, 3, 1, 1499458425942, 177, 0, 200, 8754, 0, 0, 0, 176, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 43, 1, 1499458425957, 165, 0, 200, 8753, 0, 0, 0, 164, 0
+data.script_sample-0 3, 20, 1, 1499458425958, 164, 0, 200, 10210, 0, 0, 0, 161, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10211 bytes
+data.script_sample-0 2, 27, 1, 1499458425959, 166, 0, 200, 10211, 0, 0, 0, 164, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 4, 12, 0, 1499458425943, 340, 0, 200, 6318, 0, 1, 174, 340, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 28, 0, 1499458426095, 309, 0, 200, 6318, 0, 0, 138, 309, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 5, 4, 0, 1499458426120, 289, 0, 200, 7711, 0, 0, 142, 285, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 3, 21, 0, 1499458426123, 288, 0, 200, 6318, 0, 0, 141, 285, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 44, 0, 1499458426124, 340, 0, 200, 6318, 0, 0, 159, 340, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 28, 0, 1499458426126, 341, 0, 200, 7711, 0, 0, 156, 338, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 12, 1, 1499458426284, 184, 0, 200, 7711, 0, 0, 0, 183, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 1, 28, 1, 1499458426405, 152, 0, 200, 10210, 0, 0, 0, 151, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8754 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 5, 4, 1, 1499458426409, 163, 0, 200, 7712, 0, 0, 0, 163, 0
+data.script_sample-0 3, 21, 1, 1499458426411, 161, 0, 200, 8754, 0, 0, 0, 147, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 28, 1, 1499458426467, 167, 0, 200, 7711, 0, 0, 0, 166, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 0, 44, 1, 1499458426465, 169, 0, 200, 8753, 0, 0, 0, 169, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 4, 13, 0, 1499458426468, 320, 0, 200, 6318, 0, 0, 133, 308, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 3, 22, 0, 1499458426572, 328, 0, 200, 7711, 0, 1, 149, 327, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 29, 0, 1499458426558, 342, 0, 200, 6318, 0, 0, 162, 342, 1
+data.script_sample-0 5, 5, 0, 1499458426572, 328, 0, 200, 6318, 0, 1, 149, 328, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 45, 0, 1499458426635, 294, 0, 200, 7711, 0, 0, 139, 293, 1
+data.script_sample-0 2, 29, 0, 1499458426635, 294, 0, 200, 6318, 0, 0, 141, 294, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 13, 1, 1499458426789, 141, 0, 200, 7711, 0, 0, 0, 140, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 1, 29, 1, 1499458426900, 373, 0, 200, 7712, 0, 0, 0, 372, 0
+data.script_sample-0 0, 45, 1, 1499458426929, 343, 0, 200, 9691, 0, 0, 0, 343, 0
+data.script_sample-0 2, 29, 1, 1499458426929, 343, 0, 200, 10210, 0, 0, 0, 342, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8754 bytes
+data.script_sample-0 3, 22, 1, 1499458426900, 386, 0, 200, 7712, 0, 0, 0, 373, 0
+data.script_sample-0 5, 5, 1, 1499458426901, 385, 0, 200, 8754, 0, 0, 0, 372, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 14, 0, 1499458426931, 571, 0, 200, 7711, 0, 0, 319, 570, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+data.script_sample-0 1, 30, 0, 1499458427279, 381, 0, 200, 7712, 0, 0, 215, 380, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 4, 14, 1, 1499458427502, 159, 0, 200, 7712, 0, 0, 0, 159, 0
+data.script_sample-0 0, 46, 0, 1499458427278, 381, 0, 200, 6319, 0, 0, 216, 380, 1
+data.script_sample-0 5, 6, 0, 1499458427287, 374, 0, 200, 6319, 0, 0, 207, 374, 1
+data.script_sample-0 2, 30, 0, 1499458427280, 380, 0, 200, 6319, 0, 0, 212, 380, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 3, 23, 0, 1499458427288, 373, 0, 200, 7712, 0, 0, 206, 373, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8754 bytes
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 30, 1, 1499458427662, 183, 0, 200, 8754, 0, 0, 0, 158, 0
+data.script_sample-0 3, 23, 1, 1499458427662, 183, 0, 200, 7711, 0, 0, 0, 183, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 46, 1, 1499458427662, 183, 0, 200, 7711, 0, 0, 0, 183, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 2, 30, 1, 1499458427662, 184, 0, 200, 7712, 0, 0, 0, 184, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10211 bytes
+data.script_sample-0 5, 6, 1, 1499458427662, 184, 0, 200, 10211, 0, 0, 0, 183, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 15, 0, 1499458427662, 291, 0, 200, 7711, 0, 0, 135, 290, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 4, 15, 1, 1499458427953, 154, 0, 200, 8753, 0, 0, 0, 150, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 24, 0, 1499458427848, 307, 0, 200, 7711, 0, 0, 154, 305, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 5, 7, 0, 1499458427847, 309, 0, 200, 7712, 0, 0, 155, 308, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 2, 31, 0, 1499458427847, 311, 0, 200, 7712, 0, 0, 155, 310, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+data.script_sample-0 0, 47, 0, 1499458427847, 314, 0, 200, 6319, 0, 0, 141, 312, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 1, 31, 0, 1499458427846, 319, 0, 200, 7712, 0, 0, 155, 314, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 47, 1, 1499458428161, 144, 0, 200, 10210, 0, 0, 0, 142, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 3, 24, 1, 1499458428156, 153, 0, 200, 9691, 0, 0, 0, 150, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 2, 31, 1, 1499458428159, 154, 0, 200, 7712, 0, 0, 0, 153, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9691 bytes
+data.script_sample-0 5, 7, 1, 1499458428157, 158, 0, 200, 9691, 0, 0, 0, 157, 0
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 1, 31, 1, 1499458428166, 152, 0, 200, 10210, 0, 0, 0, 144, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 4, 16, 0, 1499458428108, 284, 0, 200, 6318, 0, 0, 140, 282, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 4, 16, 1, 1499458428393, 146, 0, 200, 10210, 0, 0, 0, 144, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 48, 0, 1499458428306, 268, 0, 200, 6318, 0, 0, 129, 265, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 2, 32, 0, 1499458428326, 270, 0, 200, 6318, 0, 0, 130, 267, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6319 bytes
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 3, 25, 0, 1499458428327, 276, 0, 200, 6319, 0, 0, 129, 275, 1
+data.script_sample-0 1, 32, 0, 1499458428327, 276, 0, 200, 6318, 0, 0, 132, 276, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 5, 8, 0, 1499458428326, 280, 0, 200, 6318, 0, 0, 136, 278, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 0, 48, 1, 1499458428575, 138, 0, 200, 10210, 0, 0, 0, 135, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 2, 32, 1, 1499458428597, 139, 0, 200, 8753, 0, 0, 0, 138, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 1, 32, 1, 1499458428604, 141, 0, 200, 8753, 0, 0, 0, 139, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 25, 1, 1499458428604, 144, 0, 200, 7711, 0, 0, 0, 141, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 5, 8, 1, 1499458428606, 145, 0, 200, 7711, 0, 0, 0, 143, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 17, 0, 1499458428540, 276, 0, 200, 7711, 0, 0, 134, 274, 1
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 4, 17, 1, 1499458428816, 144, 0, 200, 10210, 0, 0, 0, 140, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 0, 49, 0, 1499458428714, 271, 0, 200, 6318, 0, 0, 131, 269, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 2, 33, 0, 1499458428737, 283, 0, 200, 6318, 0, 0, 135, 280, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 33, 0, 1499458428746, 277, 0, 200, 6318, 0, 0, 134, 276, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 3, 26, 0, 1499458428749, 280, 0, 200, 7711, 0, 0, 135, 278, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 5, 9, 0, 1499458428752, 286, 0, 200, 7711, 0, 0, 137, 284, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 49, 1, 1499458428986, 148, 0, 200, 7711, 0, 0, 0, 146, 0
+worker.script_sample-0 http://blazedemo.com/purchase.php -> 200 OK, 9690 bytes
+worker.script_sample-0 http://blazedemo.com/reserve.php -> 200 OK, 10210 bytes
+data.script_sample-0 3, 26, 1, 1499458429030, 169, 0, 200, 10210, 0, 0, 0, 169, 0
+data.script_sample-0 2, 33, 1, 1499458429020, 158, 0, 200, 9690, 0, 0, 0, 157, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 1, 33, 1, 1499458429024, 175, 0, 200, 7711, 0, 0, 0, 154, 0
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 5, 9, 1, 1499458429039, 160, 0, 200, 8753, 0, 0, 0, 160, 0
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 4, 18, 0, 1499458428961, 285, 0, 200, 6318, 0, 0, 136, 283, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 4, 18, 1, 1499458429246, 148, 0, 200, 7711, 0, 0, 0, 145, 0
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 0, 50, 0, 1499458429135, 294, 0, 200, 7711, 0, 0, 143, 292, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 1, 34, 0, 1499458429213, 287, 0, 200, 6318, 0, 0, 143, 286, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7711 bytes
+data.script_sample-0 2, 34, 0, 1499458429212, 294, 0, 200, 7711, 0, 0, 142, 290, 1
+worker.script_sample-0 http://blazedemo.com/ -> 200 OK, 7712 bytes
+data.script_sample-0 3, 27, 0, 1499458429212, 295, 0, 200, 7712, 0, 0, 140, 294, 1
+worker.script_sample-0 http://blazedemo.com/vacation.html -> 200 OK, 6318 bytes
+data.script_sample-0 5, 10, 0, 1499458429213, 297, 0, 200, 6318, 0, 0, 149, 295, 1
+worker.script_sample-0 http://blazedemo.com/confirmation.php -> 200 OK, 8753 bytes
+data.script_sample-0 0, 50, 1, 1499458429435, 150, 0, 200, 8753, 0, 0, 0, 147, 0

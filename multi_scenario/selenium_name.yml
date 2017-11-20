@@ -1,0 +1,4 @@
+modules:
+  blazemeter:
+    test: selenium_taurus
+    report-name: selenium_taurus

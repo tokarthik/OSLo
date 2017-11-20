@@ -1,0 +1,11 @@
+execution:
+- executor: selenium
+  scenario: 
+    script: blazeDemo_Selenium_with_unit_chrome.py
+  concurrency: 
+    local: 1
+    cloud: 5
+  hold-for: 10m
+  locations:
+    us-west-1: 1
+    us-east-1: 2

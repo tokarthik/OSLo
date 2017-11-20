@@ -1,0 +1,9 @@
+execution:
+- executor: selenium
+  scenario: 
+    script: blazeDemo_Selenium_with_unit_chrome.py
+  concurrency: 1
+  iterations: 1
+
+services:
+- module: proxy2jmx

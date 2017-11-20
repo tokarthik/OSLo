@@ -1,0 +1,14 @@
+execution:
+- executor: jmeter
+  concurrency: 100
+  hold-for: 5m
+  scenario:
+    script: './blazedemo_easy_peasy.jmx'
+- executor: selenium
+  concurrency: 1
+  hold-for: 5m
+  scenario:
+    script: './blazeDemo_Selenium_with_unit_chrome.py'
+
+services:
+- capturehar

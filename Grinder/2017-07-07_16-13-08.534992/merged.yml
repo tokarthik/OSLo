@@ -1,0 +1,24 @@
+---
+execution:
+- concurrency:
+    cloud: 500
+    local: 100
+  executor: grinder
+  hold-for: 5m
+  locations:
+    harbor-58dab32caf1098c9667b23ea: 10
+  locations-weighted: false
+  ramp-up: 10m
+  scenario: script_sample
+modules:
+  blazemeter:
+    token: '********'
+  cloud:
+    test: Sample Grinder Test
+    token: '********'
+scenarios:
+  properties:
+    grinder.runs: 0
+  script_sample:
+    script: grinder_sample_ramp.py
+

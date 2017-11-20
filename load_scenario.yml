@@ -1,4 +1,3 @@
----
 scenarios:
   blazedemo:
     headers:
@@ -23,11 +22,6 @@ scenarios:
           price: '472.56'
           toPort: Berlin
         label: 'Purchase Page'
-      - url: 'http://blazedemo.com/'
-        method: POST
-        body:
-          totally_fake_param: totally_fake_value
-        label: 'posting to welcome'
       - url: 'http://blazedemo.com/confirmation.php'
         method: GET
         label: 'Confirmation Page'

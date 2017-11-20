@@ -1,0 +1,23 @@
+execution:
+- executor: jmeter
+  scenario: blazedemo
+  concurrency:
+    local: 50
+    cloud: 200
+  hold-for: 6m
+  ramp-up: 30s
+  steps: 10
+  locations:
+    us-west-1: 1
+    # us-east-1: 2
+  # locations-weighted: false
+
+reporting:
+- module: final-stats
+  summary: true
+  dump-xml: stats.xml
+
+modules:
+  cloud:
+    test: 'Taurus from Scenario'
+    report-name: 'Taurus from Scenario'

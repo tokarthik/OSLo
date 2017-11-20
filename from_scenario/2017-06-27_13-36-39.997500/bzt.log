@@ -1,0 +1,191 @@
+[2017-06-27 13:36:39,925 INFO root] Taurus CLI Tool v1.9.3
+[2017-06-27 13:36:39,925 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/bzt_3qXNh3.log', 'option': None, 'aliases': []}
+[2017-06-27 13:36:39,925 DEBUG root] Python: CPython 2.7.13
+[2017-06-27 13:36:39,925 DEBUG root] OS: ('Darwin', 'daper01mac1124', '16.4.0', 'Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64', 'x86_64', 'i386')
+[2017-06-27 13:36:39,925 INFO root] Starting with configs: ['load_scenario_from_csv.yml', 'execution_jmeter.yml']
+[2017-06-27 13:36:39,926 DEBUG root] Using personal config: /Users/daper01/.bzt-rc
+[2017-06-27 13:36:39,926 INFO Engine] Configuring...
+[2017-06-27 13:36:39,926 DEBUG Engine] Reading extension configs from: /usr/local/etc/bzt.d
+[2017-06-27 13:36:39,926 DEBUG Engine.Configuration] Configs: ['/usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml', '/usr/local/etc/bzt.d/99-installID.yml']
+[2017-06-27 13:36:39,926 DEBUG Engine.Configuration] Reading /usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2017-06-27 13:36:39,959 DEBUG Engine.Configuration] Reading /usr/local/etc/bzt.d/99-installID.yml as YAML
+[2017-06-27 13:36:39,960 DEBUG Engine.Configuration] Configs: ['/Users/daper01/.bzt-rc', 'load_scenario_from_csv.yml', 'execution_jmeter.yml']
+[2017-06-27 13:36:39,960 DEBUG Engine.Configuration] Reading /Users/daper01/.bzt-rc as YAML
+[2017-06-27 13:36:39,962 DEBUG Engine.Configuration] Reading load_scenario_from_csv.yml as YAML
+[2017-06-27 13:36:39,968 DEBUG Engine.Configuration] Reading execution_jmeter.yml as YAML
+[2017-06-27 13:36:39,971 DEBUG Engine.Configuration] Configs: ['/Users/daper01/.bzt-rc', 'load_scenario_from_csv.yml', 'execution_jmeter.yml']
+[2017-06-27 13:36:39,971 DEBUG Engine.Configuration] Reading /Users/daper01/.bzt-rc as YAML
+[2017-06-27 13:36:39,972 DEBUG Engine.Configuration] Reading load_scenario_from_csv.yml as YAML
+[2017-06-27 13:36:39,979 DEBUG Engine.Configuration] Reading execution_jmeter.yml as YAML
+[2017-06-27 13:36:39,997 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.9.3&installID=784f43782a15
+[2017-06-27 13:36:40,003 INFO Engine] Artifacts dir: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500
+[2017-06-27 13:36:40,004 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/effective
+[2017-06-27 13:36:40,007 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/effective.yml
+[2017-06-27 13:36:40,038 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/effective.json
+[2017-06-27 13:36:40,040 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/merged.yml
+[2017-06-27 13:36:40,041 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/merged.yml
+[2017-06-27 13:36:40,050 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/merged.json
+[2017-06-27 13:36:40,051 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/merged.json
+[2017-06-27 13:36:40,052 DEBUG Engine] Add existing artifact (move=False): load_scenario_from_csv.yml
+[2017-06-27 13:36:40,052 DEBUG Engine] Copying load_scenario_from_csv.yml to /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/load_scenario_from_csv.yml
+[2017-06-27 13:36:40,052 DEBUG Engine] Add existing artifact (move=False): execution_jmeter.yml
+[2017-06-27 13:36:40,052 DEBUG Engine] Copying execution_jmeter.yml to /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/execution_jmeter.yml
+[2017-06-27 13:36:40,053 DEBUG root] Closing log handler: /var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/bzt_3qXNh3.log
+[2017-06-27 13:36:40,053 DEBUG root] Switched writing logs to /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/bzt.log
+[2017-06-27 13:36:40,053 INFO Engine] Preparing...
+[2017-06-27 13:36:40,054 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2017-06-27 13:36:40,054 DEBUG root] Importing module: bzt.modules.aggregator
+[2017-06-27 13:36:40,056 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2017-06-27 13:36:40,056 DEBUG Engine.consolidator] Exception in dehumanize_time(inf)
+[2017-06-27 13:36:40,056 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2017-06-27 13:36:40,057 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': 'bzt.modules.monitoring.Monitoring'})
+[2017-06-27 13:36:40,057 DEBUG root] Importing module: bzt.modules.monitoring
+[2017-06-27 13:36:40,080 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2017-06-27 13:36:40,080 DEBUG Engine] Module config: local defaultdict(None, {'class': 'bzt.modules.provisioning.Local'})
+[2017-06-27 13:36:40,080 DEBUG root] Importing module: bzt.modules.provisioning
+[2017-06-27 13:36:40,080 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/lib/python2.7/site-packages/bzt/modules/provisioning.pyc'>
+[2017-06-27 13:36:40,080 DEBUG Engine] Module config: jmeter defaultdict(None, {'properties': defaultdict(None, {'jmeter.save.saveservice.autoflush': 'true', 'summariser.name': '', 'jmeter.save.saveservice.connect_time': 'true', 'mode': 'Stripped', 'jmeterengine.force.system.exit': 'true'}), 'class': 'bzt.modules.jmeter.JMeterExecutor', 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst']})
+[2017-06-27 13:36:40,080 DEBUG root] Importing module: bzt.modules.jmeter
+[2017-06-27 13:36:40,090 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/usr/local/lib/python2.7/site-packages/bzt/modules/jmeter.pyc'>
+[2017-06-27 13:36:40,091 DEBUG Engine.local] Preparing executor: jmeter/4480723280
+[2017-06-27 13:36:40,091 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/jmeter.log
+[2017-06-27 13:36:40,091 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2017-06-27 13:36:40,092 DEBUG Engine.jmeter] Port 4445 is free
+[2017-06-27 13:36:40,093 DEBUG Engine.jmeter] Using port 4445 for management
+[2017-06-27 13:36:40,093 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2017-06-27 13:36:40,240 DEBUG Engine.jmeter.JavaVM] JavaVM output: java version "1.8.0_121"
+Java(TM) SE Runtime Environment (build 1.8.0_121-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode)
+
+[2017-06-27 13:36:40,240 DEBUG Engine.jmeter.TclLibrary] We don't need to check tcl library on this platform
+[2017-06-27 13:36:40,241 DEBUG Engine.jmeter.JMeter] Trying jmeter: /Users/daper01/.bzt/jmeter-taurus/3.2/bin/jmeter.sh
+[2017-06-27 13:36:40,242 DEBUG bzt.utils] Executing shell: ['/Users/daper01/.bzt/jmeter-taurus/3.2/bin/jmeter.sh', '-j', '/var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/jmeteroS9rQ9log', '--version']
+[2017-06-27 13:36:40,592 DEBUG Engine] Taurus updates info: {"latest":"1.9.3","needsUpgrade":false}
+[2017-06-27 13:36:40,592 DEBUG Engine] Installation is up-to-date
+[2017-06-27 13:36:41,525 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____     
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \   
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) | 
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <  
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 3.2 r1790748  
+
+Copyright (c) 1999-2017 The Apache Software Foundation
+
+ / None
+[2017-06-27 13:36:41,526 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/requests.jmx
+[2017-06-27 13:36:41,534 DEBUG JMeterScenarioBuilder] Saving JMX to: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/requests.jmx
+[2017-06-27 13:36:41,535 DEBUG Engine.jmeter] Load: LoadSpec(concurrency=50, throughput=None, ramp_up=30.0, hold=120.0, iterations=0, duration=150.0, steps=None)
+[2017-06-27 13:36:41,540 DEBUG Engine.jmeter] Original threads: 1.0
+[2017-06-27 13:36:41,541 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/kpi.jtl
+[2017-06-27 13:36:41,542 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/error.jtl
+[2017-06-27 13:36:41,542 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/modified_requests.jmx
+[2017-06-27 13:36:41,542 DEBUG JMX] Saving JMX to: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/modified_requests.jmx
+[2017-06-27 13:36:41,543 DEBUG Engine.jmeter] Additional properties: defaultdict(None, {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'user.classpath': '/Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500', 'sampleresult.default.encoding': 'UTF-8', 'summariser.name': '', 'jmeterengine.force.system.exit': 'true', 'jmeter.save.saveservice.timestamp_format': 'ms', 'mode': 'Stripped', 'jmeterengine.nongui.maxport': 4445, 'jmeterengine.nongui.port': 4445})
+[2017-06-27 13:36:41,543 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/jmeter-bzt.properties
+[2017-06-27 13:36:41,543 DEBUG Engine.jmeter] Additional system properties defaultdict(None, {'sun.net.inetaddr.ttl': 0})
+[2017-06-27 13:36:41,543 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/system.properties
+[2017-06-27 13:36:41,544 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/jmeter.out
+[2017-06-27 13:36:41,544 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/jmeter.err
+[2017-06-27 13:36:41,544 DEBUG Engine] Module config: final-stats defaultdict(None, {'class': 'bzt.modules.reporting.FinalStatus'})
+[2017-06-27 13:36:41,544 DEBUG root] Importing module: bzt.modules.reporting
+[2017-06-27 13:36:41,585 DEBUG easyprocess] version=0.2.3
+[2017-06-27 13:36:41,586 DEBUG pyvirtualdisplay] version=0.2.1
+[2017-06-27 13:36:41,587 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/lib/python2.7/site-packages/bzt/modules/reporting.pyc'>
+[2017-06-27 13:36:41,588 DEBUG Engine] Module config: console defaultdict(None, {'class': 'bzt.modules.console.ConsoleStatusReporter'})
+[2017-06-27 13:36:41,588 DEBUG root] Importing module: bzt.modules.console
+[2017-06-27 13:36:41,588 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/lib/python2.7/site-packages/bzt/modules/console.pyc'>
+[2017-06-27 13:36:41,595 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/effective.yml
+[2017-06-27 13:36:41,631 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/effective.json
+[2017-06-27 13:36:41,632 INFO Engine] Starting...
+[2017-06-27 13:36:41,632 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x10a560910>
+[2017-06-27 13:36:41,632 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x109b27890>
+[2017-06-27 13:36:41,632 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x10aeaf090>
+[2017-06-27 13:36:41,632 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x10b287e10>
+[2017-06-27 13:36:41,633 INFO Engine.console] Waiting for results...
+[2017-06-27 13:36:41,633 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x10b2b0110>
+[2017-06-27 13:36:41,633 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x10a5472d0>
+[2017-06-27 13:36:41,633 DEBUG Engine.local] Delay setup for jmeter/blazedemo: 0(start-at) + 0(delay) = 0
+[2017-06-27 13:36:41,636 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/effective.yml
+[2017-06-27 13:36:41,687 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/effective.json
+[2017-06-27 13:36:41,688 DEBUG root] Leveling down log file verbosity, use -v option to have DEBUG messages enabled
+[2017-06-27 13:36:41,904 INFO Engine.console] Waiting for finish...
+[2017-06-27 13:36:47,708 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 3s
+[2017-06-27 13:36:52,722 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 2s
+[2017-06-27 13:36:56,059 WARNING Engine] Please wait for graceful shutdown...
+[2017-06-27 13:36:56,066 DEBUG root] Leveled up log file verbosity
+[2017-06-27 13:36:56,066 INFO Engine] Shutting down...
+[2017-06-27 13:36:56,073 DEBUG Engine.local] Shutdown jmeter/blazedemo
+[2017-06-27 13:36:57,078 INFO Engine.jmeter] Sending Shutdown command to JMeter on port 4445...
+[2017-06-27 13:36:58,093 DEBUG Engine.jmeter] JMeter stopped on Shutdown command
+[2017-06-27 13:36:58,094 DEBUG Engine.console] Restoring logging streams, [<logging.StreamHandler object at 0x10a523150>]/{<logging.StreamHandler object at 0x10a523150>: <open file '<stdout>', mode 'w' at 0x108f99150>}
+[2017-06-27 13:36:58,098 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/effective.yml
+[2017-06-27 13:36:58,149 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/effective.json
+[2017-06-27 13:36:58,152 WARNING root] Keyboard interrupt
+[2017-06-27 13:36:58,153 DEBUG root] KeyboardInterrupt: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/bzt/cli.py", line 216, in perform
+    self.engine.run()
+  File "/usr/local/lib/python2.7/site-packages/bzt/engine.py", line 175, in run
+    reraise(exc_info)
+  File "/usr/local/lib/python2.7/site-packages/bzt/engine.py", line 157, in run
+    self._wait()
+  File "/usr/local/lib/python2.7/site-packages/bzt/engine.py", line 200, in _wait
+    time.sleep(delay)
+KeyboardInterrupt
+[2017-06-27 13:36:58,153 INFO Engine] Post-processing...
+[2017-06-27 13:36:58,153 DEBUG Engine.local] Post-process jmeter/blazedemo
+[2017-06-27 13:36:58,153 DEBUG Engine] Add existing artifact (move=True): /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/modified_requests.jmx
+[2017-06-27 13:36:58,153 DEBUG Engine] No need to copy /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/modified_requests.jmx
+[2017-06-27 13:36:58,153 DEBUG Engine.jmeter.JTLErrorsReader] Opening /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/error.jtl
+[2017-06-27 13:36:58,156 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Reading JTL: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/kpi.jtl
+[2017-06-27 13:36:58,157 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read lines: 141 / 12577 bytes (at speed 1048576)
+[2017-06-27 13:36:58,164 DEBUG Engine.jmeter.JTLReader] Buffer len: 4
+[2017-06-27 13:36:58,164 DEBUG Engine.jmeter.JTLReader] Aggregating: 1498595814
+[2017-06-27 13:36:58,171 DEBUG Engine.jmeter.JTLReader] Aggregating: 1498595815
+[2017-06-27 13:36:58,177 DEBUG Engine.jmeter.JTLReader] Aggregating: 1498595816
+[2017-06-27 13:36:58,182 DEBUG Engine.jmeter.JTLReader] Aggregating: 1498595817
+[2017-06-27 13:36:58,185 DEBUG Engine.consolidator] Consolidator buffer[6]: [1498595812, 1498595813, 1498595814, 1498595815, 1498595816, 1498595817]
+[2017-06-27 13:36:58,185 DEBUG Engine.consolidator] Merging into 1498595812
+[2017-06-27 13:36:58,185 DEBUG Engine.consolidator] Merging 1498595812
+[2017-06-27 13:36:58,192 DEBUG Engine.consolidator] Processed datapoint: 1498595812/None
+[2017-06-27 13:36:58,193 DEBUG Engine.consolidator] Merging into 1498595813
+[2017-06-27 13:36:58,193 DEBUG Engine.consolidator] Merging 1498595813
+[2017-06-27 13:36:58,199 DEBUG Engine.consolidator] Processed datapoint: 1498595813/None
+[2017-06-27 13:36:58,199 DEBUG Engine.consolidator] Merging into 1498595814
+[2017-06-27 13:36:58,200 DEBUG Engine.consolidator] Merging 1498595814
+[2017-06-27 13:36:58,206 DEBUG Engine.consolidator] Processed datapoint: 1498595814/None
+[2017-06-27 13:36:58,206 DEBUG Engine.consolidator] Merging into 1498595815
+[2017-06-27 13:36:58,206 DEBUG Engine.consolidator] Merging 1498595815
+[2017-06-27 13:36:58,217 DEBUG Engine.consolidator] Processed datapoint: 1498595815/None
+[2017-06-27 13:36:58,217 DEBUG Engine.consolidator] Merging into 1498595816
+[2017-06-27 13:36:58,217 DEBUG Engine.consolidator] Merging 1498595816
+[2017-06-27 13:36:58,227 DEBUG Engine.consolidator] Processed datapoint: 1498595816/None
+[2017-06-27 13:36:58,227 DEBUG Engine.consolidator] Merging into 1498595817
+[2017-06-27 13:36:58,227 DEBUG Engine.consolidator] Merging 1498595817
+[2017-06-27 13:36:58,234 DEBUG Engine.consolidator] Processed datapoint: 1498595817/None
+[2017-06-27 13:36:58,234 INFO Engine.final-stats] Test duration: 0:00:17
+[2017-06-27 13:36:58,234 INFO Engine.final-stats] Samples count: 585, 0.00% failures
+[2017-06-27 13:36:58,234 INFO Engine.final-stats] Average times: total 0.250, latency 0.219, connect 0.000
+[2017-06-27 13:36:58,234 INFO Engine.final-stats] Percentile 0.0%: 0.172
+[2017-06-27 13:36:58,235 INFO Engine.final-stats] Percentile 50.0%: 0.185
+[2017-06-27 13:36:58,235 INFO Engine.final-stats] Percentile 90.0%: 0.366
+[2017-06-27 13:36:58,235 INFO Engine.final-stats] Percentile 95.0%: 0.419
+[2017-06-27 13:36:58,235 INFO Engine.final-stats] Percentile 99.0%: 1.001
+[2017-06-27 13:36:58,235 INFO Engine.final-stats] Percentile 99.9%: 1.544
+[2017-06-27 13:36:58,235 INFO Engine.final-stats] Percentile 100.0%: 1.544
+[2017-06-27 13:36:58,236 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2017-06-27 13:36:58,236 INFO Engine.final-stats] Test duration: 0:00:17
+[2017-06-27 13:36:58,236 INFO Engine.final-stats] Samples count: 585, 0.00% failures
+[2017-06-27 13:36:58,236 INFO Engine.final-stats] Average times: total 0.250, latency 0.219, connect 0.000
+[2017-06-27 13:36:58,236 INFO Engine.final-stats] Percentile 0.0%: 0.172
+[2017-06-27 13:36:58,236 INFO Engine.final-stats] Percentile 50.0%: 0.185
+[2017-06-27 13:36:58,236 INFO Engine.final-stats] Percentile 90.0%: 0.366
+[2017-06-27 13:36:58,236 INFO Engine.final-stats] Percentile 95.0%: 0.419
+[2017-06-27 13:36:58,237 INFO Engine.final-stats] Percentile 99.0%: 1.001
+[2017-06-27 13:36:58,237 INFO Engine.final-stats] Percentile 99.9%: 1.544
+[2017-06-27 13:36:58,237 INFO Engine.final-stats] Percentile 100.0%: 1.544
+[2017-06-27 13:36:58,237 INFO Engine.final-stats] Dumping final status as XML: stats.xml
+[2017-06-27 13:36:58,244 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/effective.yml
+[2017-06-27 13:36:58,298 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/effective.json
+[2017-06-27 13:36:58,299 INFO root] Artifacts dir: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500
+[2017-06-27 13:36:58,300 WARNING root] Done performing with code: 1
+[2017-06-27 13:36:58,300 DEBUG root] Closing log handler: /Users/daper01/Documents/OSLo/from_scenario/2017-06-27_13-36-39.997500/bzt.log

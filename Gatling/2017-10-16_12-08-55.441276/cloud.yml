@@ -1,0 +1,42 @@
+---
+execution:
+- executor: gatling
+  locations:
+    us-central1-a: 1
+  scenario: BlazeDemo.scala
+local-bzt-version: 1.9.5
+modules:
+  gatling:
+    properties:
+      gatling.data.file.bufferSize: 256
+    version: 2.2.4
+  grinder:
+    properties:
+      grinder.useConsole: false
+  jmeter:
+    properties:
+      jmeter.save.saveservice.autoflush: 'true'
+      jmeter.save.saveservice.connect_time: 'true'
+      jmeterengine.force.system.exit: 'true'
+      mode: Stripped
+      summariser.name: ''
+scenarios:
+  BlazeDemo.scala:
+    keepalive: true
+    script: BlazeDemo.scala
+    simulation: BlazeDemo
+services:
+- local:
+  - metrics:
+    - cpu
+    - mem
+    - bytes-sent
+    - bytes-recv
+    - disk-read
+    - disk-write
+    - disk-space
+    - engine-loop
+    - conn-all
+  module: monitoring
+  run-at: local
+

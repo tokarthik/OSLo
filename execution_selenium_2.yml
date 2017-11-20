@@ -1,0 +1,10 @@
+execution:
+- executor: selenium
+  scenario: blazedemo
+  concurrency: 20
+  hold-for: 1m
+
+# reporting:
+# - module: final-stats
+#   summary: true
+#   dump-xml: stats.xml

@@ -1,0 +1,16 @@
+---
+execution:
+  executor: gatling
+  scenario:
+    keepalive: true
+    script: ./BlazeDemo.scala
+    simulation: BlazeDemo
+modules:
+  blazemeter:
+    token: '********'
+  cloud:
+    report-name: gatling test
+    test: gatling test
+  gatling:
+    version: 2.2.4
+
