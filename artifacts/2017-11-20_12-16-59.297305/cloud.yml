@@ -1,0 +1,108 @@
+---
+execution:
+- concurrency: 200
+  executor: jmeter
+  hold-for: 6m
+  locations:
+    us-east-1: 2
+    us-west-1: 1
+  ramp-up: 30s
+  scenario: blazedemo
+- concurrency: 300
+  executor: jmeter
+  hold-for: 30s
+  locations:
+    ap-south-1: 1
+  ramp-up: 6m
+  scenario: blazedemo
+local-bzt-version: 1.9.6
+modules:
+  gatling:
+    properties:
+      gatling.data.file.bufferSize: 256
+  grinder:
+    properties:
+      grinder.useConsole: false
+  jmeter:
+    properties:
+      jmeter.save.saveservice.autoflush: 'true'
+      jmeter.save.saveservice.connect_time: 'true'
+      jmeterengine.force.system.exit: 'true'
+      mode: Stripped
+      summariser.name: ''
+scenarios:
+  blazedemo:
+    data-sources:
+    - delimiter: ', '
+      path: param.csv
+      variable-names: fromPort,toPort
+    headers:
+      Upgrade-Insecure-Requests: '1'
+    requests:
+    - body: null
+      body-file: null
+      content-encoding: null
+      follow-redirects: null
+      headers: {}
+      keepalive: null
+      label: Welcome Page
+      method: GET
+      think-time: null
+      timeout: null
+      upload-files: []
+      url: http://blazedemo.com/
+    - body:
+        fromPort: ${fromPort}
+        toPort: ${toPort}
+      body-file: null
+      content-encoding: null
+      follow-redirects: null
+      headers: {}
+      keepalive: null
+      label: Reserve Page
+      method: POST
+      think-time: null
+      timeout: null
+      upload-files: []
+      url: http://blazedemo.com/reserve.php
+    - body: null
+      body-file: null
+      content-encoding: null
+      follow-redirects: null
+      headers: {}
+      keepalive: null
+      label: Purchase Page
+      method: GET
+      think-time: null
+      timeout: null
+      upload-files: []
+      url: http://blazedemo.com/purchase.php
+    - body: null
+      body-file: null
+      content-encoding: null
+      follow-redirects: null
+      headers: {}
+      keepalive: null
+      label: Confirmation Page
+      method: GET
+      think-time: null
+      timeout: null
+      upload-files: []
+      url: http://blazedemo.com/confirmation.php
+    retrieve-resources: false
+    script: null
+services:
+- local:
+  - metrics:
+    - cpu
+    - mem
+    - bytes-sent
+    - bytes-recv
+    - disk-read
+    - disk-write
+    - disk-space
+    - engine-loop
+    - conn-all
+  module: monitoring
+  run-at: local
+
