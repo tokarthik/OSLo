@@ -1,7 +1,0 @@
-execution:
-  executor: selenium
-  concurrency: 1
-  hold-for: 1m
-  # iterations: 2
-  scenario:
-    script: blazedemo_headless.py

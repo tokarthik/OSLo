@@ -1,5 +1,0 @@
-2017-07-07 16:13:10,288 INFO  agent: The Grinder 3.11
-2017-07-07 16:13:10,301 INFO  agent: Worker process command line: java '-javaagent:/Users/daper01/.bzt/grinder-taurus/lib/grinder-dcr-agent-3.11.jar' -classpath '/usr/local/lib/python2.7/site-packages/bzt/resources:/usr/local/lib/python2.7/site-packages/bzt/resources/grinder-logger-1.0.jar:/Users/daper01/.bzt/grinder-taurus/lib/grinder.jar' net.grinder.engine.process.WorkerProcessEntryPoint
-2017-07-07 16:13:10,407 INFO  agent: worker script_sample-0 started
-2017-07-07 16:13:14,159 INFO  script_sample-0: starting threads
-2017-07-07 16:13:14,210 INFO  script_sample-0: will shut down after 900000 ms
