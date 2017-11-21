@@ -4,7 +4,7 @@ execution:
   concurrency:
     local: 50
     cloud: 200
-  hold-for: 6m
+  hold-for: 2m
   ramp-up: 30s
   locations:
     us-west-1: 1
@@ -13,14 +13,14 @@ execution:
 - executor: jmeter
   scenario: blazedemo
   concurrency:
-    local: 25
+    local: 50
     cloud: 300
   hold-for: 30s
-  ramp-up: 6m
+  ramp-up: 2m
   locations:
     ap-south-1: 1
-    # us-east-1: 2
   # locations-weighted: false
+
 
 reporting:
 - module: final-stats

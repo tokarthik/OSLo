@@ -46,6 +46,11 @@ scenarios:
         method: GET
         label: 'Confirmation Page'
 
+modules:
+ cloud:
+   #timeout: 7s   # BlazeMeter API client timeout
+   use-deprecated-api: false
+
 # reporting:
 # - module: final-stats
 #   summary: true
