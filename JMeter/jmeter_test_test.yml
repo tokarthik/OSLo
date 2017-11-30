@@ -3,7 +3,7 @@ execution:
   concurrency:
     local: 20
     cloud: 300
-  hold-for: 5m
+  hold-for: 1m
   ramp-up: 30s
   throughput: 100
   scenario: simple
@@ -14,7 +14,7 @@ execution:
   concurrency:
     local: 20
     cloud: 300
-  hold-for: 5m
+  hold-for: 1m
   ramp-up: 30s
   throughput: 100
   scenario: two_tg
