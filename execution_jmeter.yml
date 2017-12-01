@@ -9,16 +9,16 @@ execution:
   locations:
     us-west-1: 1
     us-east-1: 2
-- executor: jmeter
-  scenario: blazedemo
-  concurrency:
-    local: 50
-    cloud: 300
-  hold-for: 30s
-  ramp-up: 2m
-  locations:
-    ap-south-1: 1
-  # locations-weighted: false
+# - executor: jmeter
+#   scenario: blazedemo
+#   concurrency:
+#     local: 50
+#     cloud: 300
+#   hold-for: 30s
+#   ramp-up: 2m
+#   locations:
+#     ap-south-1: 1
+#   # locations-weighted: false
 
 
 reporting:
