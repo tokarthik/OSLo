@@ -1,0 +1,122 @@
+[2017-12-05 08:40:52,060 INFO root] Taurus CLI Tool v1.9.6
+[2017-12-05 08:40:52,060 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/bzt_NJH0fU.log', 'option': None, 'aliases': []}
+[2017-12-05 08:40:52,060 DEBUG root] Python: CPython 2.7.13
+[2017-12-05 08:40:52,060 DEBUG root] OS: ('Darwin', 'daper01mac1124', '17.2.0', 'Darwin Kernel Version 17.2.0: Fri Sep 29 18:27:05 PDT 2017; root:xnu-4570.20.62~3/RELEASE_X86_64', 'x86_64', 'i386')
+[2017-12-05 08:40:52,061 INFO root] Starting with configs: ['python_Selenium.yml']
+[2017-12-05 08:40:52,062 DEBUG root] Using personal config: /Users/daper01/.bzt-rc
+[2017-12-05 08:40:52,062 INFO Engine] Configuring...
+[2017-12-05 08:40:52,062 DEBUG Engine] Reading extension configs from: /usr/local/etc/bzt.d
+[2017-12-05 08:40:52,062 DEBUG Engine.Configuration] Configs: ['/usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml', '/usr/local/etc/bzt.d/99-installID.yml']
+[2017-12-05 08:40:52,064 DEBUG Engine.Configuration] Reading /usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2017-12-05 08:40:52,107 DEBUG Engine.Configuration] Reading /usr/local/etc/bzt.d/99-installID.yml as YAML
+[2017-12-05 08:40:52,108 DEBUG Engine.Configuration] Configs: ['/Users/daper01/.bzt-rc', 'python_Selenium.yml']
+[2017-12-05 08:40:52,109 DEBUG Engine.Configuration] Reading /Users/daper01/.bzt-rc as YAML
+[2017-12-05 08:40:52,112 DEBUG Engine.Configuration] Reading python_Selenium.yml as YAML
+[2017-12-05 08:40:52,114 DEBUG Engine.Configuration] Configs: ['/Users/daper01/.bzt-rc', 'python_Selenium.yml']
+[2017-12-05 08:40:52,114 DEBUG Engine.Configuration] Reading /Users/daper01/.bzt-rc as YAML
+[2017-12-05 08:40:52,115 DEBUG Engine.Configuration] Reading python_Selenium.yml as YAML
+[2017-12-05 08:40:52,138 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.9.6&installID=784f43782a15
+[2017-12-05 08:40:52,138 INFO Engine] Artifacts dir: /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629
+[2017-12-05 08:40:52,143 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/effective
+[2017-12-05 08:40:52,146 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/effective.yml
+[2017-12-05 08:40:52,176 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/effective.json
+[2017-12-05 08:40:52,178 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/merged.yml
+[2017-12-05 08:40:52,178 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/merged.yml
+[2017-12-05 08:40:52,181 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/merged.json
+[2017-12-05 08:40:52,182 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/merged.json
+[2017-12-05 08:40:52,183 DEBUG Engine] Add existing artifact (move=False): python_Selenium.yml
+[2017-12-05 08:40:52,183 DEBUG Engine] Copying python_Selenium.yml to /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/python_Selenium.yml
+[2017-12-05 08:40:52,185 DEBUG root] Closing log handler: /var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/bzt_NJH0fU.log
+[2017-12-05 08:40:52,884 DEBUG root] Switched writing logs to /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/bzt.log
+[2017-12-05 08:40:52,884 INFO Engine] Preparing...
+[2017-12-05 08:40:52,886 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2017-12-05 08:40:52,886 DEBUG root] Importing module: bzt.modules.aggregator
+[2017-12-05 08:40:52,901 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2017-12-05 08:40:52,901 DEBUG Engine.consolidator] Exception in dehumanize_time(inf)
+[2017-12-05 08:40:52,901 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2017-12-05 08:40:52,902 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': 'bzt.modules.monitoring.Monitoring'})
+[2017-12-05 08:40:52,902 DEBUG root] Importing module: bzt.modules.monitoring
+[2017-12-05 08:40:52,986 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2017-12-05 08:40:52,987 DEBUG Engine] Module config: capturehar defaultdict(None, {'class': 'bzt.modules.blazemeter.ServiceStubCaptureHAR'})
+[2017-12-05 08:40:52,987 DEBUG root] Importing module: bzt.modules.blazemeter
+[2017-12-05 08:40:53,177 DEBUG easyprocess] version=0.2.3
+[2017-12-05 08:40:53,182 DEBUG pyvirtualdisplay] version=0.2.1
+[2017-12-05 08:40:53,183 DEBUG root] Loading class: 'ServiceStubCaptureHAR' from <module 'bzt.modules.blazemeter' from '/usr/local/lib/python2.7/site-packages/bzt/modules/blazemeter.pyc'>
+[2017-12-05 08:40:53,183 DEBUG Engine] Module config: local defaultdict(None, {'class': 'bzt.modules.provisioning.Local'})
+[2017-12-05 08:40:53,183 DEBUG root] Importing module: bzt.modules.provisioning
+[2017-12-05 08:40:53,183 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/lib/python2.7/site-packages/bzt/modules/provisioning.pyc'>
+[2017-12-05 08:40:53,183 DEBUG Engine] Module config: selenium defaultdict(None, {'class': 'bzt.modules.selenium.SeleniumExecutor'})
+[2017-12-05 08:40:53,183 DEBUG root] Importing module: bzt.modules.selenium
+[2017-12-05 08:40:53,188 DEBUG root] Loading class: 'SeleniumExecutor' from <module 'bzt.modules.selenium' from '/usr/local/lib/python2.7/site-packages/bzt/modules/selenium.pyc'>
+[2017-12-05 08:40:53,189 DEBUG Engine.local] Preparing executor: selenium/4491015632
+[2017-12-05 08:40:53,189 DEBUG Engine.selenium] Using script type: nose
+[2017-12-05 08:40:53,189 DEBUG Engine] Module config: nose defaultdict(None, {'class': 'bzt.modules.python.NoseTester'})
+[2017-12-05 08:40:53,189 DEBUG root] Importing module: bzt.modules.python
+[2017-12-05 08:40:53,244 DEBUG root] Loading class: 'NoseTester' from <module 'bzt.modules.python' from '/usr/local/lib/python2.7/site-packages/bzt/modules/python.pyc'>
+[2017-12-05 08:40:53,244 DEBUG Engine.nose.TclLibrary] We don't need to check tcl library on this platform
+[2017-12-05 08:40:53,244 DEBUG Engine.nose] Extract defaultdict(None, {'script': './blazeDemo_Selenium_with_unit_chrome.py'}) into scenarios
+[2017-12-05 08:40:53,244 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/NoseTester.ldjson
+[2017-12-05 08:40:53,245 DEBUG Engine] Module config: final-stats defaultdict(None, {'class': 'bzt.modules.reporting.FinalStatus'})
+[2017-12-05 08:40:53,245 DEBUG root] Importing module: bzt.modules.reporting
+[2017-12-05 08:40:53,249 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/lib/python2.7/site-packages/bzt/modules/reporting.pyc'>
+[2017-12-05 08:40:53,250 DEBUG Engine] Module config: console defaultdict(None, {'class': 'bzt.modules.console.ConsoleStatusReporter'})
+[2017-12-05 08:40:53,250 DEBUG root] Importing module: bzt.modules.console
+[2017-12-05 08:40:53,250 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/lib/python2.7/site-packages/bzt/modules/console.pyc'>
+[2017-12-05 08:40:53,258 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/effective.yml
+[2017-12-05 08:40:53,289 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/effective.json
+[2017-12-05 08:40:53,291 INFO Engine] Starting...
+[2017-12-05 08:40:53,291 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x10af8e810>
+[2017-12-05 08:40:53,291 DEBUG Engine] Startup <bzt.modules.blazemeter.ServiceStubCaptureHAR object at 0x10b8bc790>
+[2017-12-05 08:40:53,291 WARNING Engine.capturehar] Stub for service 'capturehar', use cloud provisioning to have it working
+[2017-12-05 08:40:53,291 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x10af716d0>
+[2017-12-05 08:40:53,291 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x10bbd76d0>
+[2017-12-05 08:40:53,292 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x10bbe92d0>
+[2017-12-05 08:40:53,292 INFO Engine.console] Waiting for results...
+[2017-12-05 08:40:53,292 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x10af71610>
+[2017-12-05 08:40:53,292 DEBUG Engine.local] Delay setup for selenium/4491015632: 0(start-at) + 0(delay) = 0
+[2017-12-05 08:40:53,295 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/effective.yml
+[2017-12-05 08:40:53,334 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/effective.json
+[2017-12-05 08:40:53,335 DEBUG root] Leveling down log file verbosity, use -v option to have DEBUG messages enabled
+[2017-12-05 08:40:53,555 INFO Engine.console] Waiting for finish...
+[2017-12-05 08:41:14,415 INFO LoadSamplesReader] Changed data analysis delay to 17s
+[2017-12-05 08:41:37,512 INFO LoadSamplesReader] Changed data analysis delay to 20s
+[2017-12-05 08:41:48,556 INFO LoadSamplesReader] Changed data analysis delay to 21s
+[2017-12-05 08:41:49,614 WARNING Engine] Please wait for graceful shutdown...
+[2017-12-05 08:41:49,621 DEBUG root] Leveled up log file verbosity
+[2017-12-05 08:41:49,621 INFO Engine] Shutting down...
+[2017-12-05 08:41:49,631 DEBUG Engine.local] Shutdown selenium/4491015632
+[2017-12-05 08:41:49,634 DEBUG Engine.selenium] Selenium tests ran for 56.2965230942 seconds
+[2017-12-05 08:41:49,635 DEBUG Engine.console] Restoring logging streams, [<logging.StreamHandler object at 0x10a4a9690>]/{<logging.StreamHandler object at 0x10a4a9690>: <open file '<stdout>', mode 'w' at 0x1094be150>}
+[2017-12-05 08:41:49,638 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/effective.yml
+[2017-12-05 08:41:49,692 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/effective.json
+[2017-12-05 08:41:49,694 INFO Engine] Post-processing...
+[2017-12-05 08:41:49,695 DEBUG Engine.local] Post-process selenium/4491015632
+[2017-12-05 08:41:49,695 DEBUG LoadSamplesReader] Buffer len: 2
+[2017-12-05 08:41:49,695 DEBUG LoadSamplesReader] Aggregating: 1512492085
+[2017-12-05 08:41:49,696 DEBUG LoadSamplesReader] Aggregating: 1512492097
+[2017-12-05 08:41:49,698 DEBUG Engine.consolidator] Consolidator buffer[3]: [1512492097, 1512492074, 1512492085]
+[2017-12-05 08:41:49,698 DEBUG Engine.consolidator] Merging into 1512492074
+[2017-12-05 08:41:49,698 DEBUG Engine.consolidator] Merging 1512492074
+[2017-12-05 08:41:49,702 DEBUG Engine.consolidator] Processed datapoint: 1512492074/None
+[2017-12-05 08:41:49,703 DEBUG Engine.consolidator] Merging into 1512492085
+[2017-12-05 08:41:49,703 DEBUG Engine.consolidator] Merging 1512492085
+[2017-12-05 08:41:49,707 DEBUG Engine.consolidator] Processed datapoint: 1512492085/None
+[2017-12-05 08:41:49,708 DEBUG Engine.consolidator] Merging into 1512492097
+[2017-12-05 08:41:49,708 DEBUG Engine.consolidator] Merging 1512492097
+[2017-12-05 08:41:49,721 DEBUG Engine.consolidator] Processed datapoint: 1512492097/None
+[2017-12-05 08:41:49,722 INFO Engine.final-stats] Test duration: 0:00:56
+[2017-12-05 08:41:49,730 INFO Engine.final-stats] Samples count: 5, 0.00% failures
+[2017-12-05 08:41:49,730 INFO Engine.final-stats] Average times: total 9.769, latency 0.000, connect 0.000
+[2017-12-05 08:41:49,731 INFO Engine.final-stats] Percentile 0.0%: 8.501
+[2017-12-05 08:41:49,732 INFO Engine.final-stats] Percentile 50.0%: 9.922
+[2017-12-05 08:41:49,733 INFO Engine.final-stats] Percentile 90.0%: 10.359
+[2017-12-05 08:41:49,733 INFO Engine.final-stats] Percentile 95.0%: 10.359
+[2017-12-05 08:41:49,733 INFO Engine.final-stats] Percentile 99.0%: 10.359
+[2017-12-05 08:41:49,733 INFO Engine.final-stats] Percentile 99.9%: 10.359
+[2017-12-05 08:41:49,733 INFO Engine.final-stats] Percentile 100.0%: 10.359
+[2017-12-05 08:41:49,736 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2017-12-05 08:41:49,797 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/effective.yml
+[2017-12-05 08:41:49,873 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/effective.json
+[2017-12-05 08:41:49,874 INFO root] Artifacts dir: /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629
+[2017-12-05 08:41:49,874 INFO root] Done performing with code: 0
+[2017-12-05 08:41:49,875 DEBUG root] Closing log handler: /Users/daper01/Documents/OSLo/Selenium/2017-12-05_08-40-52.138629/bzt.log
