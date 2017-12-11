@@ -1,0 +1,203 @@
+2017-12-08 10:40:23,613 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2017-12-08 10:40:23,638 INFO o.a.j.JMeter: Loading user properties from: /Users/daper01/.bzt/jmeter-taurus/3.3/bin/user.properties
+2017-12-08 10:40:23,638 INFO o.a.j.JMeter: Loading system properties from: /Users/daper01/.bzt/jmeter-taurus/3.3/bin/system.properties
+2017-12-08 10:40:23,639 INFO o.a.j.JMeter: Setting System properties from file: /Users/daper01/Documents/OSLo/artifacts/2017-12-08_10-40-12.146415/system.properties
+2017-12-08 10:40:23,645 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2017-12-08 10:40:23,645 INFO o.a.j.JMeter: Version 3.3 r1808647
+2017-12-08 10:40:23,645 INFO o.a.j.JMeter: java.version=1.8.0_121
+2017-12-08 10:40:23,645 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2017-12-08 10:40:23,646 INFO o.a.j.JMeter: os.name=Mac OS X
+2017-12-08 10:40:23,646 INFO o.a.j.JMeter: os.arch=x86_64
+2017-12-08 10:40:23,646 INFO o.a.j.JMeter: os.version=10.13.1
+2017-12-08 10:40:23,646 INFO o.a.j.JMeter: file.encoding=UTF-8
+2017-12-08 10:40:23,646 INFO o.a.j.JMeter: Max memory     =3817865216
+2017-12-08 10:40:23,646 INFO o.a.j.JMeter: Available Processors =4
+2017-12-08 10:40:23,650 INFO o.a.j.JMeter: Default Locale=English (United States)
+2017-12-08 10:40:23,650 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2017-12-08 10:40:23,650 INFO o.a.j.JMeter: JMeterHome=/Users/daper01/.bzt/jmeter-taurus/3.3
+2017-12-08 10:40:23,651 INFO o.a.j.JMeter: user.dir  =/Users/daper01/Documents/OSLo
+2017-12-08 10:40:23,651 INFO o.a.j.JMeter: PWD       =/Users/daper01/Documents/OSLo
+2017-12-08 10:40:23,653 INFO o.a.j.JMeter: IP: 10.137.176.136 Name: daper01mac1124 FullName: daper01mac1124.ca.com
+2017-12-08 10:40:23,653 INFO o.a.j.JMeter: user.classpath=/Users/daper01/Documents/OSLo/artifacts/2017-12-08_10-40-12.146415
+2017-12-08 10:40:23,653 INFO o.a.j.JMeter: Adding to classpath and loader: /Users/daper01/Documents/OSLo/artifacts/2017-12-08_10-40-12.146415
+2017-12-08 10:40:23,659 INFO o.a.j.s.FileServer: Default base='/Users/daper01/Documents/OSLo'
+2017-12-08 10:40:23,659 INFO o.a.j.s.FileServer: Set new base='/Users/daper01/Documents/OSLo/artifacts/2017-12-08_10-40-12.146415'
+2017-12-08 10:40:24,209 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2017-12-08 10:40:24,254 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2017-12-08 10:40:24,265 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2017-12-08 10:40:24,280 INFO o.a.j.s.SaveService: Loading file: /Users/daper01/Documents/OSLo/artifacts/2017-12-08_10-40-12.146415/modified_requests.jmx
+2017-12-08 10:40:24,398 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2017-12-08 10:40:24,401 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2017-12-08 10:40:24,432 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-12-08 10:40:24,432 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-12-08 10:40:24,432 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-12-08 10:40:24,432 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-12-08 10:40:24,432 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2017-12-08 10:40:24,433 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2017-12-08 10:40:24,480 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-12-08 10:40:24,480 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-12-08 10:40:24,480 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-12-08 10:40:24,485 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2017-12-08 10:40:24,485 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2017-12-08 10:40:25,674 INFO o.a.j.JMeter: Running test (1512758425674)
+2017-12-08 10:40:25,768 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : blazedemo1
+2017-12-08 10:40:25,769 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group blazedemo1.
+2017-12-08 10:40:25,769 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-12-08 10:40:25,778 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-12-08 10:40:25,778 INFO c.b.j.t.c.ConcurrencyThreadStarter: Start supplying threads
+2017-12-08 10:40:26,084 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2017-12-08 10:40:26,084 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2017-12-08 10:40:26,084 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2017-12-08 10:40:26,084 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2017-12-08 10:40:26,384 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-1
+2017-12-08 10:40:26,388 INFO o.a.j.s.FileServer: Stored: /Users/daper01/Documents/OSLo/param.csv
+2017-12-08 10:40:26,414 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = daper01mac1124
+2017-12-08 10:40:26,421 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2017-12-08 10:40:27,090 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-2
+2017-12-08 10:40:28,093 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-3
+2017-12-08 10:40:28,093 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-4
+2017-12-08 10:40:29,097 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-5
+2017-12-08 10:40:29,100 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-6
+2017-12-08 10:40:30,109 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-7
+2017-12-08 10:40:31,114 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-8
+2017-12-08 10:40:31,120 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-9
+2017-12-08 10:40:32,126 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-10
+2017-12-08 10:40:32,127 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-11
+2017-12-08 10:40:33,136 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-12
+2017-12-08 10:40:34,136 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-13
+2017-12-08 10:40:34,138 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-14
+2017-12-08 10:40:35,145 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-15
+2017-12-08 10:40:35,149 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-16
+2017-12-08 10:40:36,147 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-17
+2017-12-08 10:40:37,152 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-18
+2017-12-08 10:40:37,159 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-19
+2017-12-08 10:40:38,161 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-20
+2017-12-08 10:40:38,161 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-21
+2017-12-08 10:40:39,165 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-22
+2017-12-08 10:40:40,173 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-23
+2017-12-08 10:40:40,180 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-24
+2017-12-08 10:40:41,181 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-25
+2017-12-08 10:40:41,184 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-26
+2017-12-08 10:40:42,187 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-27
+2017-12-08 10:40:43,190 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-28
+2017-12-08 10:40:43,190 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-29
+2017-12-08 10:40:44,193 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-30
+2017-12-08 10:40:44,196 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-31
+2017-12-08 10:40:45,197 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-32
+2017-12-08 10:40:46,199 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-33
+2017-12-08 10:40:46,204 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-34
+2017-12-08 10:40:47,209 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-35
+2017-12-08 10:40:47,212 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-36
+2017-12-08 10:40:48,215 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-37
+2017-12-08 10:40:49,216 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-38
+2017-12-08 10:40:49,218 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-39
+2017-12-08 10:40:50,219 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-40
+2017-12-08 10:40:50,220 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-41
+2017-12-08 10:40:51,220 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-42
+2017-12-08 10:40:52,227 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-43
+2017-12-08 10:40:52,235 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-44
+2017-12-08 10:40:53,235 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-45
+2017-12-08 10:40:53,237 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-46
+2017-12-08 10:40:54,238 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-47
+2017-12-08 10:40:55,239 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-48
+2017-12-08 10:40:55,239 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-49
+2017-12-08 10:40:56,243 INFO o.a.j.t.JMeterThread: Thread started: blazedemo1 1-50
+2017-12-08 10:41:16,034 INFO o.a.j.JMeter: Command: Shutdown received from /127.0.0.1
+2017-12-08 10:41:16,037 INFO c.b.j.t.c.ConcurrencyThreadStarter: Done supplying threads
+2017-12-08 10:41:16,037 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-21 sampler: Confirmation Page
+2017-12-08 10:41:16,039 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-33 sampler: Reserve Page
+2017-12-08 10:41:16,040 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-11 sampler: Confirmation Page
+2017-12-08 10:41:16,043 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-48 sampler: Reserve Page
+2017-12-08 10:41:16,043 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-1
+2017-12-08 10:41:16,043 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-1
+2017-12-08 10:41:16,045 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-9 sampler: Reserve Page
+2017-12-08 10:41:16,047 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-42 sampler: Welcome Page
+2017-12-08 10:41:16,052 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-19 sampler: Purchase Page
+2017-12-08 10:41:16,060 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-8 sampler: Welcome Page
+2017-12-08 10:41:16,062 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-25 sampler: Reserve Page
+2017-12-08 10:41:16,065 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-4 sampler: Confirmation Page
+2017-12-08 10:41:16,066 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-28 sampler: Confirmation Page
+2017-12-08 10:41:16,068 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-15 sampler: Reserve Page
+2017-12-08 10:41:16,069 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-36 sampler: Purchase Page
+2017-12-08 10:41:16,070 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-45 sampler: Welcome Page
+2017-12-08 10:41:16,071 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-27 sampler: Confirmation Page
+2017-12-08 10:41:16,071 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-35 sampler: Welcome Page
+2017-12-08 10:41:16,072 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-41 sampler: Reserve Page
+2017-12-08 10:41:16,073 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-14 sampler: Reserve Page
+2017-12-08 10:41:16,073 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-33
+2017-12-08 10:41:16,073 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-33
+2017-12-08 10:41:16,075 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-6 sampler: Reserve Page
+2017-12-08 10:41:16,076 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-36
+2017-12-08 10:41:16,076 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-36
+2017-12-08 10:41:16,078 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-5 sampler: Purchase Page
+2017-12-08 10:41:16,079 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-15
+2017-12-08 10:41:16,083 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-15
+2017-12-08 10:41:16,082 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-18
+2017-12-08 10:41:16,085 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-18
+2017-12-08 10:41:16,085 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-30 sampler: Reserve Page
+2017-12-08 10:41:16,085 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-28
+2017-12-08 10:41:16,086 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-28
+2017-12-08 10:41:16,086 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-32 sampler: Welcome Page
+2017-12-08 10:41:16,086 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-17 sampler: Confirmation Page
+2017-12-08 10:41:16,086 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-4
+2017-12-08 10:41:16,087 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-4
+2017-12-08 10:41:16,087 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-49 sampler: Purchase Page
+2017-12-08 10:41:16,088 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-25
+2017-12-08 10:41:16,088 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-25
+2017-12-08 10:41:16,088 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-19
+2017-12-08 10:41:16,089 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-8
+2017-12-08 10:41:16,090 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-8
+2017-12-08 10:41:16,090 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-19
+2017-12-08 10:41:16,092 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-42
+2017-12-08 10:41:16,092 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-42
+2017-12-08 10:41:16,092 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-43 sampler: Purchase Page
+2017-12-08 10:41:16,093 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-48
+2017-12-08 10:41:16,093 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-48
+2017-12-08 10:41:16,093 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-12 sampler: Confirmation Page
+2017-12-08 10:41:16,095 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-9
+2017-12-08 10:41:16,095 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-9
+2017-12-08 10:41:16,095 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-34 sampler: Purchase Page
+2017-12-08 10:41:16,096 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-43
+2017-12-08 10:41:16,096 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-43
+2017-12-08 10:41:16,096 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-46 sampler: Confirmation Page
+2017-12-08 10:41:16,097 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-2 sampler: Welcome Page
+2017-12-08 10:41:16,097 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-26
+2017-12-08 10:41:16,097 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-40 sampler: Purchase Page
+2017-12-08 10:41:16,098 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-21
+2017-12-08 10:41:16,098 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-21
+2017-12-08 10:41:16,098 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-26
+2017-12-08 10:41:16,098 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-10 sampler: Welcome Page
+2017-12-08 10:41:16,098 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-44 sampler: Welcome Page
+2017-12-08 10:41:16,099 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-12-08 10:41:16,099 INFO o.a.j.s.FileServer: Close: /Users/daper01/Documents/OSLo/param.csv
+2017-12-08 10:41:16,099 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-11
+2017-12-08 10:41:16,099 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-11
+2017-12-08 10:41:16,099 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-29 sampler: Welcome Page
+2017-12-08 10:41:16,100 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-10
+2017-12-08 10:41:16,100 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-10
+2017-12-08 10:41:16,100 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-38 sampler: Purchase Page
+2017-12-08 10:41:16,101 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-31 sampler: Confirmation Page
+2017-12-08 10:41:16,101 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-2
+2017-12-08 10:41:16,102 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-2
+2017-12-08 10:41:16,102 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-47 sampler: Welcome Page
+2017-12-08 10:41:16,102 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-46
+2017-12-08 10:41:16,102 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-46
+2017-12-08 10:41:16,102 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-3 sampler: Welcome Page
+2017-12-08 10:41:16,103 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-20 sampler: Welcome Page
+2017-12-08 10:41:16,103 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-7 sampler: Welcome Page
+2017-12-08 10:41:16,103 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-34
+2017-12-08 10:41:16,103 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-34
+2017-12-08 10:41:16,105 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-38
+2017-12-08 10:41:16,105 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-31
+2017-12-08 10:41:16,105 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-38
+2017-12-08 10:41:16,105 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-47
+2017-12-08 10:41:16,105 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-31
+2017-12-08 10:41:16,105 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-47
+2017-12-08 10:41:16,105 INFO o.a.j.e.StandardJMeterEngine: Forced JVM shutdown requested at end of test
+2017-12-08 10:41:16,105 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-12
+2017-12-08 10:41:16,106 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo1 1-12
+2017-12-08 10:41:16,106 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-23 sampler: Welcome Page
+2017-12-08 10:41:16,106 WARN o.a.j.t.JMeterThread: Interrupting: blazedemo1 1-22 sampler: Welcome Page
+2017-12-08 10:41:16,108 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-7
+2017-12-08 10:41:16,108 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-3
+2017-12-08 10:41:16,108 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo1 1-20

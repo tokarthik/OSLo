@@ -1,0 +1,35 @@
+execution:
+- executor: jmeter
+  scenario: blazedemo1
+  concurrency:
+    local: 50
+    cloud: 200
+  hold-for: 2m
+  ramp-up: 30s
+  locations:
+    us-west-1: 1
+    us-east-1: 2
+- executor: jmeter
+  scenario: blazedemo1
+  concurrency:
+    local: 50
+    cloud: 300
+  hold-for: 30s
+  ramp-up: 2m
+  locations:
+    ap-south-1: 1
+  # locations-weighted: false
+
+
+reporting:
+- module: final-stats
+  summary: true
+  dump-xml: stats.xml
+
+settings:
+  artifacts-dir: ./artifacts/%Y-%m-%d_%H-%M-%S.%f
+
+modules:
+  cloud:
+    test: 'Taurus from Scenario'
+    report-name: 'Taurus from Scenario'

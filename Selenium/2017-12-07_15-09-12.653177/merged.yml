@@ -1,0 +1,14 @@
+---
+execution:
+- concurrency: 1
+  executor: selenium
+  iterations: 5
+  runner: nose
+  scenario:
+    script: ./blazeDemo_Selenium_with_unit_chrome.py
+modules:
+  blazemeter:
+    token: '********'
+services:
+- capturehar
+
