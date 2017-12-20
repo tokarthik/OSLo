@@ -1,0 +1,20 @@
+---
+execution:
+- concurrency: 50
+  executor: jmeter
+  hold-for: 30s
+  ramp-up: 30s
+  scenario: my_scenario
+modules:
+  blazemeter:
+    token: '********'
+scenarios:
+  my_scenario:
+    requests:
+    - label: home page
+      method: GET
+      url: http://www.demoblaze.com
+    - label: prod_7
+      method: GET
+      url: https://www.demoblaze.com/prod.html?idp_=7
+

@@ -1,4 +1,0 @@
-modules:
-  blazemeter:
-    test: jmeter_taurus
-    report-name: jmeter_taurus

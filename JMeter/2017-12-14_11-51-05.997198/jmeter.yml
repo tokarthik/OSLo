@@ -1,0 +1,23 @@
+execution:
+  executor: jmeter
+  concurrency:
+    local: 50
+    cloud: 500
+  hold-for: 1m
+  ramp-up: 30s
+  throughput: 100
+  scenario: simple
+  location:
+    us-west-1: 1
+    us-east-1: 1
+
+scenarios:
+  simple:
+    script: blazedemo_easy_peasy.jmx
+  two_tg:
+    script: two_thread_groups.jmx
+
+reporting:
+- module: passfail
+  criteria:
+    Response time too long: avg-rt>2s

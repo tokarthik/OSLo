@@ -1,0 +1,73 @@
+[2017-12-18 13:55:04,080 INFO root] Taurus CLI Tool v1.9.6
+[2017-12-18 13:55:04,080 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/bzt_FiNNqe.log', 'option': None, 'aliases': []}
+[2017-12-18 13:55:04,080 DEBUG root] Python: CPython 2.7.13
+[2017-12-18 13:55:04,081 DEBUG root] OS: ('Darwin', 'daper01mac1124', '17.2.0', 'Darwin Kernel Version 17.2.0: Fri Sep 29 18:27:05 PDT 2017; root:xnu-4570.20.62~3/RELEASE_X86_64', 'x86_64', 'i386')
+[2017-12-18 13:55:04,081 INFO root] Starting with configs: ['sample.yml']
+[2017-12-18 13:55:04,081 DEBUG root] Using personal config: /Users/daper01/.bzt-rc
+[2017-12-18 13:55:04,081 INFO Engine] Configuring...
+[2017-12-18 13:55:04,082 DEBUG Engine] Reading extension configs from: /usr/local/etc/bzt.d
+[2017-12-18 13:55:04,083 DEBUG Engine.Configuration] Configs: ['/usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml', '/usr/local/etc/bzt.d/99-installID.yml']
+[2017-12-18 13:55:04,130 DEBUG Engine.Configuration] Reading /usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2017-12-18 13:55:04,197 DEBUG Engine.Configuration] Reading /usr/local/etc/bzt.d/99-installID.yml as YAML
+[2017-12-18 13:55:04,197 DEBUG Engine.Configuration] Configs: ['/Users/daper01/.bzt-rc', 'sample.yml']
+[2017-12-18 13:55:04,199 DEBUG Engine.Configuration] Reading /Users/daper01/.bzt-rc as YAML
+[2017-12-18 13:55:04,200 DEBUG Engine.Configuration] Reading sample.yml as YAML
+[2017-12-18 13:55:04,202 DEBUG Engine.Configuration] Configs: ['/Users/daper01/.bzt-rc', 'sample.yml']
+[2017-12-18 13:55:04,202 DEBUG Engine.Configuration] Reading /Users/daper01/.bzt-rc as YAML
+[2017-12-18 13:55:04,203 DEBUG Engine.Configuration] Reading sample.yml as YAML
+[2017-12-18 13:55:04,225 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.9.6&installID=784f43782a15
+[2017-12-18 13:55:04,235 INFO Engine] Artifacts dir: /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530
+[2017-12-18 13:55:04,237 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530/effective
+[2017-12-18 13:55:04,241 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530/effective.yml
+[2017-12-18 13:55:04,277 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530/effective.json
+[2017-12-18 13:55:04,279 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530/merged.yml
+[2017-12-18 13:55:04,279 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530/merged.yml
+[2017-12-18 13:55:04,282 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530/merged.json
+[2017-12-18 13:55:04,282 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530/merged.json
+[2017-12-18 13:55:04,282 DEBUG Engine] Add existing artifact (move=False): sample.yml
+[2017-12-18 13:55:04,283 DEBUG Engine] Copying sample.yml to /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530/sample.yml
+[2017-12-18 13:55:04,283 DEBUG root] Closing log handler: /var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/bzt_FiNNqe.log
+[2017-12-18 13:55:04,385 DEBUG root] Switched writing logs to /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530/bzt.log
+[2017-12-18 13:55:04,385 INFO Engine] Preparing...
+[2017-12-18 13:55:04,386 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2017-12-18 13:55:04,386 DEBUG root] Importing module: bzt.modules.aggregator
+[2017-12-18 13:55:04,675 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2017-12-18 13:55:04,675 DEBUG Engine.consolidator] Exception in dehumanize_time(inf)
+[2017-12-18 13:55:04,676 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2017-12-18 13:55:04,676 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': 'bzt.modules.monitoring.Monitoring'})
+[2017-12-18 13:55:04,676 DEBUG root] Importing module: bzt.modules.monitoring
+[2017-12-18 13:55:05,824 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2017-12-18 13:55:05,825 DEBUG Engine] Taurus updates info: {"latest":"1.10.3","needsUpgrade":true}
+[2017-12-18 13:55:05,825 WARNING Engine] There is newer version of Taurus 1.10.3 available, consider upgrading. What's new: http://gettaurus.org/docs/Changelog/
+[2017-12-18 13:55:05,825 DEBUG Engine] Module config: local defaultdict(None, {'class': 'bzt.modules.provisioning.Local'})
+[2017-12-18 13:55:05,826 DEBUG root] Importing module: bzt.modules.provisioning
+[2017-12-18 13:55:05,826 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/lib/python2.7/site-packages/bzt/modules/provisioning.pyc'>
+[2017-12-18 13:55:05,826 DEBUG Engine] Module config: jmeter defaultdict(None, {'properties': defaultdict(None, {'jmeter.save.saveservice.autoflush': 'true', 'summariser.name': '', 'jmeter.save.saveservice.connect_time': 'true', 'mode': 'Stripped', 'jmeterengine.force.system.exit': 'true'}), 'class': 'bzt.modules.jmeter.JMeterExecutor', 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst']})
+[2017-12-18 13:55:05,826 DEBUG root] Importing module: bzt.modules.jmeter
+[2017-12-18 13:55:06,567 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/usr/local/lib/python2.7/site-packages/bzt/modules/jmeter.pyc'>
+[2017-12-18 13:55:06,567 DEBUG Engine.local] Preparing executor: jmeter/4560108368
+[2017-12-18 13:55:06,567 WARNING Engine] Could not find location at path: my_scenario
+[2017-12-18 13:55:06,568 ERROR root] AttributeError: 'list' object has no attribute 'keys'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/bzt/cli.py", line 220, in perform
+    self.engine.prepare()
+  File "/usr/local/lib/python2.7/site-packages/bzt/engine.py", line 158, in prepare
+    self.__prepare_provisioning()
+  File "/usr/local/lib/python2.7/site-packages/bzt/engine.py", line 490, in __prepare_provisioning
+    self.provisioning.prepare()
+  File "/usr/local/lib/python2.7/site-packages/bzt/modules/provisioning.py", line 70, in prepare
+    executor.prepare()
+  File "/usr/local/lib/python2.7/site-packages/bzt/modules/jmeter.py", line 264, in prepare
+    scenario = self.get_scenario()
+  File "/usr/local/lib/python2.7/site-packages/bzt/modules/jmeter.py", line 198, in get_scenario
+    scenario_obj = super(JMeterExecutor, self).get_scenario(name=name, cache_scenario=False)
+  File "/usr/local/lib/python2.7/site-packages/bzt/engine.py", line 942, in get_scenario
+    exc = TaurusConfigError("Scenario '%s' not found in scenarios: %s" % (label, scenarios.keys()))
+AttributeError: 'list' object has no attribute 'keys'
+[2017-12-18 13:55:06,569 INFO Engine] Post-processing...
+[2017-12-18 13:55:06,569 DEBUG Engine.consolidator] Consolidator buffer[0]: []
+[2017-12-18 13:55:06,570 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530/effective.yml
+[2017-12-18 13:55:06,591 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530/effective.json
+[2017-12-18 13:55:06,593 INFO root] Artifacts dir: /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530
+[2017-12-18 13:55:06,593 WARNING root] Done performing with code: 1
+[2017-12-18 13:55:06,593 DEBUG root] Closing log handler: /Users/daper01/Documents/OSLo/onboarding/2017-12-18_13-55-04.225530/bzt.log

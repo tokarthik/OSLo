@@ -1,0 +1,15 @@
+execution:
+- executor: jmeter
+  scenario: my_scenario
+  ramp-up: 30s
+  hold-for: 5m
+
+scenarios:
+  my_scenario:
+    requests:
+    - url: http://www.demoblaze.com
+      label: home page
+      method: GET
+    - url: https://www.demoblaze.com/prod.html?idp_=7
+      label: prod_7
+      method: GET

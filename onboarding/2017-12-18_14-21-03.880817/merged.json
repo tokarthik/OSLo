@@ -1,0 +1,31 @@
+{
+ "scenarios": {
+  "my_scenario": {
+   "requests": [
+    {
+     "url": "http://www.demoblaze.com", 
+     "method": "GET", 
+     "label": "home page"
+    }, 
+    {
+     "url": "https://www.demoblaze.com/prod.html?idp_=7", 
+     "method": "GET", 
+     "label": "prod_7"
+    }
+   ]
+  }
+ }, 
+ "execution": [
+  {
+   "ramp-up": "30s", 
+   "hold-for": "5m", 
+   "scenario": "my_scenario", 
+   "executor": "jmeter"
+  }
+ ], 
+ "modules": {
+  "blazemeter": {
+   "token": "********"
+  }
+ }
+}

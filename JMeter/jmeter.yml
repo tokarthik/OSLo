@@ -6,7 +6,7 @@ execution:
   hold-for: 1m
   ramp-up: 30s
   throughput: 100
-  scenario: two_tg
+  scenario: simple
   location:
     us-west-1: 1
     us-east-1: 1
@@ -16,3 +16,9 @@ scenarios:
     script: blazedemo_easy_peasy.jmx
   two_tg:
     script: two_thread_groups.jmx
+
+reporting:
+- module: passfail
+  criteria:
+    welcome page RT too long: avg-rt of welcome>150ms
+    reserver page RT too long: avg-rt of reserve page>90ms

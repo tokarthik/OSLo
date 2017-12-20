@@ -1,6 +1,0 @@
-Created the tree successfully using /Users/daper01/Documents/OSLo/artifacts/2017-12-08_15-31-23.148867/modified_requests.jmx
-Starting the test @ Fri Dec 08 15:31:46 PST 2017 (1512775906079)
-Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
-Command: Shutdown received from /127.0.0.1
-Tidying up ...    @ Fri Dec 08 15:32:13 PST 2017 (1512775933040)
-... end of run
