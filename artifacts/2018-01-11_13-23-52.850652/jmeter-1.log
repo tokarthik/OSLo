@@ -1,0 +1,257 @@
+2018-01-11 13:24:06,476 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-01-11 13:24:06,491 INFO o.a.j.JMeter: Loading user properties from: /Users/daper01/.bzt/jmeter-taurus/3.3/bin/user.properties
+2018-01-11 13:24:06,492 INFO o.a.j.JMeter: Loading system properties from: /Users/daper01/.bzt/jmeter-taurus/3.3/bin/system.properties
+2018-01-11 13:24:06,493 INFO o.a.j.JMeter: Setting System properties from file: /Users/daper01/Documents/OSLo/artifacts/2018-01-11_13-23-52.850652/system-1.properties
+2018-01-11 13:24:06,503 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-01-11 13:24:06,503 INFO o.a.j.JMeter: Version 3.3 r1808647
+2018-01-11 13:24:06,503 INFO o.a.j.JMeter: java.version=1.8.0_121
+2018-01-11 13:24:06,503 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-01-11 13:24:06,503 INFO o.a.j.JMeter: os.name=Mac OS X
+2018-01-11 13:24:06,503 INFO o.a.j.JMeter: os.arch=x86_64
+2018-01-11 13:24:06,503 INFO o.a.j.JMeter: os.version=10.13.1
+2018-01-11 13:24:06,503 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-01-11 13:24:06,504 INFO o.a.j.JMeter: Max memory     =3817865216
+2018-01-11 13:24:06,504 INFO o.a.j.JMeter: Available Processors =4
+2018-01-11 13:24:06,508 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-01-11 13:24:06,509 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-01-11 13:24:06,509 INFO o.a.j.JMeter: JMeterHome=/Users/daper01/.bzt/jmeter-taurus/3.3
+2018-01-11 13:24:06,509 INFO o.a.j.JMeter: user.dir  =/Users/daper01/Documents/OSLo
+2018-01-11 13:24:06,510 INFO o.a.j.JMeter: PWD       =/Users/daper01/Documents/OSLo
+2018-01-11 13:24:06,513 INFO o.a.j.JMeter: IP: 10.137.176.131 Name: daper01mac1124 FullName: daper01mac1124.ca.com
+2018-01-11 13:24:06,513 INFO o.a.j.JMeter: user.classpath=/Users/daper01/Documents/OSLo/artifacts/2018-01-11_13-23-52.850652:/Users/daper01/Documents/OSLo/artifacts/2018-01-11_13-23-52.850652
+2018-01-11 13:24:06,513 INFO o.a.j.JMeter: Adding to classpath and loader: /Users/daper01/Documents/OSLo/artifacts/2018-01-11_13-23-52.850652
+2018-01-11 13:24:06,515 INFO o.a.j.JMeter: Adding to classpath and loader: /Users/daper01/Documents/OSLo/artifacts/2018-01-11_13-23-52.850652
+2018-01-11 13:24:06,520 INFO o.a.j.s.FileServer: Default base='/Users/daper01/Documents/OSLo'
+2018-01-11 13:24:06,520 INFO o.a.j.s.FileServer: Set new base='/Users/daper01/Documents/OSLo/artifacts/2018-01-11_13-23-52.850652'
+2018-01-11 13:24:06,764 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-01-11 13:24:06,789 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-01-11 13:24:06,793 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-01-11 13:24:06,800 INFO o.a.j.s.SaveService: Loading file: /Users/daper01/Documents/OSLo/artifacts/2018-01-11_13-23-52.850652/modified_requests-1.jmx
+2018-01-11 13:24:06,893 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2018-01-11 13:24:06,895 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2018-01-11 13:24:06,911 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-01-11 13:24:06,911 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-01-11 13:24:06,911 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-01-11 13:24:06,911 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-01-11 13:24:06,912 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-01-11 13:24:06,912 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-01-11 13:24:06,954 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-01-11 13:24:06,954 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-01-11 13:24:06,954 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-01-11 13:24:06,959 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-01-11 13:24:06,959 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-01-11 13:24:07,913 INFO o.a.j.JMeter: Running test (1515705847913)
+2018-01-11 13:24:07,998 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : blazedemo
+2018-01-11 13:24:07,998 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group blazedemo.
+2018-01-11 13:24:08,003 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-01-11 13:24:08,014 INFO c.b.j.t.c.ConcurrencyThreadStarter: Start supplying threads
+2018-01-11 13:24:08,014 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-01-11 13:24:09,221 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-1
+2018-01-11 13:24:09,222 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-01-11 13:24:09,222 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2018-01-11 13:24:09,222 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-01-11 13:24:09,222 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-01-11 13:24:09,245 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = daper01mac1124
+2018-01-11 13:24:09,251 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-01-11 13:24:12,236 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-2
+2018-01-11 13:24:14,242 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-3
+2018-01-11 13:24:17,248 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-4
+2018-01-11 13:24:19,256 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-5
+2018-01-11 13:24:21,261 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-6
+2018-01-11 13:24:24,275 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-7
+2018-01-11 13:24:26,285 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-8
+2018-01-11 13:24:29,286 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-9
+2018-01-11 13:24:31,296 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-10
+2018-01-11 13:24:33,300 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-11
+2018-01-11 13:24:36,306 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-12
+2018-01-11 13:24:38,313 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-13
+2018-01-11 13:24:41,322 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-14
+2018-01-11 13:24:43,331 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-15
+2018-01-11 13:24:45,338 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-16
+2018-01-11 13:24:48,348 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-17
+2018-01-11 13:24:50,356 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-18
+2018-01-11 13:24:53,364 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-19
+2018-01-11 13:24:55,368 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-20
+2018-01-11 13:24:57,370 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-21
+2018-01-11 13:25:00,383 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-22
+2018-01-11 13:25:02,387 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-23
+2018-01-11 13:25:05,401 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-24
+2018-01-11 13:25:07,407 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-25
+2018-01-11 13:25:09,416 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-26
+2018-01-11 13:25:12,421 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-27
+2018-01-11 13:25:14,423 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-28
+2018-01-11 13:25:16,429 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-29
+2018-01-11 13:25:19,430 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-30
+2018-01-11 13:25:21,438 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-31
+2018-01-11 13:25:24,444 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-32
+2018-01-11 13:25:26,446 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-33
+2018-01-11 13:25:28,451 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-34
+2018-01-11 13:25:31,462 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-35
+2018-01-11 13:25:33,464 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-36
+2018-01-11 13:25:36,479 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-37
+2018-01-11 13:25:38,484 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-38
+2018-01-11 13:25:40,485 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-39
+2018-01-11 13:25:43,488 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-40
+2018-01-11 13:25:45,490 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-41
+2018-01-11 13:25:48,499 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-42
+2018-01-11 13:25:50,502 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-43
+2018-01-11 13:25:52,507 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-44
+2018-01-11 13:25:55,511 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-45
+2018-01-11 13:25:57,519 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-46
+2018-01-11 13:26:00,527 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-47
+2018-01-11 13:26:02,528 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-48
+2018-01-11 13:26:04,531 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-49
+2018-01-11 13:26:07,540 INFO o.a.j.t.JMeterThread: Thread started: blazedemo 1-50
+2018-01-11 13:26:38,601 INFO c.b.j.t.c.ConcurrencyThreadStarter: Done supplying threads
+2018-01-11 13:26:38,603 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-3
+2018-01-11 13:26:38,603 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-3
+2018-01-11 13:26:38,604 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-3
+2018-01-11 13:26:38,639 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-49
+2018-01-11 13:26:38,640 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-49
+2018-01-11 13:26:38,640 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-49
+2018-01-11 13:26:38,644 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-22
+2018-01-11 13:26:38,645 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-22
+2018-01-11 13:26:38,645 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-22
+2018-01-11 13:26:38,650 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-31
+2018-01-11 13:26:38,650 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-44
+2018-01-11 13:26:38,650 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-44
+2018-01-11 13:26:38,651 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-31
+2018-01-11 13:26:38,651 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-31
+2018-01-11 13:26:38,651 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-44
+2018-01-11 13:26:38,675 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-7
+2018-01-11 13:26:38,675 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-7
+2018-01-11 13:26:38,676 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-7
+2018-01-11 13:26:38,749 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-17
+2018-01-11 13:26:38,750 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-17
+2018-01-11 13:26:38,750 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-17
+2018-01-11 13:26:38,778 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-13
+2018-01-11 13:26:38,778 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-13
+2018-01-11 13:26:38,778 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-13
+2018-01-11 13:26:38,780 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-45
+2018-01-11 13:26:38,780 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-45
+2018-01-11 13:26:38,780 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-45
+2018-01-11 13:26:38,782 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-8
+2018-01-11 13:26:38,782 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-8
+2018-01-11 13:26:38,782 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-8
+2018-01-11 13:26:38,783 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-9
+2018-01-11 13:26:38,783 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-9
+2018-01-11 13:26:38,783 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-9
+2018-01-11 13:26:38,791 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-19
+2018-01-11 13:26:38,791 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-19
+2018-01-11 13:26:38,791 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-19
+2018-01-11 13:26:38,809 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-25
+2018-01-11 13:26:38,810 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-25
+2018-01-11 13:26:38,810 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-25
+2018-01-11 13:26:38,810 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-10
+2018-01-11 13:26:38,810 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-10
+2018-01-11 13:26:38,810 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-10
+2018-01-11 13:26:38,842 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-35
+2018-01-11 13:26:38,843 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-35
+2018-01-11 13:26:38,843 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-35
+2018-01-11 13:26:38,854 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-50
+2018-01-11 13:26:38,854 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-50
+2018-01-11 13:26:38,854 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-50
+2018-01-11 13:26:38,867 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-23
+2018-01-11 13:26:38,867 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-23
+2018-01-11 13:26:38,867 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-23
+2018-01-11 13:26:38,874 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-20
+2018-01-11 13:26:38,875 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-20
+2018-01-11 13:26:38,875 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-20
+2018-01-11 13:26:38,902 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-40
+2018-01-11 13:26:38,902 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-40
+2018-01-11 13:26:38,902 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-40
+2018-01-11 13:26:38,903 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-18
+2018-01-11 13:26:38,903 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-18
+2018-01-11 13:26:38,903 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-18
+2018-01-11 13:26:38,946 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-32
+2018-01-11 13:26:38,946 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-32
+2018-01-11 13:26:38,946 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-32
+2018-01-11 13:26:38,996 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-34
+2018-01-11 13:26:38,997 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-34
+2018-01-11 13:26:38,997 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-34
+2018-01-11 13:26:38,999 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-30
+2018-01-11 13:26:38,999 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-30
+2018-01-11 13:26:38,999 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-30
+2018-01-11 13:26:39,012 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-2
+2018-01-11 13:26:39,013 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-2
+2018-01-11 13:26:39,013 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-2
+2018-01-11 13:26:39,024 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-42
+2018-01-11 13:26:39,024 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-42
+2018-01-11 13:26:39,025 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-42
+2018-01-11 13:26:39,034 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-4
+2018-01-11 13:26:39,034 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-4
+2018-01-11 13:26:39,035 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-4
+2018-01-11 13:26:39,056 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-41
+2018-01-11 13:26:39,056 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-41
+2018-01-11 13:26:39,057 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-41
+2018-01-11 13:26:39,107 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-28
+2018-01-11 13:26:39,107 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-28
+2018-01-11 13:26:39,108 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-28
+2018-01-11 13:26:39,109 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-46
+2018-01-11 13:26:39,110 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-46
+2018-01-11 13:26:39,110 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-46
+2018-01-11 13:26:39,116 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-11
+2018-01-11 13:26:39,116 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-11
+2018-01-11 13:26:39,116 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-11
+2018-01-11 13:26:39,175 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-1
+2018-01-11 13:26:39,175 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-1
+2018-01-11 13:26:39,175 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-1
+2018-01-11 13:26:39,190 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-6
+2018-01-11 13:26:39,191 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-6
+2018-01-11 13:26:39,191 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-6
+2018-01-11 13:26:39,202 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-47
+2018-01-11 13:26:39,202 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-47
+2018-01-11 13:26:39,202 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-47
+2018-01-11 13:26:39,202 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-24
+2018-01-11 13:26:39,202 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-24
+2018-01-11 13:26:39,203 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-24
+2018-01-11 13:26:39,215 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-12
+2018-01-11 13:26:39,215 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-12
+2018-01-11 13:26:39,216 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-12
+2018-01-11 13:26:39,256 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-36
+2018-01-11 13:26:39,256 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-36
+2018-01-11 13:26:39,256 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-36
+2018-01-11 13:26:39,260 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-15
+2018-01-11 13:26:39,260 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-15
+2018-01-11 13:26:39,260 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-15
+2018-01-11 13:26:39,288 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-29
+2018-01-11 13:26:39,288 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-29
+2018-01-11 13:26:39,288 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-29
+2018-01-11 13:26:39,294 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-26
+2018-01-11 13:26:39,294 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-26
+2018-01-11 13:26:39,294 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-26
+2018-01-11 13:26:39,303 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-48
+2018-01-11 13:26:39,303 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-48
+2018-01-11 13:26:39,303 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-48
+2018-01-11 13:26:39,310 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-38
+2018-01-11 13:26:39,310 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-38
+2018-01-11 13:26:39,310 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-38
+2018-01-11 13:26:39,323 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-33
+2018-01-11 13:26:39,323 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-33
+2018-01-11 13:26:39,323 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-33
+2018-01-11 13:26:39,379 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-43
+2018-01-11 13:26:39,379 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-43
+2018-01-11 13:26:39,379 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-43
+2018-01-11 13:26:39,382 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-21
+2018-01-11 13:26:39,382 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-21
+2018-01-11 13:26:39,382 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-21
+2018-01-11 13:26:39,393 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-39
+2018-01-11 13:26:39,394 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-39
+2018-01-11 13:26:39,394 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-39
+2018-01-11 13:26:39,424 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-37
+2018-01-11 13:26:39,424 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-37
+2018-01-11 13:26:39,424 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-37
+2018-01-11 13:26:39,446 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-16
+2018-01-11 13:26:39,446 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-16
+2018-01-11 13:26:39,446 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-16
+2018-01-11 13:26:39,475 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-27
+2018-01-11 13:26:39,476 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-27
+2018-01-11 13:26:39,476 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-27
+2018-01-11 13:26:39,606 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-14
+2018-01-11 13:26:39,606 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-14
+2018-01-11 13:26:39,606 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-14
+2018-01-11 13:26:39,745 INFO c.b.j.c.VirtualUserController: Test limit reached, thread is done: blazedemo 1-5
+2018-01-11 13:26:39,746 INFO o.a.j.t.JMeterThread: Thread is done: blazedemo 1-5
+2018-01-11 13:26:39,746 INFO o.a.j.t.JMeterThread: Thread finished: blazedemo 1-5
+2018-01-11 13:26:39,746 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-01-11 13:26:39,757 INFO o.a.j.e.StandardJMeterEngine: Forced JVM shutdown requested at end of test
