@@ -24,7 +24,7 @@ execution:
 reporting:
 - module: final-stats
   summary: true
-  dump-xml: ./stats.xml
+  dump-xml: stats.xml
 
 settings:
   artifacts-dir: ./artifacts/%Y-%m-%d_%H-%M-%S.%f

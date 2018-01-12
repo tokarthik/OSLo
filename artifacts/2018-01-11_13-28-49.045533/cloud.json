@@ -1,0 +1,135 @@
+{
+ "local-bzt-version": "1.10.3", 
+ "scenarios": {
+  "blazedemo": {
+   "headers": {
+    "Upgrade-Insecure-Requests": "1"
+   }, 
+   "requests": [
+    {
+     "think-time": null, 
+     "body": null, 
+     "body-file": null, 
+     "content-encoding": null, 
+     "url": "http://blazedemo.com/", 
+     "follow-redirects": null, 
+     "upload-files": [], 
+     "label": "Welcome Page", 
+     "headers": {}, 
+     "timeout": null, 
+     "method": "GET", 
+     "keepalive": null
+    }, 
+    {
+     "think-time": null, 
+     "body": null, 
+     "body-file": null, 
+     "content-encoding": null, 
+     "url": "http://blazedemo.com/reserve.php", 
+     "follow-redirects": null, 
+     "upload-files": [], 
+     "label": "Reserve Page", 
+     "headers": {}, 
+     "timeout": null, 
+     "method": "POST", 
+     "keepalive": null
+    }, 
+    {
+     "think-time": null, 
+     "body": null, 
+     "body-file": null, 
+     "content-encoding": null, 
+     "url": "http://blazedemo.com/purchase.php", 
+     "follow-redirects": null, 
+     "upload-files": [], 
+     "label": "Purchase Page", 
+     "headers": {}, 
+     "timeout": null, 
+     "method": "GET", 
+     "keepalive": null
+    }, 
+    {
+     "think-time": null, 
+     "body": null, 
+     "body-file": null, 
+     "content-encoding": null, 
+     "url": "http://blazedemo.com/confirmation.php", 
+     "follow-redirects": null, 
+     "upload-files": [], 
+     "label": "Confirmation Page", 
+     "headers": {}, 
+     "timeout": null, 
+     "method": "GET", 
+     "keepalive": null
+    }
+   ], 
+   "data-sources": {}, 
+   "retrieve-resources": false, 
+   "script": null
+  }
+ }, 
+ "execution": [
+  {
+   "scenario": "blazedemo", 
+   "ramp-up": "30s", 
+   "locations": {
+    "us-east-1": 2, 
+    "us-west-1": 1
+   }, 
+   "concurrency": 200, 
+   "executor": "jmeter", 
+   "hold-for": "2m"
+  }, 
+  {
+   "scenario": "blazedemo", 
+   "ramp-up": "2m", 
+   "locations": {
+    "ap-south-1": 1
+   }, 
+   "concurrency": 300, 
+   "executor": "jmeter", 
+   "hold-for": "30s"
+  }
+ ], 
+ "modules": {
+  "gatling": {
+   "properties": {
+    "gatling.data.file.bufferSize": 256
+   }
+  }, 
+  "grinder": {
+   "properties": {
+    "grinder.useConsole": false
+   }
+  }, 
+  "jmeter": {
+   "properties": {
+    "jmeter.save.saveservice.autoflush": "true", 
+    "jmeter.save.saveservice.connect_time": "true", 
+    "summariser.name": "", 
+    "jmeterengine.force.system.exit": "true"
+   }
+  }
+ }, 
+ "services": [
+  {
+   "run-at": "local", 
+   "local": [
+    {
+     "metrics": [
+      "cpu", 
+      "mem", 
+      "bytes-sent", 
+      "bytes-recv", 
+      "disk-read", 
+      "disk-write", 
+      "disk-space", 
+      "engine-loop", 
+      "conn-all"
+     ]
+    }
+   ], 
+   "module": "monitoring"
+  }
+ ]
+}
