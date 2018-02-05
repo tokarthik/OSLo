@@ -6,6 +6,8 @@ execution:
   runner: nose
   scenario:
     script: ./blazeDemo_Selenium_with_unit_chrome.py
+# - execution: jmeter
+  # scenario: blazedemo
 
 services:
 - capturehar

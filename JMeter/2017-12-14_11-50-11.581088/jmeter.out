@@ -1,6 +1,0 @@
-Created the tree successfully using /Users/daper01/Documents/OSLo/JMeter/modified_two_thread_groups.jmx
-Starting the test @ Thu Dec 14 11:50:17 PST 2017 (1513281017035)
-Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
-Command: Shutdown received from /127.0.0.1
-Tidying up ...    @ Thu Dec 14 11:50:34 PST 2017 (1513281034703)
-... end of run

@@ -1,0 +1,12 @@
+scenarios:
+  beanshell:
+    requests:
+      - url: 'http://blazedemo.com/${path}'
+        method: GET
+        label: "${label}"
+        jsr223:
+        - language: beanshell
+          script-text: 
+            'vars.put("path", "confirmation.php"); 
+             vars.put("label", "Confirmation Page");' # set two JMeter Variables
+          execute: before # before/after for pre/post-processor
