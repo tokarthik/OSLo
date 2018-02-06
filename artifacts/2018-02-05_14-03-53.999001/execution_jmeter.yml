@@ -6,9 +6,9 @@ execution:
     cloud: 200
   hold-for: 2m
   ramp-up: 30s
-  locations:
-    us-west-1: 2
-    us-east-1: 1
+  # locations:
+  #   us-west-1: 2
+  #   us-east-1: 1
 # - executor: jmeter
 #   scenario: blazedemo
 #   concurrency:

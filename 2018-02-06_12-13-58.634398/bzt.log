@@ -1,0 +1,325 @@
+[2018-02-06 12:13:58,576 INFO root] Taurus CLI Tool v1.10.3
+[2018-02-06 12:13:58,576 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/bzt_T_Dyvx.log', 'option': None, 'aliases': ['locations']}
+[2018-02-06 12:13:58,576 DEBUG root] Python: CPython 2.7.13
+[2018-02-06 12:13:58,576 DEBUG root] OS: ('Darwin', 'daper01mac1124', '17.2.0', 'Darwin Kernel Version 17.2.0: Fri Sep 29 18:27:05 PDT 2017; root:xnu-4570.20.62~3/RELEASE_X86_64', 'x86_64', 'i386')
+[2018-02-06 12:13:58,576 INFO root] Starting with configs: []
+[2018-02-06 12:13:58,577 DEBUG root] Using personal config: /Users/daper01/.bzt-rc
+[2018-02-06 12:13:58,577 INFO Engine] Configuring...
+[2018-02-06 12:13:58,577 DEBUG Engine] Reading extension configs from: /usr/local/etc/bzt.d
+[2018-02-06 12:13:58,577 DEBUG Engine.Configuration] Configs: ['/usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml', '/usr/local/etc/bzt.d/99-installID.yml']
+[2018-02-06 12:13:58,579 DEBUG Engine.Configuration] Reading /usr/local/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2018-02-06 12:13:58,610 DEBUG Engine.Configuration] Reading /usr/local/etc/bzt.d/99-installID.yml as YAML
+[2018-02-06 12:13:58,611 DEBUG Engine.Configuration] Configs: ['/Users/daper01/.bzt-rc']
+[2018-02-06 12:13:58,612 DEBUG Engine.Configuration] Reading /Users/daper01/.bzt-rc as YAML
+[2018-02-06 12:13:58,613 DEBUG Engine.Configuration] Configs: ['/Users/daper01/.bzt-rc']
+[2018-02-06 12:13:58,613 DEBUG Engine.Configuration] Reading /Users/daper01/.bzt-rc as YAML
+[2018-02-06 12:13:58,633 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.10.3&installID=784f43782a15
+[2018-02-06 12:13:58,654 INFO Engine] Artifacts dir: /Users/daper01/Documents/OSLo/2018-02-06_12-13-58.634398
+[2018-02-06 12:13:58,654 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/2018-02-06_12-13-58.634398/effective
+[2018-02-06 12:13:58,656 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/2018-02-06_12-13-58.634398/effective.yml
+[2018-02-06 12:13:58,679 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/2018-02-06_12-13-58.634398/effective.json
+[2018-02-06 12:13:58,683 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/2018-02-06_12-13-58.634398/merged.yml
+[2018-02-06 12:13:58,683 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/2018-02-06_12-13-58.634398/merged.yml
+[2018-02-06 12:13:58,685 DEBUG Engine] New artifact filename: /Users/daper01/Documents/OSLo/2018-02-06_12-13-58.634398/merged.json
+[2018-02-06 12:13:58,685 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/2018-02-06_12-13-58.634398/merged.json
+[2018-02-06 12:13:58,687 DEBUG root] Closing log handler: /var/folders/vq/xzrdy2lx047cst78f69v8z3xfzqz1q/T/bzt_T_Dyvx.log
+[2018-02-06 12:13:59,021 DEBUG root] Switched writing logs to /Users/daper01/Documents/OSLo/2018-02-06_12-13-58.634398/bzt.log
+[2018-02-06 12:13:59,021 INFO Engine] Preparing...
+[2018-02-06 12:13:59,022 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2018-02-06 12:13:59,022 DEBUG root] Importing module: bzt.modules.aggregator
+[2018-02-06 12:13:59,095 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2018-02-06 12:13:59,095 DEBUG Engine.consolidator] Exception in dehumanize_time(inf)
+[2018-02-06 12:13:59,095 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2018-02-06 12:13:59,096 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': 'bzt.modules.monitoring.Monitoring'})
+[2018-02-06 12:13:59,096 DEBUG root] Importing module: bzt.modules.monitoring
+[2018-02-06 12:13:59,101 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2018-02-06 12:13:59,101 DEBUG Engine.monitoring] Should not run because of non-matching prov: cloud != local
+[2018-02-06 12:13:59,101 DEBUG Engine] Module config: cloud defaultdict(None, {'class': 'bzt.modules.blazemeter.CloudProvisioning', 'default-location': 'us-central1-a', 'dump-locations': True})
+[2018-02-06 12:13:59,101 DEBUG root] Importing module: bzt.modules.blazemeter
+[2018-02-06 12:13:59,300 DEBUG Engine] Taurus updates info: {"latest":"1.10.4","needsUpgrade":true}
+[2018-02-06 12:13:59,301 WARNING Engine] There is newer version of Taurus 1.10.4 available, consider upgrading. What's new: http://gettaurus.org/docs/Changelog/
+[2018-02-06 12:13:59,471 DEBUG easyprocess] version=0.2.3
+[2018-02-06 12:13:59,477 DEBUG pyvirtualdisplay] version=0.2.1
+[2018-02-06 12:13:59,480 DEBUG root] Loading class: 'CloudProvisioning' from <module 'bzt.modules.blazemeter' from '/usr/local/lib/python2.7/site-packages/bzt/modules/blazemeter.pyc'>
+[2018-02-06 12:13:59,481 DEBUG Engine] Module config: blazemeter defaultdict(None, {'token': '********', 'class': 'bzt.modules.blazemeter.BlazeMeterUploader'})
+[2018-02-06 12:13:59,481 DEBUG root] Importing module: bzt.modules.blazemeter
+[2018-02-06 12:13:59,481 DEBUG root] Loading class: 'BlazeMeterUploader' from <module 'bzt.modules.blazemeter' from '/usr/local/lib/python2.7/site-packages/bzt/modules/blazemeter.pyc'>
+[2018-02-06 12:13:59,481 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/accounts None
+[2018-02-06 12:13:59,493 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:00,114 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/accounts HTTP/1.1" 200 2726
+[2018-02-06 12:14:00,126 DEBUG Engine.cloud] Response [200]: {
+    "limit": 10,
+    "skip": 0,
+    "total": 3,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 153221,
+            "name": "BlazeMeter Demo",
+            "thumbnailUrl": "https://www.blazemeter.com/s
+[2018-02-06 12:14:00,128 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces?accountId=153221&enabled=true&limit=100 None
+[2018-02-06 12:14:00,131 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:00,793 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces?accountId=153221&enabled=true&limit=100 HTTP/1.1" 200 814
+[2018-02-06 12:14:00,801 DEBUG Engine.cloud] Response [200]: {
+    "limit": 100,
+    "skip": 0,
+    "total": 1,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 146738,
+            "name": "Demo workspace",
+            "userId": 368191,
+            "created": 1498
+[2018-02-06 12:14:00,803 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces?accountId=125626&enabled=true&limit=100 None
+[2018-02-06 12:14:00,810 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:01,469 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces?accountId=125626&enabled=true&limit=100 HTTP/1.1" 200 4887
+[2018-02-06 12:14:01,475 DEBUG Engine.cloud] Response [200]: {
+    "limit": 100,
+    "skip": 0,
+    "total": 7,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 127984,
+            "name": "Completely Irrelevant",
+            "userId": 339612,
+            "created
+[2018-02-06 12:14:01,477 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces?accountId=21166&enabled=true&limit=100 None
+[2018-02-06 12:14:01,481 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:02,148 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces?accountId=21166&enabled=true&limit=100 HTTP/1.1" 200 1482
+[2018-02-06 12:14:02,154 DEBUG Engine.cloud] Response [200]: {
+    "limit": 100,
+    "skip": 0,
+    "total": 2,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 7199,
+            "name": "CA SE Workspace",
+            "userId": 307773,
+            "created": 14775
+[2018-02-06 12:14:02,154 WARNING Engine.cloud] Dumping available locations instead of running the test
+[2018-02-06 12:14:02,154 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/146738 None
+[2018-02-06 12:14:02,157 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:02,834 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/146738 HTTP/1.1" 200 None
+[2018-02-06 12:14:02,913 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 146738,
+        "name": "Demo workspace",
+        "userId": 368191,
+        "created": 1498856673,
+        "updated": 1517347611,
+        "enabled": true,
+        "dedicatedIpsEnabled
+[2018-02-06 12:14:02,922 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/127984 None
+[2018-02-06 12:14:02,925 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:03,606 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/127984 HTTP/1.1" 200 None
+[2018-02-06 12:14:03,687 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 127984,
+        "name": "Completely Irrelevant",
+        "userId": 339612,
+        "created": 1491261975,
+        "updated": 1515790597,
+        "enabled": true,
+        "dedicatedIps
+[2018-02-06 12:14:03,696 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/119008 None
+[2018-02-06 12:14:03,698 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:04,501 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/119008 HTTP/1.1" 200 None
+[2018-02-06 12:14:04,578 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 119008,
+        "name": "Default workspace",
+        "userId": 339612,
+        "created": 1486702692,
+        "updated": 1486702692,
+        "enabled": true,
+        "dedicatedIpsEnab
+[2018-02-06 12:14:04,586 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/127980 None
+[2018-02-06 12:14:04,588 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:05,261 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/127980 HTTP/1.1" 200 None
+[2018-02-06 12:14:05,340 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 127980,
+        "name": "Demo Workspace",
+        "userId": 339612,
+        "created": 1491255975,
+        "updated": 1491255975,
+        "enabled": true,
+        "dedicatedIpsEnabled
+[2018-02-06 12:14:05,348 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/132723 None
+[2018-02-06 12:14:05,350 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:06,130 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/132723 HTTP/1.1" 200 None
+[2018-02-06 12:14:06,278 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 132723,
+        "name": "Functional",
+        "userId": 339612,
+        "created": 1493312851,
+        "updated": 1499734757,
+        "enabled": true,
+        "dedicatedIpsEnabled": t
+[2018-02-06 12:14:06,285 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/153836 None
+[2018-02-06 12:14:06,287 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:06,947 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/153836 HTTP/1.1" 200 None
+[2018-02-06 12:14:07,024 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 153836,
+        "name": "blazedemo",
+        "userId": 339612,
+        "created": 1501870483,
+        "updated": 1501870483,
+        "enabled": true,
+        "dedicatedIpsEnabled": tr
+[2018-02-06 12:14:07,030 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/163251 None
+[2018-02-06 12:14:07,032 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:07,705 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/163251 HTTP/1.1" 200 None
+[2018-02-06 12:14:07,787 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 163251,
+        "name": "new opls",
+        "userId": 339612,
+        "created": 1505929373,
+        "updated": 1505929373,
+        "enabled": true,
+        "dedicatedIpsEnabled": tru
+[2018-02-06 12:14:07,803 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/135886 None
+[2018-02-06 12:14:07,808 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:08,545 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/135886 HTTP/1.1" 200 None
+[2018-02-06 12:14:08,680 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 135886,
+        "name": "scratch",
+        "userId": 339612,
+        "created": 1494801554,
+        "updated": 1494801554,
+        "enabled": true,
+        "dedicatedIpsEnabled": true
+[2018-02-06 12:14:08,688 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/7199 None
+[2018-02-06 12:14:08,690 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:09,424 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/7199 HTTP/1.1" 200 None
+[2018-02-06 12:14:09,500 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 7199,
+        "name": "CA SE Workspace",
+        "userId": 307773,
+        "created": 1477580960,
+        "updated": 1507211353,
+        "enabled": true,
+        "dedicatedIpsEnabled"
+[2018-02-06 12:14:09,509 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/133217 None
+[2018-02-06 12:14:09,511 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-06 12:14:10,169 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/133217 HTTP/1.1" 200 None
+[2018-02-06 12:14:10,250 DEBUG Engine.cloud] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 133217,
+        "name": "SE DEMOs",
+        "userId": 307773,
+        "created": 1493664013,
+        "updated": 1508256640,
+        "enabled": true,
+        "dedicatedIpsEnabled": tru
+[2018-02-06 12:14:10,258 INFO Engine.cloud] Location: ap-northeast-1	Asia Pacific (Tokyo)
+[2018-02-06 12:14:10,258 INFO Engine.cloud] Location: ap-northeast-2	Asia Pacific (Seoul)
+[2018-02-06 12:14:10,258 INFO Engine.cloud] Location: ap-south-1	Asia Pacific (Mumbai)
+[2018-02-06 12:14:10,259 INFO Engine.cloud] Location: ap-southeast-1	Asia Pacific (Singapore)
+[2018-02-06 12:14:10,259 INFO Engine.cloud] Location: ap-southeast-2	Australia (Sydney)
+[2018-02-06 12:14:10,259 INFO Engine.cloud] Location: asia-east1-a	Asia East (Taiwan, Google)
+[2018-02-06 12:14:10,259 INFO Engine.cloud] Location: asia-northeast1-a	Asia Northeast (Japan, Google)
+[2018-02-06 12:14:10,259 INFO Engine.cloud] Location: asia-south1-a	Asia South (Mumbai, Google)
+[2018-02-06 12:14:10,260 INFO Engine.cloud] Location: asia-southeast1-a	Asia Southeast (Singapore, Google)
+[2018-02-06 12:14:10,260 INFO Engine.cloud] Location: australia-southeast1-a	Australia (Sydney, Google)
+[2018-02-06 12:14:10,260 INFO Engine.cloud] Location: azure-ap-northeast-1	Azure Korea Central (Seoul)
+[2018-02-06 12:14:10,260 INFO Engine.cloud] Location: azure-ap-northeast-2	Azure Korea South (Busan)
+[2018-02-06 12:14:10,260 INFO Engine.cloud] Location: azure-brazil-south-1	Azure Brazil South (Sao Paulo)
+[2018-02-06 12:14:10,260 INFO Engine.cloud] Location: azure-central-asia-1	Azure Central India (Pune)
+[2018-02-06 12:14:10,261 INFO Engine.cloud] Location: azure-central-asia-2	Azure West India (Mumbai)
+[2018-02-06 12:14:10,261 INFO Engine.cloud] Location: azure-central-asia-3	Azure South India (Chennai)
+[2018-02-06 12:14:10,261 INFO Engine.cloud] Location: azure-central-ca	Azure Canada Central (Toronto)
+[2018-02-06 12:14:10,261 INFO Engine.cloud] Location: azure-central-us-1	Azure US Central (Iowa)
+[2018-02-06 12:14:10,261 INFO Engine.cloud] Location: azure-east-asia-1	Azure East Asia (Hong Kong)
+[2018-02-06 12:14:10,261 INFO Engine.cloud] Location: azure-east-au-1	Azure Australia East (New South Wales)
+[2018-02-06 12:14:10,261 INFO Engine.cloud] Location: azure-east-ca	Azure Canada East (Quebec City)
+[2018-02-06 12:14:10,262 INFO Engine.cloud] Location: azure-east-us-1	Azure US East (Virginia)
+[2018-02-06 12:14:10,262 INFO Engine.cloud] Location: azure-east-us-2	Azure East US 2 (Virginia)
+[2018-02-06 12:14:10,262 INFO Engine.cloud] Location: azure-eu-west-2	Azure UK South (London)
+[2018-02-06 12:14:10,262 INFO Engine.cloud] Location: azure-eu-west-3	Azure UK West (Cardiff)
+[2018-02-06 12:14:10,262 INFO Engine.cloud] Location: azure-japan-east-1	Azure Japan East (Tokyo, Saitama)
+[2018-02-06 12:14:10,262 INFO Engine.cloud] Location: azure-japan-west-1	Azure Japan West (Osaka)
+[2018-02-06 12:14:10,263 INFO Engine.cloud] Location: azure-north-central-us-1	Azure US North Central (Illinois)
+[2018-02-06 12:14:10,263 INFO Engine.cloud] Location: azure-north-europe-1	Azure EU North (Ireland)
+[2018-02-06 12:14:10,263 INFO Engine.cloud] Location: azure-south-central-us-1	Azure US South Central (Texas)
+[2018-02-06 12:14:10,263 INFO Engine.cloud] Location: azure-southeast-asia-1	Azure Southeast Asia (Singapore)
+[2018-02-06 12:14:10,263 INFO Engine.cloud] Location: azure-southeast-au-1	Azure Australia Southeast (Victoria)
+[2018-02-06 12:14:10,263 INFO Engine.cloud] Location: azure-us-west-central	Azure US West Central (US West Central)
+[2018-02-06 12:14:10,264 INFO Engine.cloud] Location: azure-west-europe-1	Azure EU West (Netherlands)
+[2018-02-06 12:14:10,264 INFO Engine.cloud] Location: azure-west-us-1	Azure US West (California)
+[2018-02-06 12:14:10,264 INFO Engine.cloud] Location: azure-west-us-2	Azure US East (US West 2)
+[2018-02-06 12:14:10,264 INFO Engine.cloud] Location: ca-central-1	Canada (Central)
+[2018-02-06 12:14:10,264 INFO Engine.cloud] Location: eu-central-1	EU Central (Frankfurt)
+[2018-02-06 12:14:10,265 INFO Engine.cloud] Location: eu-west-1	EU West (Ireland)
+[2018-02-06 12:14:10,265 INFO Engine.cloud] Location: eu-west-2	EU West (London)
+[2018-02-06 12:14:10,265 INFO Engine.cloud] Location: eu-west-3	EU West (Paris) - New
+[2018-02-06 12:14:10,265 INFO Engine.cloud] Location: europe-west1-b	EU West (Belgium, Google)
+[2018-02-06 12:14:10,265 INFO Engine.cloud] Location: europe-west2-a	EU West (London, Google)
+[2018-02-06 12:14:10,266 INFO Engine.cloud] Location: europe-west3-a	EU West (Frankfurt, Google)
+[2018-02-06 12:14:10,266 INFO Engine.cloud] Location: sa-east-1	South America (Sao Paulo)
+[2018-02-06 12:14:10,266 INFO Engine.cloud] Location: southamerica-east1-a	Brazil (Sao Paulo, Google)
+[2018-02-06 12:14:10,266 INFO Engine.cloud] Location: us-central1-a	US Central (Iowa, Google)
+[2018-02-06 12:14:10,266 INFO Engine.cloud] Location: us-east-1	US East (Virginia)
+[2018-02-06 12:14:10,266 INFO Engine.cloud] Location: us-east-2	US East (Ohio)
+[2018-02-06 12:14:10,267 INFO Engine.cloud] Location: us-east1-b	US East (South Carolina, Google)
+[2018-02-06 12:14:10,267 INFO Engine.cloud] Location: us-east4-a	US East (Virginia, Google)
+[2018-02-06 12:14:10,267 INFO Engine.cloud] Location: us-west-1	US West (N.California)
+[2018-02-06 12:14:10,267 INFO Engine.cloud] Location: us-west-2	US West (Oregon)
+[2018-02-06 12:14:10,267 INFO Engine.cloud] Location: us-west1-a	US West (Oregon, Google)
+[2018-02-06 12:14:10,268 DEBUG root] Shutting down by request from code
+[2018-02-06 12:14:10,277 DEBUG root] NormalShutdown: Done listing locations
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/bzt/cli.py", line 224, in perform
+    self.engine.prepare()
+  File "/usr/local/lib/python2.7/site-packages/bzt/engine.py", line 158, in prepare
+    self.__prepare_provisioning()
+  File "/usr/local/lib/python2.7/site-packages/bzt/engine.py", line 490, in __prepare_provisioning
+    self.provisioning.prepare()
+  File "/usr/local/lib/python2.7/site-packages/bzt/modules/blazemeter.py", line 1454, in prepare
+    self.__dump_locations_if_needed()
+  File "/usr/local/lib/python2.7/site-packages/bzt/modules/blazemeter.py", line 1508, in __dump_locations_if_needed
+    raise NormalShutdown("Done listing locations")
+NormalShutdown: Done listing locations
+[2018-02-06 12:14:10,277 INFO Engine] Post-processing...
+[2018-02-06 12:14:10,277 DEBUG Engine.consolidator] Consolidator buffer[0]: []
+[2018-02-06 12:14:10,279 DEBUG Engine.Configuration] Dumping YAML config into /Users/daper01/Documents/OSLo/2018-02-06_12-13-58.634398/effective.yml
+[2018-02-06 12:14:10,316 DEBUG Engine.Configuration] Dumping JSON config into /Users/daper01/Documents/OSLo/2018-02-06_12-13-58.634398/effective.json
+[2018-02-06 12:14:10,317 INFO root] Artifacts dir: /Users/daper01/Documents/OSLo/2018-02-06_12-13-58.634398
+[2018-02-06 12:14:10,317 INFO root] Done performing with code: 0
+[2018-02-06 12:14:10,318 DEBUG root] Closing log handler: /Users/daper01/Documents/OSLo/2018-02-06_12-13-58.634398/bzt.log
