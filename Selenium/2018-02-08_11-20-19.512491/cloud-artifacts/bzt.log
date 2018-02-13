@@ -1,0 +1,1142 @@
+[2018-02-08 19:21:38,573 INFO root] Taurus CLI Tool v1.10.0.1750
+[2018-02-08 19:21:38,574 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/tmp/bzt_c3JkBR.log', 'option': None, 'aliases': []}
+[2018-02-08 19:21:38,574 DEBUG root] Python: CPython 2.7.12
+[2018-02-08 19:21:38,574 DEBUG root] OS: ('Linux', '47ca8c18ee71', '4.4.0-1039-aws', '#48-Ubuntu SMP Wed Oct 11 15:15:01 UTC 2017', 'x86_64', 'x86_64')
+[2018-02-08 19:21:38,574 INFO root] Starting with configs: ['./taurus-session-config.yml', '/root/final-overrides.yml']
+[2018-02-08 19:21:38,575 DEBUG root] Using personal config: /root/.bzt-rc
+[2018-02-08 19:21:38,575 INFO Engine] Configuring...
+[2018-02-08 19:21:38,575 DEBUG Engine] Reading extension configs from: /etc/bzt.d
+[2018-02-08 19:21:38,576 DEBUG Engine.Configuration] Configs: ['/usr/local/lib/python2.7/dist-packages/bzt/resources/base-config.yml', '/etc/bzt.d/20-remote.json', '/etc/bzt.d/30-custom.json', '/etc/bzt.d/50-bztcloud.yml', '/etc/bzt.d/50-jmeter-plugins-all.yml', '/etc/bzt.d/50-pbench-enhanced.json', '/etc/bzt.d/90-artifacts-dir.json', '/etc/bzt.d/99-zinstallID.json']
+[2018-02-08 19:21:38,576 DEBUG Engine.Configuration] Reading /usr/local/lib/python2.7/dist-packages/bzt/resources/base-config.yml as YAML
+[2018-02-08 19:21:38,628 DEBUG Engine.Configuration] Reading /etc/bzt.d/20-remote.json as YAML
+[2018-02-08 19:21:38,631 DEBUG Engine.Configuration] Reading /etc/bzt.d/30-custom.json as YAML
+[2018-02-08 19:21:38,639 DEBUG Engine.Configuration] Reading /etc/bzt.d/50-bztcloud.yml as YAML
+[2018-02-08 19:21:38,676 DEBUG Engine.Configuration] Reading /etc/bzt.d/50-jmeter-plugins-all.yml as YAML
+[2018-02-08 19:21:38,684 DEBUG Engine.Configuration] Reading /etc/bzt.d/50-pbench-enhanced.json as YAML
+[2018-02-08 19:21:38,686 DEBUG Engine.Configuration] Reading /etc/bzt.d/90-artifacts-dir.json as YAML
+[2018-02-08 19:21:38,687 DEBUG Engine.Configuration] Reading /etc/bzt.d/99-zinstallID.json as YAML
+[2018-02-08 19:21:38,688 DEBUG Engine.Configuration] Configs: ['/root/.bzt-rc', './taurus-session-config.yml', '/root/final-overrides.yml']
+[2018-02-08 19:21:38,705 DEBUG Engine.Configuration] Reading /root/.bzt-rc as YAML
+[2018-02-08 19:21:38,712 DEBUG Engine.Configuration] Reading ./taurus-session-config.yml as YAML
+[2018-02-08 19:21:38,747 DEBUG Engine.Configuration] Reading /root/final-overrides.yml as YAML
+[2018-02-08 19:21:38,749 DEBUG Engine.Configuration] Configs: ['/root/.bzt-rc', './taurus-session-config.yml', '/root/final-overrides.yml']
+[2018-02-08 19:21:38,749 DEBUG Engine.Configuration] Reading /root/.bzt-rc as YAML
+[2018-02-08 19:21:38,757 DEBUG Engine.Configuration] Reading ./taurus-session-config.yml as YAML
+[2018-02-08 19:21:38,790 DEBUG Engine.Configuration] Reading /root/final-overrides.yml as YAML
+[2018-02-08 19:21:38,792 INFO Engine] Artifacts dir: /tmp/artifacts
+[2018-02-08 19:21:38,792 DEBUG Engine] New artifact filename: /tmp/artifacts/effective
+[2018-02-08 19:21:38,797 DEBUG Engine.Configuration] Dumping YAML config into /tmp/artifacts/effective.yml
+[2018-02-08 19:21:38,880 DEBUG Engine.Configuration] Dumping JSON config into /tmp/artifacts/effective.json
+[2018-02-08 19:21:38,882 DEBUG Engine] New artifact filename: /tmp/artifacts/merged.yml
+[2018-02-08 19:21:38,883 DEBUG Engine.Configuration] Dumping YAML config into /tmp/artifacts/merged.yml
+[2018-02-08 19:21:38,906 DEBUG Engine] New artifact filename: /tmp/artifacts/merged.json
+[2018-02-08 19:21:38,907 DEBUG Engine.Configuration] Dumping JSON config into /tmp/artifacts/merged.json
+[2018-02-08 19:21:38,908 DEBUG Engine] Add existing artifact (move=False): ./taurus-session-config.yml
+[2018-02-08 19:21:38,908 DEBUG Engine] No need to copy ./taurus-session-config.yml
+[2018-02-08 19:21:38,908 DEBUG Engine] Add existing artifact (move=False): /root/final-overrides.yml
+[2018-02-08 19:21:38,909 DEBUG Engine] Copying /root/final-overrides.yml to /tmp/artifacts/final-overrides.yml
+[2018-02-08 19:21:38,909 DEBUG root] Closing log handler: /tmp/bzt_c3JkBR.log
+[2018-02-08 19:21:38,910 DEBUG root] Switched writing logs to /tmp/artifacts/bzt.log
+[2018-02-08 19:21:38,910 INFO Engine] Preparing...
+[2018-02-08 19:21:38,911 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2018-02-08 19:21:38,911 DEBUG root] Importing module: bzt.modules.aggregator
+[2018-02-08 19:21:38,931 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/lib/python2.7/dist-packages/bzt/modules/aggregator.pyc'>
+[2018-02-08 19:21:38,931 DEBUG Engine.consolidator] Exception in dehumanize_time(inf)
+[2018-02-08 19:21:38,931 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2018-02-08 19:21:38,932 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': 'bzt.modules.monitoring.Monitoring'})
+[2018-02-08 19:21:38,932 DEBUG root] Importing module: bzt.modules.monitoring
+[2018-02-08 19:21:38,933 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/lib/python2.7/dist-packages/bzt/modules/monitoring.pyc'>
+[2018-02-08 19:21:38,934 DEBUG Engine] Module config: virtual-display defaultdict(None, {'class': 'bzt.modules.services.VirtualDisplay'})
+[2018-02-08 19:21:38,934 DEBUG root] Importing module: bzt.modules.services
+[2018-02-08 19:21:38,939 DEBUG easyprocess] version=0.2.3
+[2018-02-08 19:21:38,942 DEBUG pyvirtualdisplay] version=0.2.1
+[2018-02-08 19:21:39,122 DEBUG pyscreenshot] version=0.4.2
+[2018-02-08 19:21:39,123 DEBUG root] Loading class: 'VirtualDisplay' from <module 'bzt.modules.services' from '/usr/local/lib/python2.7/dist-packages/bzt/modules/services.pyc'>
+[2018-02-08 19:21:39,124 DEBUG Engine] Module config: cloud-utils defaultdict(None, {'shutdown-script': '/usr/local/bztcloud/cloud-shutdown.sh', 'destination-bucket': defaultdict(None, {'aws_key_secret': '********', 'url': 's3://blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/', 'region': 'us-east-1', 'bucket': 'blazemeter', 'aws_key_id': 'ASIAIJZWKZPOHWMMTOGQ', 'aws_security_token': '********'}), 'start-allow-sleep-interval': '1s', 'status-notify-timeout': '60s', 'env-vars': defaultdict(None, {'TAURUS_SESSIONS_INDEX': 30, 'TAURUS_SESSIONS_TOTAL': 30, 'TAURUS_LOCATIONS_TOTAL': 2, 'TAURUS_LOCATIONS_INDEX': 2, 'TAURUS_EXECUTIONS_TOTAL': 1, 'TAURUS_EXECUTIONS_INDEX': 1}), 'start-allow-limit': '1ms', 'jetlag-download': 'https://s3.amazonaws.com/blazemeter-jetlag/jobs/Jetlag/40/blazemeter_jetleg-1.0-SNAPSHOT-2017-11-27-13-47-jar-with-dependencies.jar', 'commands-channel': defaultdict(None, {'url': 'https://a.blazemeter.com/api/v4/taurus/{session_id}/poll', 'timeout': '60s'}), 'jetlag-url': 'https://data.blazemeter.com/submit.php?signature={signature}&session_id={session_id}&user_id={user_id}&test_id={test_id}', 'session': defaultdict(None, {'signature': 'fab8b607a2f3cd540704c43489594fcf', 'test_id': 5551396, 'user_id': 339612, 'session_id': 'r-v4-5a7ca3094c76b', 'session_token': '********'}), 'hosts': ['127.0.0.1 google.com', '127.0.0.1 blazemeter.com'], 'status-notify-url': 'https://a.blazemeter.com/api/v4/taurus/r-v4-5a7ca3094c76b/notify', 'jetlag-args': '-max_labels 100', 'start-limit-exceeded-shutdown': False, 'sleep-after': 0, 'class': 'bztcloud.CloudUtilsService', 'session-token': '********'})
+[2018-02-08 19:21:39,124 DEBUG root] Importing module: bztcloud
+[2018-02-08 19:21:39,383 DEBUG root] Loading class: 'CloudUtilsService' from <module 'bztcloud' from '/usr/local/lib/python2.7/dist-packages/bztcloud/__init__.pyc'>
+[2018-02-08 19:21:39,384 DEBUG Engine] Module config: periodic-uploader defaultdict(None, {'file_names': ['/tmp/artifacts/bzt.log'], 'upload_interval': 60, 'enabled': True, 'class': 'bztcloud.PeriodicFileUploader'})
+[2018-02-08 19:21:39,384 DEBUG root] Importing module: bztcloud
+[2018-02-08 19:21:39,384 DEBUG root] Loading class: 'PeriodicFileUploader' from <module 'bztcloud' from '/usr/local/lib/python2.7/dist-packages/bztcloud/__init__.pyc'>
+[2018-02-08 19:21:39,385 DEBUG Engine] Module config: version-switch defaultdict(None, {'switch-java': None, 'class': 'bztcloud.VersionSwitcherService'})
+[2018-02-08 19:21:39,385 DEBUG root] Importing module: bztcloud
+[2018-02-08 19:21:39,385 DEBUG root] Loading class: 'VersionSwitcherService' from <module 'bztcloud' from '/usr/local/lib/python2.7/dist-packages/bztcloud/__init__.pyc'>
+[2018-02-08 19:21:39,385 DEBUG Engine] Module config: shellexec defaultdict(None, {'class': 'bzt.modules.shellexec.ShellExecutor'})
+[2018-02-08 19:21:39,386 DEBUG root] Importing module: bzt.modules.shellexec
+[2018-02-08 19:21:39,386 DEBUG root] Loading class: 'ShellExecutor' from <module 'bzt.modules.shellexec' from '/usr/local/lib/python2.7/dist-packages/bzt/modules/shellexec.pyc'>
+[2018-02-08 19:21:39,386 DEBUG Engine] Module config: s3downloader defaultdict(None, {'class': 'bztcloud.S3Downloader'})
+[2018-02-08 19:21:39,386 DEBUG root] Importing module: bztcloud
+[2018-02-08 19:21:39,387 DEBUG root] Loading class: 'S3Downloader' from <module 'bztcloud' from '/usr/local/lib/python2.7/dist-packages/bztcloud/__init__.pyc'>
+[2018-02-08 19:21:39,387 WARNING Engine] Module 'monitoring' can be only used once, will merge all new instances into single
+[2018-02-08 19:21:39,387 DEBUG Engine] Module config: capturehar defaultdict(None, {'path': '~/.bzt/browsermob-proxy', 'class': 'bztcustom.capturehar.CaptureHAR'})
+[2018-02-08 19:21:39,388 DEBUG root] Importing module: bztcustom.capturehar
+[2018-02-08 19:21:39,396 DEBUG root] Loading class: 'CaptureHAR' from <module 'bztcustom.capturehar' from '/usr/local/lib/python2.7/dist-packages/bztcustom/capturehar.pyc'>
+[2018-02-08 19:21:39,396 DEBUG Engine] Module config: final-notifier defaultdict(None, {'class': 'bztcloud.FinalNotifier'})
+[2018-02-08 19:21:39,396 DEBUG root] Importing module: bztcloud
+[2018-02-08 19:21:39,397 DEBUG root] Loading class: 'FinalNotifier' from <module 'bztcloud' from '/usr/local/lib/python2.7/dist-packages/bztcloud/__init__.pyc'>
+[2018-02-08 19:21:39,397 DEBUG Engine] Module config: dynjmx defaultdict(None, {'class': 'bztcloud.helpers.dynjmx.JMXOverrider'})
+[2018-02-08 19:21:39,397 DEBUG root] Importing module: bztcloud.helpers.dynjmx
+[2018-02-08 19:21:39,398 DEBUG root] Loading class: 'JMXOverrider' from <module 'bztcloud.helpers.dynjmx' from '/usr/local/lib/python2.7/dist-packages/bztcloud/helpers/dynjmx.pyc'>
+[2018-02-08 19:21:39,398 DEBUG Engine.cloud-utils] Cloud modules version: 0.3.6.181
+[2018-02-08 19:21:39,398 DEBUG Engine.cloud-utils] Request: POST https://a.blazemeter.com/api/v4/taurus/r-v4-5a7ca3094c76b/notify {
+ "status": "preparing", 
+ "token": "1390fe89dfa059a2bed86dfd1f8ff95d75ebdde20282b5322c98e863d577a533"
+}
+[2018-02-08 19:21:39,401 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-08 19:21:39,720 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/taurus/r-v4-5a7ca3094c76b/notify HTTP/1.1" 200 96
+[2018-02-08 19:21:39,723 DEBUG Engine.cloud-utils] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "status": "preparing"
+    }
+}
+[2018-02-08 19:21:39,724 DEBUG Engine.periodic-uploader] Starting Periodic File Uploader
+[2018-02-08 19:21:39,728 DEBUG Engine.cloud-utils] Request: POST https://a.blazemeter.com/api/v4/taurus/r-v4-5a7ca3094c76b/poll {
+ "token": "1390fe89dfa059a2bed86dfd1f8ff95d75ebdde20282b5322c98e863d577a533"
+}
+[2018-02-08 19:21:39,731 DEBUG Engine.version-switch] Setting JMeter version to 3.3
+[2018-02-08 19:21:39,732 DEBUG Engine.version-switch] Setting Gatling version to 2.3.0
+[2018-02-08 19:21:39,733 DEBUG Engine.shellexec] Added prepare task: defaultdict(None, {'background': True, 'err': -1, 'ignore-failure': True, 'command': 'atop -a -w atop.binlog 15', 'env': defaultdict(None, {}), 'cwd': '/tmp/artifacts/admin', 'out': -1})
+[2018-02-08 19:21:39,733 WARNING Engine] Could not find location at path: artifacts-dir
+[2018-02-08 19:21:39,733 DEBUG Engine.shellexec] Added prepare task: defaultdict(None, {'background': False, 'err': 'jetlag.log', 'ignore-failure': False, 'command': '/usr/local/bztcloud/jetlag-download.sh', 'env': defaultdict(None, {}), 'cwd': 'artifacts-dir', 'out': 'jetlag.log'})
+[2018-02-08 19:21:39,734 WARNING Engine] Could not find location at path: artifacts-dir
+[2018-02-08 19:21:39,734 DEBUG Engine.shellexec] Added prepare task: defaultdict(None, {'background': True, 'err': 'jetlag.log', 'ignore-failure': False, 'command': '/usr/local/bztcloud/jetlag-run.sh', 'env': defaultdict(None, {}), 'cwd': 'artifacts-dir', 'out': 'jetlag.log'})
+[2018-02-08 19:21:39,735 DEBUG Engine.shellexec] Added post-process task: defaultdict(None, {'background': False, 'err': 'process-cleanup.log', 'ignore-failure': False, 'command': '/usr/local/bztcloud/process-cleanup.sh', 'env': defaultdict(None, {}), 'cwd': '/tmp/artifacts/admin', 'out': 'process-cleanup.log'})
+[2018-02-08 19:21:39,735 INFO Engine.shellexec.Task] Starting shell command: atop -a -w atop.binlog 15
+[2018-02-08 19:21:39,739 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-08 19:21:39,743 INFO periodic_uploader] creating s3 resource
+[2018-02-08 19:21:40,005 DEBUG Engine.shellexec.Task] Task started, PID: 139
+[2018-02-08 19:21:40,005 INFO Engine.shellexec.Task] Starting shell command: /usr/local/bztcloud/jetlag-download.sh
+[2018-02-08 19:21:40,062 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/taurus/r-v4-5a7ca3094c76b/poll HTTP/1.1" 200 15
+[2018-02-08 19:21:40,067 DEBUG Engine.cloud-utils] Response [200]: {"cmd":"start"}
+[2018-02-08 19:21:40,067 DEBUG Engine.cloud-utils] Got command from server: {u'cmd': u'start'}
+[2018-02-08 19:21:40,068 DEBUG Engine.cloud-utils] Request: POST https://a.blazemeter.com/api/v4/taurus/r-v4-5a7ca3094c76b/poll {
+ "token": "1390fe89dfa059a2bed86dfd1f8ff95d75ebdde20282b5322c98e863d577a533"
+}
+[2018-02-08 19:21:40,077 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-08 19:21:40,221 INFO periodic_uploader] uploading /tmp/artifacts/bzt.log to users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/bzt.log
+[2018-02-08 19:21:43,815 DEBUG Engine.shellexec.Task] Task was finished with exit code 0: /usr/local/bztcloud/jetlag-download.sh
+[2018-02-08 19:21:43,816 INFO Engine.shellexec.Task] Starting shell command: /usr/local/bztcloud/jetlag-run.sh
+[2018-02-08 19:21:43,940 DEBUG Engine.shellexec.Task] Task started, PID: 156
+[2018-02-08 19:21:43,945 DEBUG botocore.session] Loading variable profile from defaults.
+[2018-02-08 19:21:43,945 DEBUG botocore.session] Loading variable config_file from defaults.
+[2018-02-08 19:21:43,945 DEBUG botocore.session] Loading variable credentials_file from defaults.
+[2018-02-08 19:21:43,946 DEBUG botocore.session] Loading variable data_path from defaults.
+[2018-02-08 19:21:43,956 DEBUG botocore.loaders] Loading JSON file: /usr/local/lib/python2.7/dist-packages/boto3/data/s3/2006-03-01/resources-1.json
+[2018-02-08 19:21:43,970 DEBUG botocore.session] Loading variable profile from defaults.
+[2018-02-08 19:21:43,970 DEBUG botocore.session] Loading variable ca_bundle from defaults.
+[2018-02-08 19:21:43,971 DEBUG botocore.loaders] Loading JSON file: /usr/local/lib/python2.7/dist-packages/botocore/data/endpoints.json
+[2018-02-08 19:21:44,012 DEBUG botocore.session] Loading variable profile from defaults.
+[2018-02-08 19:21:44,013 DEBUG botocore.hooks] Event choose-service-name: calling handler <function handle_service_name_alias at 0x7f48dfbabd70>
+[2018-02-08 19:21:44,022 DEBUG botocore.loaders] Loading JSON file: /usr/local/lib/python2.7/dist-packages/botocore/data/s3/2006-03-01/service-2.json
+[2018-02-08 19:21:44,167 DEBUG botocore.hooks] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7f48dfbfa410>
+[2018-02-08 19:21:44,167 DEBUG botocore.hooks] Event creating-client-class.s3: calling handler <function _handler at 0x7f48dfb229b0>
+[2018-02-08 19:21:44,191 DEBUG botocore.hooks] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7f48dfbfa230>
+[2018-02-08 19:21:44,192 DEBUG botocore.args] The s3 config key is not a dictionary type, ignoring its value of: None
+[2018-02-08 19:21:44,199 DEBUG botocore.endpoint] Setting s3 timeout as (60, 60)
+[2018-02-08 19:21:44,200 DEBUG botocore.loaders] Loading JSON file: /usr/local/lib/python2.7/dist-packages/botocore/data/_retry.json
+[2018-02-08 19:21:44,208 DEBUG botocore.client] Registering retry handlers for service: s3
+[2018-02-08 19:21:44,209 DEBUG botocore.client] Defaulting to S3 virtual host style addressing with path style addressing fallback.
+[2018-02-08 19:21:44,213 DEBUG boto3.resources.factory] Loading s3:s3
+[2018-02-08 19:21:44,216 DEBUG boto3.resources.factory] Loading s3:Bucket
+[2018-02-08 19:21:44,217 DEBUG boto3.resources.model] Renaming Bucket attribute name
+[2018-02-08 19:21:44,223 DEBUG botocore.hooks] Event creating-resource-class.s3.Bucket: calling handler <function _handler at 0x7f48dfae55f0>
+[2018-02-08 19:21:44,244 DEBUG botocore.loaders] Loading JSON file: /usr/local/lib/python2.7/dist-packages/botocore/data/s3/2006-03-01/paginators-1.json
+[2018-02-08 19:21:44,245 DEBUG boto3.resources.collection] Calling paginated s3:list_objects with {'Prefix': 'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data', u'Bucket': 'blazemeter'}
+[2018-02-08 19:21:44,250 DEBUG botocore.hooks] Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x7f48dfbb1410>
+[2018-02-08 19:21:44,250 DEBUG botocore.hooks] Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x7f48dfbb0398>
+[2018-02-08 19:21:44,250 DEBUG botocore.hooks] Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,250 DEBUG botocore.hooks] Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x7f48dfbb0050>
+[2018-02-08 19:21:44,252 DEBUG botocore.hooks] Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x7f48dfbb07d0>
+[2018-02-08 19:21:44,252 DEBUG botocore.hooks] Event before-call.s3.ListObjects: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,252 DEBUG botocore.endpoint] Making request for OperationModel(name=ListObjects) (verify_ssl=True) with params: {'body': '', 'url': u'https://s3.amazonaws.com/blazemeter?prefix=users%2F339612%2Ftests%2F5551396%2Freports%2Fr-v4-5a7ca3094c76b%2Fdata&encoding-type=url', 'headers': {'User-Agent': 'Boto3/1.5.7 Python/2.7.12 Linux/4.4.0-1039-aws Botocore/1.8.38 Resource'}, 'context': {'auth_type': None, 'client_region': 'us-east-1', 'signing': {'bucket': 'blazemeter'}, 'has_streaming_input': False, 'client_config': <botocore.config.Config object at 0x7f48de9865d0>, 'encoding_type_auto_set': True}, 'query_string': {u'prefix': 'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data', u'encoding-type': 'url'}, 'url_path': u'/blazemeter', 'method': u'GET'}
+[2018-02-08 19:21:44,252 DEBUG botocore.hooks] Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7f48de986590>>
+[2018-02-08 19:21:44,252 DEBUG botocore.hooks] Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f48dec58810>>
+[2018-02-08 19:21:44,252 DEBUG botocore.hooks] Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x7f48dfbabed8>
+[2018-02-08 19:21:44,252 DEBUG botocore.hooks] Event before-sign.s3.ListObjects: calling handler <function fix_s3_host at 0x7f48e4d545f0>
+[2018-02-08 19:21:44,257 DEBUG botocore.auth] Calculating signature using v4 auth.
+[2018-02-08 19:21:44,257 DEBUG botocore.auth] CanonicalRequest:
+GET
+/blazemeter
+encoding-type=url&prefix=users%2F339612%2Ftests%2F5551396%2Freports%2Fr-v4-5a7ca3094c76b%2Fdata
+host:s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20180208T192144Z
+x-amz-security-token:FQoDYXdzENz//////////wEaDFP4Vkdk9XWpL4VQFSLjA7+jeSUifZKfeMnEZXzDU0FRUN/MWw0yW4GSWAbMa2iiG+l7lQN0YVahUxI/jZDW3GvpUleJBsK8Pb1UVyp94KaTSclSrTXfH07QFoaii7vi6t0a/5S9gLJ9MDynQnRRvshdFRB9ekc4TCJMHUSwvgRVfnw6hUHX8y1SO0fNbcnghHQaSup5yzdx1eSBDBjoJX1Gq8x0vf5JZ3R1bil2/WJlldvEqoBCpR119jczRJX6slt7Dp9kRR8yBQgSBuyqxy8gy19HAFlPNmE3K+Z4XL/A1p+TeYfAk8XT2Bxuzu2c30FLawffM1BsnSt4UD62txqUuEFl5eJYunwOyMTTOqihpDZotfl/q3EVqI2julyYqplfan9vcwXBdW63pSYk97FlHNDmDHi9fiAyPS49onyX5H72/EixtCpuj+NkVUxSyv4WBLKjH6o38Qcin3Sqxwxu0pOwINDUnlUyMDneyMnCMJ3hlXwyifmdDJNLTXCnePQQA/nLz8git9xfNlDYo57zAUwT3HHDrkQSvSidePf7EJniZjMpCRfGuVXVm4J3BT44E1p6MaCo4lpspcVRZ6/+qg6qyS5P0Qfl/hOCRO6joY3xIc4iNJP10am+7X+yahVY0k8lWPHXrBlQ/TLLPccLcSiKxvLTBQ==
+
+host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2018-02-08 19:21:44,257 DEBUG botocore.auth] StringToSign:
+AWS4-HMAC-SHA256
+20180208T192144Z
+20180208/us-east-1/s3/aws4_request
+581576ce9c1831ef73ded4f00c28f1588bfefbd02c4b4f00b5629dc1b8cb7258
+[2018-02-08 19:21:44,258 DEBUG botocore.auth] Signature:
+598ab44ccbb4dc784569aef18b22bafb678921f49a6db9b0fe948c9645178cba
+[2018-02-08 19:21:44,259 DEBUG botocore.endpoint] Sending http request: <PreparedRequest [GET]>
+[2018-02-08 19:21:44,259 INFO botocore.vendored.requests.packages.urllib3.connectionpool] Starting new HTTPS connection (1): s3.amazonaws.com
+[2018-02-08 19:21:44,584 DEBUG botocore.vendored.requests.packages.urllib3.connectionpool] "GET /blazemeter?prefix=users%2F339612%2Ftests%2F5551396%2Freports%2Fr-v4-5a7ca3094c76b%2Fdata&encoding-type=url HTTP/1.1" 200 None
+[2018-02-08 19:21:44,585 DEBUG botocore.parsers] Response headers: {'x-amz-bucket-region': 'us-east-1', 'x-amz-id-2': 'D3W4kcTofkqnEWqGq/XrFR/vIYblfxyeJ/8rFZBlhBDOj0+b9ZrBVSUwm3QbaHvcZ6zS/eTnTUs=', 'server': 'AmazonS3', 'transfer-encoding': 'chunked', 'x-amz-request-id': '0A6C8F6EBE10CC51', 'date': 'Thu, 08 Feb 2018 19:21:45 GMT', 'content-type': 'application/xml'}
+[2018-02-08 19:21:44,585 DEBUG botocore.parsers] Response body:
+<?xml version="1.0" encoding="UTF-8"?>
+<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>blazemeter</Name><Prefix>users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data</Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><EncodingType>url</EncodingType><IsTruncated>false</IsTruncated><Contents><Key>users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/</Key><LastModified>2018-02-08T19:20:43.000Z</LastModified><ETag>&quot;d41d8cd98f00b204e9800998ecf8427e&quot;</ETag><Size>0</Size><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml</Key><LastModified>2018-02-08T19:20:43.000Z</LastModified><ETag>&quot;52931a8679c5806e771ec98522634258&quot;</ETag><Size>1268</Size><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml</Key><LastModified>2018-02-08T19:20:43.000Z</LastModified><ETag>&quot;4e65b10f9ef7dd80c71868136ec5fb3c&quot;</ETag><Size>4928</Size><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py</Key><LastModified>2018-02-08T19:20:43.000Z</LastModified><ETag>&quot;b2244d77c8e1bd0f7aed8bcdc191e9f5&quot;</ETag><Size>2163</Size><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml</Key><LastModified>2018-02-08T19:20:44.000Z</LastModified><ETag>&quot;1c8d4edbd9d897fda4aa24bad0ecf7c6&quot;</ETag><Size>928</Size><StorageClass>STANDARD</StorageClass></Contents></ListBucketResult>
+[2018-02-08 19:21:44,588 DEBUG botocore.hooks] Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x7f48de5a5250>
+[2018-02-08 19:21:44,588 DEBUG botocore.retryhandler] No retry needed.
+[2018-02-08 19:21:44,588 DEBUG botocore.hooks] Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,589 DEBUG botocore.hooks] Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x7f48dfbb1488>
+[2018-02-08 19:21:44,589 DEBUG boto3.resources.factory] Loading s3:ObjectSummary
+[2018-02-08 19:21:44,590 DEBUG boto3.resources.model] Renaming ObjectSummary attribute key
+[2018-02-08 19:21:44,591 DEBUG botocore.hooks] Event creating-resource-class.s3.ObjectSummary: calling handler <function _handler at 0x7f48dfae5668>
+[2018-02-08 19:21:44,592 DEBUG Engine.s3downloader] objects for download: [s3.ObjectSummary(bucket_name='blazemeter', key=u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/'), s3.ObjectSummary(bucket_name='blazemeter', key=u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml'), s3.ObjectSummary(bucket_name='blazemeter', key=u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml'), s3.ObjectSummary(bucket_name='blazemeter', key=u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py'), s3.ObjectSummary(bucket_name='blazemeter', key=u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml')]
+[2018-02-08 19:21:44,592 DEBUG Engine.s3downloader] ignoring file: users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/
+[2018-02-08 19:21:44,592 DEBUG Engine.s3downloader] Downloading from S3: users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml => /tmp/artifacts/__blazemeter_to_taurus.yaml
+[2018-02-08 19:21:44,593 DEBUG s3transfer.utils] Acquiring 0
+[2018-02-08 19:21:44,593 DEBUG s3transfer.tasks] DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48de51ec90>}) about to wait for the following futures []
+[2018-02-08 19:21:44,593 DEBUG s3transfer.tasks] DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48de51ec90>}) done waiting for dependent futures
+[2018-02-08 19:21:44,594 DEBUG s3transfer.tasks] Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48de51ec90>}) with kwargs {'io_executor': <s3transfer.futures.BoundedExecutor object at 0x7f48de51e9d0>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x7f48de51e590>, 'osutil': <s3transfer.utils.OSUtils object at 0x7f48de5cfa90>, 'client': <botocore.client.S3 object at 0x7f48de9a2290>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48de51ec90>, 'config': <boto3.s3.transfer.TransferConfig object at 0x7f48de5cfa50>}
+[2018-02-08 19:21:44,594 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x7f48dfbb0410>
+[2018-02-08 19:21:44,594 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x7f48dfbb0398>
+[2018-02-08 19:21:44,595 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,595 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x7f48dfbb0050>
+[2018-02-08 19:21:44,596 DEBUG botocore.hooks] Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x7f48dfbb07d0>
+[2018-02-08 19:21:44,596 DEBUG botocore.hooks] Event before-call.s3.HeadObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,596 DEBUG botocore.endpoint] Making request for OperationModel(name=HeadObject) (verify_ssl=True) with params: {'body': '', 'url': u'https://s3.amazonaws.com/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml', 'headers': {'User-Agent': 'Boto3/1.5.7 Python/2.7.12 Linux/4.4.0-1039-aws Botocore/1.8.38 Resource'}, 'context': {'auth_type': None, 'client_region': 'us-east-1', 'signing': {'bucket': 'blazemeter'}, 'has_streaming_input': False, 'client_config': <botocore.config.Config object at 0x7f48de9865d0>}, 'query_string': {}, 'url_path': u'/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml', 'method': u'HEAD'}
+[2018-02-08 19:21:44,597 DEBUG botocore.hooks] Event request-created.s3.HeadObject: calling handler <function disable_upload_callbacks at 0x7f48de957140>
+[2018-02-08 19:21:44,597 DEBUG botocore.hooks] Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7f48de986590>>
+[2018-02-08 19:21:44,597 DEBUG botocore.hooks] Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f48dec58810>>
+[2018-02-08 19:21:44,597 DEBUG botocore.hooks] Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x7f48dfbabed8>
+[2018-02-08 19:21:44,597 DEBUG botocore.hooks] Event before-sign.s3.HeadObject: calling handler <function fix_s3_host at 0x7f48e4d545f0>
+[2018-02-08 19:21:44,598 DEBUG botocore.auth] Calculating signature using v4 auth.
+[2018-02-08 19:21:44,598 DEBUG botocore.auth] CanonicalRequest:
+HEAD
+/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml
+
+host:s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20180208T192144Z
+x-amz-security-token:FQoDYXdzENz//////////wEaDFP4Vkdk9XWpL4VQFSLjA7+jeSUifZKfeMnEZXzDU0FRUN/MWw0yW4GSWAbMa2iiG+l7lQN0YVahUxI/jZDW3GvpUleJBsK8Pb1UVyp94KaTSclSrTXfH07QFoaii7vi6t0a/5S9gLJ9MDynQnRRvshdFRB9ekc4TCJMHUSwvgRVfnw6hUHX8y1SO0fNbcnghHQaSup5yzdx1eSBDBjoJX1Gq8x0vf5JZ3R1bil2/WJlldvEqoBCpR119jczRJX6slt7Dp9kRR8yBQgSBuyqxy8gy19HAFlPNmE3K+Z4XL/A1p+TeYfAk8XT2Bxuzu2c30FLawffM1BsnSt4UD62txqUuEFl5eJYunwOyMTTOqihpDZotfl/q3EVqI2julyYqplfan9vcwXBdW63pSYk97FlHNDmDHi9fiAyPS49onyX5H72/EixtCpuj+NkVUxSyv4WBLKjH6o38Qcin3Sqxwxu0pOwINDUnlUyMDneyMnCMJ3hlXwyifmdDJNLTXCnePQQA/nLz8git9xfNlDYo57zAUwT3HHDrkQSvSidePf7EJniZjMpCRfGuVXVm4J3BT44E1p6MaCo4lpspcVRZ6/+qg6qyS5P0Qfl/hOCRO6joY3xIc4iNJP10am+7X+yahVY0k8lWPHXrBlQ/TLLPccLcSiKxvLTBQ==
+
+host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2018-02-08 19:21:44,598 DEBUG botocore.auth] StringToSign:
+AWS4-HMAC-SHA256
+20180208T192144Z
+20180208/us-east-1/s3/aws4_request
+1174ac45abe3d2953fb8588ea4eef6eb14ffdd39552d8d40e6cb0207ba653dea
+[2018-02-08 19:21:44,598 DEBUG botocore.auth] Signature:
+ea9c4c127caf3aea399ae0e979d1b1fadfaa4c72f20a8b0b4e285604192d7710
+[2018-02-08 19:21:44,598 DEBUG botocore.hooks] Event request-created.s3.HeadObject: calling handler <function enable_upload_callbacks at 0x7f48de9571b8>
+[2018-02-08 19:21:44,599 DEBUG botocore.endpoint] Sending http request: <PreparedRequest [HEAD]>
+[2018-02-08 19:21:44,690 DEBUG botocore.vendored.requests.packages.urllib3.connectionpool] "HEAD /blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml HTTP/1.1" 200 0
+[2018-02-08 19:21:44,691 DEBUG botocore.parsers] Response headers: {'content-length': '1268', 'x-amz-replication-status': 'COMPLETED', 'x-amz-id-2': 'HPHjInIvnsm+A9Gu8qVCM1UtSyOARGXKggPnWOKQdHm/Vb1GaEiT1cNSnuqjdk4SyVaaLi4usCQ=', 'accept-ranges': 'bytes', 'server': 'AmazonS3', 'last-modified': 'Thu, 08 Feb 2018 19:20:43 GMT', 'x-amz-request-id': 'C02EA8EA48F807DA', 'etag': '"52931a8679c5806e771ec98522634258"', 'date': 'Thu, 08 Feb 2018 19:21:45 GMT', 'x-amz-version-id': 'j8kWaBzsRWibB18HdRhjwFxbQAYay2_f', 'x-amz-server-side-encryption': 'AES256', 'content-type': 'text/yaml'}
+[2018-02-08 19:21:44,691 DEBUG botocore.parsers] Response body:
+
+[2018-02-08 19:21:44,694 DEBUG botocore.hooks] Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7f48de5a5250>
+[2018-02-08 19:21:44,694 DEBUG botocore.retryhandler] No retry needed.
+[2018-02-08 19:21:44,694 DEBUG botocore.hooks] Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,695 DEBUG s3transfer.futures] Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml'}) to executor <s3transfer.futures.BoundedExecutor object at 0x7f48de51e590> for transfer request: 0.
+[2018-02-08 19:21:44,695 DEBUG s3transfer.utils] Acquiring 0
+[2018-02-08 19:21:44,695 DEBUG s3transfer.utils] Releasing acquire 0/None
+[2018-02-08 19:21:44,696 DEBUG s3transfer.tasks] ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml'}) about to wait for the following futures []
+[2018-02-08 19:21:44,696 DEBUG s3transfer.tasks] ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml'}) done waiting for dependent futures
+[2018-02-08 19:21:44,696 DEBUG s3transfer.tasks] Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml'}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x7f48de52d550>, 'bucket': 'blazemeter', 'download_output_manager': <s3transfer.download.DownloadFilenameOutputManager object at 0x7f48de52d4d0>, 'extra_args': {}, 'callbacks': [], 'client': <botocore.client.S3 object at 0x7f48de9a2290>, 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml', 'io_chunksize': 262144, 'max_attempts': 5}
+[2018-02-08 19:21:44,696 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f48dfbb0410>
+[2018-02-08 19:21:44,696 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f48dfbb0398>
+[2018-02-08 19:21:44,697 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,697 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f48dfbb0050>
+[2018-02-08 19:21:44,699 DEBUG botocore.hooks] Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x7f48dfbb07d0>
+[2018-02-08 19:21:44,699 DEBUG botocore.hooks] Event before-call.s3.GetObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,699 DEBUG botocore.endpoint] Making request for OperationModel(name=GetObject) (verify_ssl=True) with params: {'body': '', 'url': u'https://s3.amazonaws.com/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml', 'headers': {'User-Agent': 'Boto3/1.5.7 Python/2.7.12 Linux/4.4.0-1039-aws Botocore/1.8.38 Resource'}, 'context': {'auth_type': None, 'client_region': 'us-east-1', 'signing': {'bucket': 'blazemeter'}, 'has_streaming_input': False, 'client_config': <botocore.config.Config object at 0x7f48de9865d0>}, 'query_string': {}, 'url_path': u'/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml', 'method': u'GET'}
+[2018-02-08 19:21:44,699 DEBUG botocore.hooks] Event request-created.s3.GetObject: calling handler <function disable_upload_callbacks at 0x7f48de957140>
+[2018-02-08 19:21:44,699 DEBUG botocore.hooks] Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7f48de986590>>
+[2018-02-08 19:21:44,700 DEBUG botocore.hooks] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f48dec58810>>
+[2018-02-08 19:21:44,700 DEBUG botocore.hooks] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x7f48dfbabed8>
+[2018-02-08 19:21:44,700 DEBUG botocore.hooks] Event before-sign.s3.GetObject: calling handler <function fix_s3_host at 0x7f48e4d545f0>
+[2018-02-08 19:21:44,700 DEBUG botocore.auth] Calculating signature using v4 auth.
+[2018-02-08 19:21:44,700 DEBUG botocore.auth] CanonicalRequest:
+GET
+/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml
+
+host:s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20180208T192144Z
+x-amz-security-token:FQoDYXdzENz//////////wEaDFP4Vkdk9XWpL4VQFSLjA7+jeSUifZKfeMnEZXzDU0FRUN/MWw0yW4GSWAbMa2iiG+l7lQN0YVahUxI/jZDW3GvpUleJBsK8Pb1UVyp94KaTSclSrTXfH07QFoaii7vi6t0a/5S9gLJ9MDynQnRRvshdFRB9ekc4TCJMHUSwvgRVfnw6hUHX8y1SO0fNbcnghHQaSup5yzdx1eSBDBjoJX1Gq8x0vf5JZ3R1bil2/WJlldvEqoBCpR119jczRJX6slt7Dp9kRR8yBQgSBuyqxy8gy19HAFlPNmE3K+Z4XL/A1p+TeYfAk8XT2Bxuzu2c30FLawffM1BsnSt4UD62txqUuEFl5eJYunwOyMTTOqihpDZotfl/q3EVqI2julyYqplfan9vcwXBdW63pSYk97FlHNDmDHi9fiAyPS49onyX5H72/EixtCpuj+NkVUxSyv4WBLKjH6o38Qcin3Sqxwxu0pOwINDUnlUyMDneyMnCMJ3hlXwyifmdDJNLTXCnePQQA/nLz8git9xfNlDYo57zAUwT3HHDrkQSvSidePf7EJniZjMpCRfGuVXVm4J3BT44E1p6MaCo4lpspcVRZ6/+qg6qyS5P0Qfl/hOCRO6joY3xIc4iNJP10am+7X+yahVY0k8lWPHXrBlQ/TLLPccLcSiKxvLTBQ==
+
+host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2018-02-08 19:21:44,701 DEBUG botocore.auth] StringToSign:
+AWS4-HMAC-SHA256
+20180208T192144Z
+20180208/us-east-1/s3/aws4_request
+00543f0897b17f54bd5d518e06e60287af560a56c2bfe52b070d00bd5c608d38
+[2018-02-08 19:21:44,701 DEBUG botocore.auth] Signature:
+0f622a92dea118228f3ee2cee0d36c93686e616796720f451fcf071519b396fd
+[2018-02-08 19:21:44,701 DEBUG botocore.hooks] Event request-created.s3.GetObject: calling handler <function enable_upload_callbacks at 0x7f48de9571b8>
+[2018-02-08 19:21:44,702 DEBUG botocore.endpoint] Sending http request: <PreparedRequest [GET]>
+[2018-02-08 19:21:44,786 DEBUG botocore.vendored.requests.packages.urllib3.connectionpool] "GET /blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__blazemeter_to_taurus.yaml HTTP/1.1" 200 1268
+[2018-02-08 19:21:44,787 DEBUG botocore.parsers] Response headers: {'content-length': '1268', 'x-amz-replication-status': 'COMPLETED', 'x-amz-id-2': '+mipljZNBCqVDBoiPar0W9FcdsCxeFtFQ8tax8ObanjWL1GwZp6RzUB95e+KMMyvjZruJvshj/c=', 'accept-ranges': 'bytes', 'server': 'AmazonS3', 'last-modified': 'Thu, 08 Feb 2018 19:20:43 GMT', 'x-amz-request-id': 'A46CFF7568D0F2EB', 'etag': '"52931a8679c5806e771ec98522634258"', 'date': 'Thu, 08 Feb 2018 19:21:45 GMT', 'x-amz-version-id': 'j8kWaBzsRWibB18HdRhjwFxbQAYay2_f', 'x-amz-server-side-encryption': 'AES256', 'content-type': 'text/yaml'}
+[2018-02-08 19:21:44,787 DEBUG botocore.parsers] Response body:
+<botocore.response.StreamingBody object at 0x7f48de561550>
+[2018-02-08 19:21:44,789 DEBUG botocore.hooks] Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7f48de5a5250>
+[2018-02-08 19:21:44,789 DEBUG botocore.retryhandler] No retry needed.
+[2018-02-08 19:21:44,789 DEBUG botocore.hooks] Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,789 DEBUG s3transfer.tasks] IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+[2018-02-08 19:21:44,789 DEBUG s3transfer.tasks] IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+[2018-02-08 19:21:44,790 DEBUG s3transfer.tasks] Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x7f48de52d550>, 'offset': 0}
+[2018-02-08 19:21:44,790 DEBUG s3transfer.tasks] IORenameFileTask(transfer_id=0, {'final_filename': u'/tmp/artifacts/__blazemeter_to_taurus.yaml'}) about to wait for the following futures []
+[2018-02-08 19:21:44,790 DEBUG s3transfer.tasks] IORenameFileTask(transfer_id=0, {'final_filename': u'/tmp/artifacts/__blazemeter_to_taurus.yaml'}) done waiting for dependent futures
+[2018-02-08 19:21:44,790 DEBUG s3transfer.tasks] Executing task IORenameFileTask(transfer_id=0, {'final_filename': u'/tmp/artifacts/__blazemeter_to_taurus.yaml'}) with kwargs {'osutil': <s3transfer.utils.OSUtils object at 0x7f48de5cfa90>, 'final_filename': u'/tmp/artifacts/__blazemeter_to_taurus.yaml', 'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x7f48de52d550>}
+[2018-02-08 19:21:44,791 DEBUG s3transfer.utils] Releasing acquire 0/None
+[2018-02-08 19:21:44,810 DEBUG Engine.s3downloader] Downloading from S3: users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml => /tmp/artifacts/__taurus_config.yml
+[2018-02-08 19:21:44,811 DEBUG s3transfer.utils] Acquiring 0
+[2018-02-08 19:21:44,811 DEBUG s3transfer.tasks] DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48de51ea10>}) about to wait for the following futures []
+[2018-02-08 19:21:44,811 DEBUG s3transfer.tasks] DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48de51ea10>}) done waiting for dependent futures
+[2018-02-08 19:21:44,812 DEBUG s3transfer.tasks] Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48de51ea10>}) with kwargs {'io_executor': <s3transfer.futures.BoundedExecutor object at 0x7f48de51e590>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x7f48de561390>, 'osutil': <s3transfer.utils.OSUtils object at 0x7f48de5cff50>, 'client': <botocore.client.S3 object at 0x7f48de9a2290>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48de51ea10>, 'config': <boto3.s3.transfer.TransferConfig object at 0x7f48de5cfe90>}
+[2018-02-08 19:21:44,812 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x7f48dfbb0410>
+[2018-02-08 19:21:44,812 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x7f48dfbb0398>
+[2018-02-08 19:21:44,812 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,812 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x7f48dfbb0050>
+[2018-02-08 19:21:44,813 DEBUG botocore.hooks] Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x7f48dfbb07d0>
+[2018-02-08 19:21:44,813 DEBUG botocore.hooks] Event before-call.s3.HeadObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,813 DEBUG botocore.endpoint] Making request for OperationModel(name=HeadObject) (verify_ssl=True) with params: {'body': '', 'url': u'https://s3.amazonaws.com/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml', 'headers': {'User-Agent': 'Boto3/1.5.7 Python/2.7.12 Linux/4.4.0-1039-aws Botocore/1.8.38 Resource'}, 'context': {'auth_type': None, 'client_region': 'us-east-1', 'signing': {'bucket': 'blazemeter'}, 'has_streaming_input': False, 'client_config': <botocore.config.Config object at 0x7f48de9865d0>}, 'query_string': {}, 'url_path': u'/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml', 'method': u'HEAD'}
+[2018-02-08 19:21:44,813 DEBUG botocore.hooks] Event request-created.s3.HeadObject: calling handler <function disable_upload_callbacks at 0x7f48de957140>
+[2018-02-08 19:21:44,814 DEBUG botocore.hooks] Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7f48de986590>>
+[2018-02-08 19:21:44,814 DEBUG botocore.hooks] Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f48dec58810>>
+[2018-02-08 19:21:44,814 DEBUG botocore.hooks] Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x7f48dfbabed8>
+[2018-02-08 19:21:44,814 DEBUG botocore.hooks] Event before-sign.s3.HeadObject: calling handler <function fix_s3_host at 0x7f48e4d545f0>
+[2018-02-08 19:21:44,814 DEBUG botocore.auth] Calculating signature using v4 auth.
+[2018-02-08 19:21:44,815 DEBUG botocore.auth] CanonicalRequest:
+HEAD
+/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml
+
+host:s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20180208T192144Z
+x-amz-security-token:FQoDYXdzENz//////////wEaDFP4Vkdk9XWpL4VQFSLjA7+jeSUifZKfeMnEZXzDU0FRUN/MWw0yW4GSWAbMa2iiG+l7lQN0YVahUxI/jZDW3GvpUleJBsK8Pb1UVyp94KaTSclSrTXfH07QFoaii7vi6t0a/5S9gLJ9MDynQnRRvshdFRB9ekc4TCJMHUSwvgRVfnw6hUHX8y1SO0fNbcnghHQaSup5yzdx1eSBDBjoJX1Gq8x0vf5JZ3R1bil2/WJlldvEqoBCpR119jczRJX6slt7Dp9kRR8yBQgSBuyqxy8gy19HAFlPNmE3K+Z4XL/A1p+TeYfAk8XT2Bxuzu2c30FLawffM1BsnSt4UD62txqUuEFl5eJYunwOyMTTOqihpDZotfl/q3EVqI2julyYqplfan9vcwXBdW63pSYk97FlHNDmDHi9fiAyPS49onyX5H72/EixtCpuj+NkVUxSyv4WBLKjH6o38Qcin3Sqxwxu0pOwINDUnlUyMDneyMnCMJ3hlXwyifmdDJNLTXCnePQQA/nLz8git9xfNlDYo57zAUwT3HHDrkQSvSidePf7EJniZjMpCRfGuVXVm4J3BT44E1p6MaCo4lpspcVRZ6/+qg6qyS5P0Qfl/hOCRO6joY3xIc4iNJP10am+7X+yahVY0k8lWPHXrBlQ/TLLPccLcSiKxvLTBQ==
+
+host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2018-02-08 19:21:44,815 DEBUG botocore.auth] StringToSign:
+AWS4-HMAC-SHA256
+20180208T192144Z
+20180208/us-east-1/s3/aws4_request
+28d9291ea64d749bb8c73c3accc5b5fd13636e22c02421202208e5f64c997079
+[2018-02-08 19:21:44,815 DEBUG botocore.auth] Signature:
+fd46aa394055b0ce1abf76e7fcca146655b4472601ffa24b78d3cb70f6f38cc9
+[2018-02-08 19:21:44,815 DEBUG botocore.hooks] Event request-created.s3.HeadObject: calling handler <function enable_upload_callbacks at 0x7f48de9571b8>
+[2018-02-08 19:21:44,816 DEBUG botocore.endpoint] Sending http request: <PreparedRequest [HEAD]>
+[2018-02-08 19:21:44,896 DEBUG botocore.vendored.requests.packages.urllib3.connectionpool] "HEAD /blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml HTTP/1.1" 200 0
+[2018-02-08 19:21:44,897 DEBUG botocore.parsers] Response headers: {'content-length': '4928', 'x-amz-replication-status': 'COMPLETED', 'x-amz-id-2': 'z0qs1IjkWNvvR1CJfIESvAYzrVVBoBdmBETwbdK4Wt8pJsi1wPRchNmOByvMhfbglNXEOHmkHRs=', 'accept-ranges': 'bytes', 'server': 'AmazonS3', 'last-modified': 'Thu, 08 Feb 2018 19:20:43 GMT', 'x-amz-request-id': '913B1FA7CD7B0837', 'etag': '"4e65b10f9ef7dd80c71868136ec5fb3c"', 'date': 'Thu, 08 Feb 2018 19:21:45 GMT', 'x-amz-version-id': 'CJW_EdBCFHxwXli8z0M.IfXsHfFEo7ri', 'x-amz-server-side-encryption': 'AES256', 'content-type': 'text/yaml'}
+[2018-02-08 19:21:44,897 DEBUG botocore.parsers] Response body:
+
+[2018-02-08 19:21:44,898 DEBUG botocore.hooks] Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7f48de5a5250>
+[2018-02-08 19:21:44,898 DEBUG botocore.retryhandler] No retry needed.
+[2018-02-08 19:21:44,898 DEBUG botocore.hooks] Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,898 DEBUG s3transfer.futures] Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml'}) to executor <s3transfer.futures.BoundedExecutor object at 0x7f48de561390> for transfer request: 0.
+[2018-02-08 19:21:44,899 DEBUG s3transfer.utils] Acquiring 0
+[2018-02-08 19:21:44,899 DEBUG s3transfer.utils] Releasing acquire 0/None
+[2018-02-08 19:21:44,899 DEBUG s3transfer.tasks] ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml'}) about to wait for the following futures []
+[2018-02-08 19:21:44,899 DEBUG s3transfer.tasks] ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml'}) done waiting for dependent futures
+[2018-02-08 19:21:44,900 DEBUG s3transfer.tasks] Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml'}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x7f48de54ded0>, 'bucket': 'blazemeter', 'download_output_manager': <s3transfer.download.DownloadFilenameOutputManager object at 0x7f48de54df10>, 'extra_args': {}, 'callbacks': [], 'client': <botocore.client.S3 object at 0x7f48de9a2290>, 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml', 'io_chunksize': 262144, 'max_attempts': 5}
+[2018-02-08 19:21:44,900 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f48dfbb0410>
+[2018-02-08 19:21:44,900 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f48dfbb0398>
+[2018-02-08 19:21:44,900 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,900 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f48dfbb0050>
+[2018-02-08 19:21:44,900 DEBUG botocore.hooks] Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x7f48dfbb07d0>
+[2018-02-08 19:21:44,901 DEBUG botocore.hooks] Event before-call.s3.GetObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,901 DEBUG botocore.endpoint] Making request for OperationModel(name=GetObject) (verify_ssl=True) with params: {'body': '', 'url': u'https://s3.amazonaws.com/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml', 'headers': {'User-Agent': 'Boto3/1.5.7 Python/2.7.12 Linux/4.4.0-1039-aws Botocore/1.8.38 Resource'}, 'context': {'auth_type': None, 'client_region': 'us-east-1', 'signing': {'bucket': 'blazemeter'}, 'has_streaming_input': False, 'client_config': <botocore.config.Config object at 0x7f48de9865d0>}, 'query_string': {}, 'url_path': u'/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml', 'method': u'GET'}
+[2018-02-08 19:21:44,901 DEBUG botocore.hooks] Event request-created.s3.GetObject: calling handler <function disable_upload_callbacks at 0x7f48de957140>
+[2018-02-08 19:21:44,901 DEBUG botocore.hooks] Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7f48de986590>>
+[2018-02-08 19:21:44,901 DEBUG botocore.hooks] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f48dec58810>>
+[2018-02-08 19:21:44,901 DEBUG botocore.hooks] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x7f48dfbabed8>
+[2018-02-08 19:21:44,901 DEBUG botocore.hooks] Event before-sign.s3.GetObject: calling handler <function fix_s3_host at 0x7f48e4d545f0>
+[2018-02-08 19:21:44,902 DEBUG botocore.auth] Calculating signature using v4 auth.
+[2018-02-08 19:21:44,902 DEBUG botocore.auth] CanonicalRequest:
+GET
+/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml
+
+host:s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20180208T192144Z
+x-amz-security-token:FQoDYXdzENz//////////wEaDFP4Vkdk9XWpL4VQFSLjA7+jeSUifZKfeMnEZXzDU0FRUN/MWw0yW4GSWAbMa2iiG+l7lQN0YVahUxI/jZDW3GvpUleJBsK8Pb1UVyp94KaTSclSrTXfH07QFoaii7vi6t0a/5S9gLJ9MDynQnRRvshdFRB9ekc4TCJMHUSwvgRVfnw6hUHX8y1SO0fNbcnghHQaSup5yzdx1eSBDBjoJX1Gq8x0vf5JZ3R1bil2/WJlldvEqoBCpR119jczRJX6slt7Dp9kRR8yBQgSBuyqxy8gy19HAFlPNmE3K+Z4XL/A1p+TeYfAk8XT2Bxuzu2c30FLawffM1BsnSt4UD62txqUuEFl5eJYunwOyMTTOqihpDZotfl/q3EVqI2julyYqplfan9vcwXBdW63pSYk97FlHNDmDHi9fiAyPS49onyX5H72/EixtCpuj+NkVUxSyv4WBLKjH6o38Qcin3Sqxwxu0pOwINDUnlUyMDneyMnCMJ3hlXwyifmdDJNLTXCnePQQA/nLz8git9xfNlDYo57zAUwT3HHDrkQSvSidePf7EJniZjMpCRfGuVXVm4J3BT44E1p6MaCo4lpspcVRZ6/+qg6qyS5P0Qfl/hOCRO6joY3xIc4iNJP10am+7X+yahVY0k8lWPHXrBlQ/TLLPccLcSiKxvLTBQ==
+
+host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2018-02-08 19:21:44,902 DEBUG botocore.auth] StringToSign:
+AWS4-HMAC-SHA256
+20180208T192144Z
+20180208/us-east-1/s3/aws4_request
+df67d94fb49a1c6a9dd123c907eb996dfe4156b1ba151a2b0389f0ca61dabd4d
+[2018-02-08 19:21:44,902 DEBUG botocore.auth] Signature:
+c84e54425bc2798d84aef3127722df0ce575f3bb0c2732044fea6e3b8c730b60
+[2018-02-08 19:21:44,903 DEBUG botocore.hooks] Event request-created.s3.GetObject: calling handler <function enable_upload_callbacks at 0x7f48de9571b8>
+[2018-02-08 19:21:44,903 DEBUG botocore.endpoint] Sending http request: <PreparedRequest [GET]>
+[2018-02-08 19:21:44,983 DEBUG botocore.vendored.requests.packages.urllib3.connectionpool] "GET /blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/__taurus_config.yml HTTP/1.1" 200 4928
+[2018-02-08 19:21:44,983 DEBUG botocore.parsers] Response headers: {'content-length': '4928', 'x-amz-replication-status': 'COMPLETED', 'x-amz-id-2': 'gVriSfW2Y9U0r87k5njP3+Hg3WARQQ7p/qFm+3hanHlto9Oj3TlQ9ppKJGVjw494+1EVY+kVgrI=', 'accept-ranges': 'bytes', 'server': 'AmazonS3', 'last-modified': 'Thu, 08 Feb 2018 19:20:43 GMT', 'x-amz-request-id': '14D1A156EE70BE9E', 'etag': '"4e65b10f9ef7dd80c71868136ec5fb3c"', 'date': 'Thu, 08 Feb 2018 19:21:45 GMT', 'x-amz-version-id': 'CJW_EdBCFHxwXli8z0M.IfXsHfFEo7ri', 'x-amz-server-side-encryption': 'AES256', 'content-type': 'text/yaml'}
+[2018-02-08 19:21:44,984 DEBUG botocore.parsers] Response body:
+<botocore.response.StreamingBody object at 0x7f48dd4f0710>
+[2018-02-08 19:21:44,984 DEBUG botocore.hooks] Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7f48de5a5250>
+[2018-02-08 19:21:44,985 DEBUG botocore.retryhandler] No retry needed.
+[2018-02-08 19:21:44,985 DEBUG botocore.hooks] Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:44,985 DEBUG s3transfer.tasks] IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+[2018-02-08 19:21:44,985 DEBUG s3transfer.tasks] IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+[2018-02-08 19:21:44,985 DEBUG s3transfer.tasks] Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x7f48de54ded0>, 'offset': 0}
+[2018-02-08 19:21:44,986 DEBUG s3transfer.tasks] IORenameFileTask(transfer_id=0, {'final_filename': u'/tmp/artifacts/__taurus_config.yml'}) about to wait for the following futures []
+[2018-02-08 19:21:44,986 DEBUG s3transfer.tasks] IORenameFileTask(transfer_id=0, {'final_filename': u'/tmp/artifacts/__taurus_config.yml'}) done waiting for dependent futures
+[2018-02-08 19:21:44,986 DEBUG s3transfer.tasks] Executing task IORenameFileTask(transfer_id=0, {'final_filename': u'/tmp/artifacts/__taurus_config.yml'}) with kwargs {'osutil': <s3transfer.utils.OSUtils object at 0x7f48de5cff50>, 'final_filename': u'/tmp/artifacts/__taurus_config.yml', 'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x7f48de54ded0>}
+[2018-02-08 19:21:44,986 DEBUG s3transfer.utils] Releasing acquire 0/None
+[2018-02-08 19:21:45,028 DEBUG Engine.s3downloader] Downloading from S3: users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py => /tmp/artifacts/blazeDemo_Selenium_with_unit_chrome.py
+[2018-02-08 19:21:45,029 DEBUG s3transfer.utils] Acquiring 0
+[2018-02-08 19:21:45,029 DEBUG s3transfer.tasks] DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48dd4f0250>}) about to wait for the following futures []
+[2018-02-08 19:21:45,029 DEBUG s3transfer.tasks] DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48dd4f0250>}) done waiting for dependent futures
+[2018-02-08 19:21:45,030 DEBUG s3transfer.tasks] Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48dd4f0250>}) with kwargs {'io_executor': <s3transfer.futures.BoundedExecutor object at 0x7f48de51e7d0>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x7f48de5cfb50>, 'osutil': <s3transfer.utils.OSUtils object at 0x7f48de561550>, 'client': <botocore.client.S3 object at 0x7f48de9a2290>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48dd4f0250>, 'config': <boto3.s3.transfer.TransferConfig object at 0x7f48de5614d0>}
+[2018-02-08 19:21:45,030 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x7f48dfbb0410>
+[2018-02-08 19:21:45,030 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x7f48dfbb0398>
+[2018-02-08 19:21:45,030 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:45,030 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x7f48dfbb0050>
+[2018-02-08 19:21:45,031 DEBUG botocore.hooks] Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x7f48dfbb07d0>
+[2018-02-08 19:21:45,031 DEBUG botocore.hooks] Event before-call.s3.HeadObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:45,031 DEBUG botocore.endpoint] Making request for OperationModel(name=HeadObject) (verify_ssl=True) with params: {'body': '', 'url': u'https://s3.amazonaws.com/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py', 'headers': {'User-Agent': 'Boto3/1.5.7 Python/2.7.12 Linux/4.4.0-1039-aws Botocore/1.8.38 Resource'}, 'context': {'auth_type': None, 'client_region': 'us-east-1', 'signing': {'bucket': 'blazemeter'}, 'has_streaming_input': False, 'client_config': <botocore.config.Config object at 0x7f48de9865d0>}, 'query_string': {}, 'url_path': u'/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py', 'method': u'HEAD'}
+[2018-02-08 19:21:45,031 DEBUG botocore.hooks] Event request-created.s3.HeadObject: calling handler <function disable_upload_callbacks at 0x7f48de957140>
+[2018-02-08 19:21:45,031 DEBUG botocore.hooks] Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7f48de986590>>
+[2018-02-08 19:21:45,031 DEBUG botocore.hooks] Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f48dec58810>>
+[2018-02-08 19:21:45,032 DEBUG botocore.hooks] Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x7f48dfbabed8>
+[2018-02-08 19:21:45,032 DEBUG botocore.hooks] Event before-sign.s3.HeadObject: calling handler <function fix_s3_host at 0x7f48e4d545f0>
+[2018-02-08 19:21:45,032 DEBUG botocore.auth] Calculating signature using v4 auth.
+[2018-02-08 19:21:45,032 DEBUG botocore.auth] CanonicalRequest:
+HEAD
+/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py
+
+host:s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20180208T192145Z
+x-amz-security-token:FQoDYXdzENz//////////wEaDFP4Vkdk9XWpL4VQFSLjA7+jeSUifZKfeMnEZXzDU0FRUN/MWw0yW4GSWAbMa2iiG+l7lQN0YVahUxI/jZDW3GvpUleJBsK8Pb1UVyp94KaTSclSrTXfH07QFoaii7vi6t0a/5S9gLJ9MDynQnRRvshdFRB9ekc4TCJMHUSwvgRVfnw6hUHX8y1SO0fNbcnghHQaSup5yzdx1eSBDBjoJX1Gq8x0vf5JZ3R1bil2/WJlldvEqoBCpR119jczRJX6slt7Dp9kRR8yBQgSBuyqxy8gy19HAFlPNmE3K+Z4XL/A1p+TeYfAk8XT2Bxuzu2c30FLawffM1BsnSt4UD62txqUuEFl5eJYunwOyMTTOqihpDZotfl/q3EVqI2julyYqplfan9vcwXBdW63pSYk97FlHNDmDHi9fiAyPS49onyX5H72/EixtCpuj+NkVUxSyv4WBLKjH6o38Qcin3Sqxwxu0pOwINDUnlUyMDneyMnCMJ3hlXwyifmdDJNLTXCnePQQA/nLz8git9xfNlDYo57zAUwT3HHDrkQSvSidePf7EJniZjMpCRfGuVXVm4J3BT44E1p6MaCo4lpspcVRZ6/+qg6qyS5P0Qfl/hOCRO6joY3xIc4iNJP10am+7X+yahVY0k8lWPHXrBlQ/TLLPccLcSiKxvLTBQ==
+
+host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2018-02-08 19:21:45,033 DEBUG botocore.auth] StringToSign:
+AWS4-HMAC-SHA256
+20180208T192145Z
+20180208/us-east-1/s3/aws4_request
+170463c97b12910d9902fb5b00bf6cc8a4bc085daed96214d8dccc75b46bb5db
+[2018-02-08 19:21:45,033 DEBUG botocore.auth] Signature:
+1c1a20e4674c5406cbfe8eb3d22201955b41b4a0efa899d0d3c2352a5d663117
+[2018-02-08 19:21:45,033 DEBUG botocore.hooks] Event request-created.s3.HeadObject: calling handler <function enable_upload_callbacks at 0x7f48de9571b8>
+[2018-02-08 19:21:45,034 DEBUG botocore.endpoint] Sending http request: <PreparedRequest [HEAD]>
+[2018-02-08 19:21:45,115 DEBUG botocore.vendored.requests.packages.urllib3.connectionpool] "HEAD /blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py HTTP/1.1" 200 0
+[2018-02-08 19:21:45,115 DEBUG botocore.parsers] Response headers: {'content-length': '2163', 'x-amz-replication-status': 'COMPLETED', 'x-amz-id-2': 'gNAf0H+p6XBmysuKkA9GS35dWkYCPf6E5K3WzGqxo0JToSkivxnpJsAJMVboHOL/MT11w38FU/U=', 'accept-ranges': 'bytes', 'server': 'AmazonS3', 'last-modified': 'Thu, 08 Feb 2018 19:20:43 GMT', 'x-amz-request-id': 'A45A32FEE6D06C6C', 'etag': '"b2244d77c8e1bd0f7aed8bcdc191e9f5"', 'date': 'Thu, 08 Feb 2018 19:21:46 GMT', 'x-amz-version-id': 'JfnsCNNcEdtouwdXJjfZRp7jL5r2Q7x3', 'x-amz-server-side-encryption': 'AES256', 'content-type': 'application/octet-stream'}
+[2018-02-08 19:21:45,116 DEBUG botocore.parsers] Response body:
+
+[2018-02-08 19:21:45,117 DEBUG botocore.hooks] Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7f48de5a5250>
+[2018-02-08 19:21:45,117 DEBUG botocore.retryhandler] No retry needed.
+[2018-02-08 19:21:45,117 DEBUG botocore.hooks] Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:45,117 DEBUG s3transfer.futures] Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py'}) to executor <s3transfer.futures.BoundedExecutor object at 0x7f48de5cfb50> for transfer request: 0.
+[2018-02-08 19:21:45,117 DEBUG s3transfer.utils] Acquiring 0
+[2018-02-08 19:21:45,118 DEBUG s3transfer.utils] Releasing acquire 0/None
+[2018-02-08 19:21:45,120 DEBUG s3transfer.tasks] ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py'}) about to wait for the following futures []
+[2018-02-08 19:21:45,120 DEBUG s3transfer.tasks] ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py'}) done waiting for dependent futures
+[2018-02-08 19:21:45,120 DEBUG s3transfer.tasks] Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py'}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x7f48dd4f0890>, 'bucket': 'blazemeter', 'download_output_manager': <s3transfer.download.DownloadFilenameOutputManager object at 0x7f48dd4f0810>, 'extra_args': {}, 'callbacks': [], 'client': <botocore.client.S3 object at 0x7f48de9a2290>, 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py', 'io_chunksize': 262144, 'max_attempts': 5}
+[2018-02-08 19:21:45,120 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f48dfbb0410>
+[2018-02-08 19:21:45,121 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f48dfbb0398>
+[2018-02-08 19:21:45,121 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:45,121 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f48dfbb0050>
+[2018-02-08 19:21:45,121 DEBUG botocore.hooks] Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x7f48dfbb07d0>
+[2018-02-08 19:21:45,121 DEBUG botocore.hooks] Event before-call.s3.GetObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:45,121 DEBUG botocore.endpoint] Making request for OperationModel(name=GetObject) (verify_ssl=True) with params: {'body': '', 'url': u'https://s3.amazonaws.com/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py', 'headers': {'User-Agent': 'Boto3/1.5.7 Python/2.7.12 Linux/4.4.0-1039-aws Botocore/1.8.38 Resource'}, 'context': {'auth_type': None, 'client_region': 'us-east-1', 'signing': {'bucket': 'blazemeter'}, 'has_streaming_input': False, 'client_config': <botocore.config.Config object at 0x7f48de9865d0>}, 'query_string': {}, 'url_path': u'/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py', 'method': u'GET'}
+[2018-02-08 19:21:45,122 DEBUG botocore.hooks] Event request-created.s3.GetObject: calling handler <function disable_upload_callbacks at 0x7f48de957140>
+[2018-02-08 19:21:45,122 DEBUG botocore.hooks] Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7f48de986590>>
+[2018-02-08 19:21:45,122 DEBUG botocore.hooks] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f48dec58810>>
+[2018-02-08 19:21:45,122 DEBUG botocore.hooks] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x7f48dfbabed8>
+[2018-02-08 19:21:45,122 DEBUG botocore.hooks] Event before-sign.s3.GetObject: calling handler <function fix_s3_host at 0x7f48e4d545f0>
+[2018-02-08 19:21:45,123 DEBUG botocore.auth] Calculating signature using v4 auth.
+[2018-02-08 19:21:45,123 DEBUG botocore.auth] CanonicalRequest:
+GET
+/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py
+
+host:s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20180208T192145Z
+x-amz-security-token:FQoDYXdzENz//////////wEaDFP4Vkdk9XWpL4VQFSLjA7+jeSUifZKfeMnEZXzDU0FRUN/MWw0yW4GSWAbMa2iiG+l7lQN0YVahUxI/jZDW3GvpUleJBsK8Pb1UVyp94KaTSclSrTXfH07QFoaii7vi6t0a/5S9gLJ9MDynQnRRvshdFRB9ekc4TCJMHUSwvgRVfnw6hUHX8y1SO0fNbcnghHQaSup5yzdx1eSBDBjoJX1Gq8x0vf5JZ3R1bil2/WJlldvEqoBCpR119jczRJX6slt7Dp9kRR8yBQgSBuyqxy8gy19HAFlPNmE3K+Z4XL/A1p+TeYfAk8XT2Bxuzu2c30FLawffM1BsnSt4UD62txqUuEFl5eJYunwOyMTTOqihpDZotfl/q3EVqI2julyYqplfan9vcwXBdW63pSYk97FlHNDmDHi9fiAyPS49onyX5H72/EixtCpuj+NkVUxSyv4WBLKjH6o38Qcin3Sqxwxu0pOwINDUnlUyMDneyMnCMJ3hlXwyifmdDJNLTXCnePQQA/nLz8git9xfNlDYo57zAUwT3HHDrkQSvSidePf7EJniZjMpCRfGuVXVm4J3BT44E1p6MaCo4lpspcVRZ6/+qg6qyS5P0Qfl/hOCRO6joY3xIc4iNJP10am+7X+yahVY0k8lWPHXrBlQ/TLLPccLcSiKxvLTBQ==
+
+host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2018-02-08 19:21:45,123 DEBUG botocore.auth] StringToSign:
+AWS4-HMAC-SHA256
+20180208T192145Z
+20180208/us-east-1/s3/aws4_request
+e864f2a60f6d213f9fc3f06828d5cf45aba276d2d4159694b7f88c83a2b9eb85
+[2018-02-08 19:21:45,123 DEBUG botocore.auth] Signature:
+a817fc9f4631999c325ac933900d21ebed79b1edc2d37105414819541fb73f3b
+[2018-02-08 19:21:45,123 DEBUG botocore.hooks] Event request-created.s3.GetObject: calling handler <function enable_upload_callbacks at 0x7f48de9571b8>
+[2018-02-08 19:21:45,124 DEBUG botocore.endpoint] Sending http request: <PreparedRequest [GET]>
+[2018-02-08 19:21:45,203 DEBUG botocore.vendored.requests.packages.urllib3.connectionpool] "GET /blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/blazeDemo_Selenium_with_unit_chrome.py HTTP/1.1" 200 2163
+[2018-02-08 19:21:45,204 DEBUG botocore.parsers] Response headers: {'content-length': '2163', 'x-amz-replication-status': 'COMPLETED', 'x-amz-id-2': 'A/3rwNrn8f7ikkuIPEayUbYuqR76YFoupFjZwf1xz93owO8GQ+LBmrZCRb0CIEUeHdVqaDwTYgo=', 'accept-ranges': 'bytes', 'server': 'AmazonS3', 'last-modified': 'Thu, 08 Feb 2018 19:20:43 GMT', 'x-amz-request-id': '062964603643D71B', 'etag': '"b2244d77c8e1bd0f7aed8bcdc191e9f5"', 'date': 'Thu, 08 Feb 2018 19:21:46 GMT', 'x-amz-version-id': 'JfnsCNNcEdtouwdXJjfZRp7jL5r2Q7x3', 'x-amz-server-side-encryption': 'AES256', 'content-type': 'application/octet-stream'}
+[2018-02-08 19:21:45,204 DEBUG botocore.parsers] Response body:
+<botocore.response.StreamingBody object at 0x7f48dd4f0f50>
+[2018-02-08 19:21:45,205 DEBUG botocore.hooks] Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7f48de5a5250>
+[2018-02-08 19:21:45,206 DEBUG botocore.retryhandler] No retry needed.
+[2018-02-08 19:21:45,206 DEBUG botocore.hooks] Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:45,206 DEBUG s3transfer.tasks] IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+[2018-02-08 19:21:45,206 DEBUG s3transfer.tasks] IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+[2018-02-08 19:21:45,206 DEBUG s3transfer.tasks] Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x7f48dd4f0890>, 'offset': 0}
+[2018-02-08 19:21:45,207 DEBUG s3transfer.tasks] IORenameFileTask(transfer_id=0, {'final_filename': u'/tmp/artifacts/blazeDemo_Selenium_with_unit_chrome.py'}) about to wait for the following futures []
+[2018-02-08 19:21:45,207 DEBUG s3transfer.tasks] IORenameFileTask(transfer_id=0, {'final_filename': u'/tmp/artifacts/blazeDemo_Selenium_with_unit_chrome.py'}) done waiting for dependent futures
+[2018-02-08 19:21:45,207 DEBUG s3transfer.tasks] Executing task IORenameFileTask(transfer_id=0, {'final_filename': u'/tmp/artifacts/blazeDemo_Selenium_with_unit_chrome.py'}) with kwargs {'osutil': <s3transfer.utils.OSUtils object at 0x7f48de561550>, 'final_filename': u'/tmp/artifacts/blazeDemo_Selenium_with_unit_chrome.py', 'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x7f48dd4f0890>}
+[2018-02-08 19:21:45,207 DEBUG s3transfer.utils] Releasing acquire 0/None
+[2018-02-08 19:21:45,246 DEBUG Engine.s3downloader] Downloading from S3: users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml => /tmp/artifacts/taurus.yml
+[2018-02-08 19:21:45,247 DEBUG s3transfer.utils] Acquiring 0
+[2018-02-08 19:21:45,248 DEBUG s3transfer.tasks] DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48dd4f0c50>}) about to wait for the following futures []
+[2018-02-08 19:21:45,248 DEBUG s3transfer.tasks] DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48dd4f0c50>}) done waiting for dependent futures
+[2018-02-08 19:21:45,249 DEBUG s3transfer.tasks] Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48dd4f0c50>}) with kwargs {'io_executor': <s3transfer.futures.BoundedExecutor object at 0x7f48de51e590>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x7f48de561390>, 'osutil': <s3transfer.utils.OSUtils object at 0x7f48de5cfa50>, 'client': <botocore.client.S3 object at 0x7f48de9a2290>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x7f48dd4f0c50>, 'config': <boto3.s3.transfer.TransferConfig object at 0x7f48de5cfe90>}
+[2018-02-08 19:21:45,250 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x7f48dfbb0410>
+[2018-02-08 19:21:45,251 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x7f48dfbb0398>
+[2018-02-08 19:21:45,251 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:45,252 DEBUG botocore.hooks] Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x7f48dfbb0050>
+[2018-02-08 19:21:45,252 DEBUG botocore.hooks] Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x7f48dfbb07d0>
+[2018-02-08 19:21:45,253 DEBUG botocore.hooks] Event before-call.s3.HeadObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:45,253 DEBUG botocore.endpoint] Making request for OperationModel(name=HeadObject) (verify_ssl=True) with params: {'body': '', 'url': u'https://s3.amazonaws.com/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml', 'headers': {'User-Agent': 'Boto3/1.5.7 Python/2.7.12 Linux/4.4.0-1039-aws Botocore/1.8.38 Resource'}, 'context': {'auth_type': None, 'client_region': 'us-east-1', 'signing': {'bucket': 'blazemeter'}, 'has_streaming_input': False, 'client_config': <botocore.config.Config object at 0x7f48de9865d0>}, 'query_string': {}, 'url_path': u'/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml', 'method': u'HEAD'}
+[2018-02-08 19:21:45,254 DEBUG botocore.hooks] Event request-created.s3.HeadObject: calling handler <function disable_upload_callbacks at 0x7f48de957140>
+[2018-02-08 19:21:45,254 DEBUG botocore.hooks] Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7f48de986590>>
+[2018-02-08 19:21:45,254 DEBUG botocore.hooks] Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f48dec58810>>
+[2018-02-08 19:21:45,254 DEBUG botocore.hooks] Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x7f48dfbabed8>
+[2018-02-08 19:21:45,254 DEBUG botocore.hooks] Event before-sign.s3.HeadObject: calling handler <function fix_s3_host at 0x7f48e4d545f0>
+[2018-02-08 19:21:45,255 DEBUG botocore.auth] Calculating signature using v4 auth.
+[2018-02-08 19:21:45,255 DEBUG botocore.auth] CanonicalRequest:
+HEAD
+/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml
+
+host:s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20180208T192145Z
+x-amz-security-token:FQoDYXdzENz//////////wEaDFP4Vkdk9XWpL4VQFSLjA7+jeSUifZKfeMnEZXzDU0FRUN/MWw0yW4GSWAbMa2iiG+l7lQN0YVahUxI/jZDW3GvpUleJBsK8Pb1UVyp94KaTSclSrTXfH07QFoaii7vi6t0a/5S9gLJ9MDynQnRRvshdFRB9ekc4TCJMHUSwvgRVfnw6hUHX8y1SO0fNbcnghHQaSup5yzdx1eSBDBjoJX1Gq8x0vf5JZ3R1bil2/WJlldvEqoBCpR119jczRJX6slt7Dp9kRR8yBQgSBuyqxy8gy19HAFlPNmE3K+Z4XL/A1p+TeYfAk8XT2Bxuzu2c30FLawffM1BsnSt4UD62txqUuEFl5eJYunwOyMTTOqihpDZotfl/q3EVqI2julyYqplfan9vcwXBdW63pSYk97FlHNDmDHi9fiAyPS49onyX5H72/EixtCpuj+NkVUxSyv4WBLKjH6o38Qcin3Sqxwxu0pOwINDUnlUyMDneyMnCMJ3hlXwyifmdDJNLTXCnePQQA/nLz8git9xfNlDYo57zAUwT3HHDrkQSvSidePf7EJniZjMpCRfGuVXVm4J3BT44E1p6MaCo4lpspcVRZ6/+qg6qyS5P0Qfl/hOCRO6joY3xIc4iNJP10am+7X+yahVY0k8lWPHXrBlQ/TLLPccLcSiKxvLTBQ==
+
+host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2018-02-08 19:21:45,255 DEBUG botocore.auth] StringToSign:
+AWS4-HMAC-SHA256
+20180208T192145Z
+20180208/us-east-1/s3/aws4_request
+7836dfec018f00d0d2b71d52f8002ee75ef6b2b982b97a9a5d9c891d214beca8
+[2018-02-08 19:21:45,255 DEBUG botocore.auth] Signature:
+b004dd9e49627db60e7927b04fed2a804de08a8a96d8022f3abd9f43bd7f7fa2
+[2018-02-08 19:21:45,256 DEBUG botocore.hooks] Event request-created.s3.HeadObject: calling handler <function enable_upload_callbacks at 0x7f48de9571b8>
+[2018-02-08 19:21:45,256 DEBUG botocore.endpoint] Sending http request: <PreparedRequest [HEAD]>
+[2018-02-08 19:21:45,460 DEBUG botocore.vendored.requests.packages.urllib3.connectionpool] "HEAD /blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml HTTP/1.1" 200 0
+[2018-02-08 19:21:45,461 DEBUG botocore.parsers] Response headers: {'content-length': '928', 'x-amz-replication-status': 'COMPLETED', 'x-amz-id-2': 'uNEI8/2tlUZ+ElF+qDMvKsEn/tCq4L1xJN91vxSVzI+pQMleMNeOqK2aPOb7rlMyr8XKSnEMK9Q=', 'accept-ranges': 'bytes', 'server': 'AmazonS3', 'last-modified': 'Thu, 08 Feb 2018 19:20:44 GMT', 'x-amz-request-id': '22B448EBFBB6C117', 'etag': '"1c8d4edbd9d897fda4aa24bad0ecf7c6"', 'date': 'Thu, 08 Feb 2018 19:21:46 GMT', 'x-amz-version-id': 'MOj9zZ4VFZUHBB62E6dHZucW5cFSAUjz', 'x-amz-server-side-encryption': 'AES256', 'content-type': 'text/yaml'}
+[2018-02-08 19:21:45,461 DEBUG botocore.parsers] Response body:
+
+[2018-02-08 19:21:45,462 DEBUG botocore.hooks] Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7f48de5a5250>
+[2018-02-08 19:21:45,462 DEBUG botocore.retryhandler] No retry needed.
+[2018-02-08 19:21:45,462 DEBUG botocore.hooks] Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:45,463 DEBUG s3transfer.futures] Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml'}) to executor <s3transfer.futures.BoundedExecutor object at 0x7f48de561390> for transfer request: 0.
+[2018-02-08 19:21:45,463 DEBUG s3transfer.utils] Acquiring 0
+[2018-02-08 19:21:45,463 DEBUG s3transfer.utils] Releasing acquire 0/None
+[2018-02-08 19:21:45,466 DEBUG s3transfer.tasks] ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml'}) about to wait for the following futures []
+[2018-02-08 19:21:45,466 DEBUG s3transfer.tasks] ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml'}) done waiting for dependent futures
+[2018-02-08 19:21:45,466 DEBUG s3transfer.tasks] Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'extra_args': {}, 'bucket': 'blazemeter', 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml'}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x7f48dd4fb150>, 'bucket': 'blazemeter', 'download_output_manager': <s3transfer.download.DownloadFilenameOutputManager object at 0x7f48dd4f0f10>, 'extra_args': {}, 'callbacks': [], 'client': <botocore.client.S3 object at 0x7f48de9a2290>, 'key': u'users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml', 'io_chunksize': 262144, 'max_attempts': 5}
+[2018-02-08 19:21:45,467 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7f48dfbb0410>
+[2018-02-08 19:21:45,467 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7f48dfbb0398>
+[2018-02-08 19:21:45,467 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:45,467 DEBUG botocore.hooks] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7f48dfbb0050>
+[2018-02-08 19:21:45,467 DEBUG botocore.hooks] Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x7f48dfbb07d0>
+[2018-02-08 19:21:45,467 DEBUG botocore.hooks] Event before-call.s3.GetObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:45,467 DEBUG botocore.endpoint] Making request for OperationModel(name=GetObject) (verify_ssl=True) with params: {'body': '', 'url': u'https://s3.amazonaws.com/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml', 'headers': {'User-Agent': 'Boto3/1.5.7 Python/2.7.12 Linux/4.4.0-1039-aws Botocore/1.8.38 Resource'}, 'context': {'auth_type': None, 'client_region': 'us-east-1', 'signing': {'bucket': 'blazemeter'}, 'has_streaming_input': False, 'client_config': <botocore.config.Config object at 0x7f48de9865d0>}, 'query_string': {}, 'url_path': u'/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml', 'method': u'GET'}
+[2018-02-08 19:21:45,468 DEBUG botocore.hooks] Event request-created.s3.GetObject: calling handler <function disable_upload_callbacks at 0x7f48de957140>
+[2018-02-08 19:21:45,468 DEBUG botocore.hooks] Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7f48de986590>>
+[2018-02-08 19:21:45,468 DEBUG botocore.hooks] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7f48dec58810>>
+[2018-02-08 19:21:45,468 DEBUG botocore.hooks] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x7f48dfbabed8>
+[2018-02-08 19:21:45,468 DEBUG botocore.hooks] Event before-sign.s3.GetObject: calling handler <function fix_s3_host at 0x7f48e4d545f0>
+[2018-02-08 19:21:45,469 DEBUG botocore.auth] Calculating signature using v4 auth.
+[2018-02-08 19:21:45,469 DEBUG botocore.auth] CanonicalRequest:
+GET
+/blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml
+
+host:s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20180208T192145Z
+x-amz-security-token:FQoDYXdzENz//////////wEaDFP4Vkdk9XWpL4VQFSLjA7+jeSUifZKfeMnEZXzDU0FRUN/MWw0yW4GSWAbMa2iiG+l7lQN0YVahUxI/jZDW3GvpUleJBsK8Pb1UVyp94KaTSclSrTXfH07QFoaii7vi6t0a/5S9gLJ9MDynQnRRvshdFRB9ekc4TCJMHUSwvgRVfnw6hUHX8y1SO0fNbcnghHQaSup5yzdx1eSBDBjoJX1Gq8x0vf5JZ3R1bil2/WJlldvEqoBCpR119jczRJX6slt7Dp9kRR8yBQgSBuyqxy8gy19HAFlPNmE3K+Z4XL/A1p+TeYfAk8XT2Bxuzu2c30FLawffM1BsnSt4UD62txqUuEFl5eJYunwOyMTTOqihpDZotfl/q3EVqI2julyYqplfan9vcwXBdW63pSYk97FlHNDmDHi9fiAyPS49onyX5H72/EixtCpuj+NkVUxSyv4WBLKjH6o38Qcin3Sqxwxu0pOwINDUnlUyMDneyMnCMJ3hlXwyifmdDJNLTXCnePQQA/nLz8git9xfNlDYo57zAUwT3HHDrkQSvSidePf7EJniZjMpCRfGuVXVm4J3BT44E1p6MaCo4lpspcVRZ6/+qg6qyS5P0Qfl/hOCRO6joY3xIc4iNJP10am+7X+yahVY0k8lWPHXrBlQ/TLLPccLcSiKxvLTBQ==
+
+host;x-amz-content-sha256;x-amz-date;x-amz-security-token
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2018-02-08 19:21:45,474 DEBUG botocore.auth] StringToSign:
+AWS4-HMAC-SHA256
+20180208T192145Z
+20180208/us-east-1/s3/aws4_request
+b10addeaca6ad814db542211b53e51ed518cd78ab96657c010d82cd201ce37de
+[2018-02-08 19:21:45,474 DEBUG botocore.auth] Signature:
+2e8c141baacff05dfc86e0ead365845897cf8615a515835649c9818cb9d1c8cd
+[2018-02-08 19:21:45,474 DEBUG botocore.hooks] Event request-created.s3.GetObject: calling handler <function enable_upload_callbacks at 0x7f48de9571b8>
+[2018-02-08 19:21:45,475 DEBUG botocore.endpoint] Sending http request: <PreparedRequest [GET]>
+[2018-02-08 19:21:45,561 DEBUG botocore.vendored.requests.packages.urllib3.connectionpool] "GET /blazemeter/users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/data/taurus.yml HTTP/1.1" 200 928
+[2018-02-08 19:21:45,562 DEBUG botocore.parsers] Response headers: {'content-length': '928', 'x-amz-replication-status': 'COMPLETED', 'x-amz-id-2': '0xoZQIqcsPJB737hxRh9JmWcMziufH/iq4z900k0Da4ZlAXb92GFctWHRCC7c2+IWQeCoBGwJr8=', 'accept-ranges': 'bytes', 'server': 'AmazonS3', 'last-modified': 'Thu, 08 Feb 2018 19:20:44 GMT', 'x-amz-request-id': 'F117E3A445844A19', 'etag': '"1c8d4edbd9d897fda4aa24bad0ecf7c6"', 'date': 'Thu, 08 Feb 2018 19:21:46 GMT', 'x-amz-version-id': 'MOj9zZ4VFZUHBB62E6dHZucW5cFSAUjz', 'x-amz-server-side-encryption': 'AES256', 'content-type': 'text/yaml'}
+[2018-02-08 19:21:45,562 DEBUG botocore.parsers] Response body:
+<botocore.response.StreamingBody object at 0x7f48dd4fb950>
+[2018-02-08 19:21:45,563 DEBUG botocore.hooks] Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7f48de5a5250>
+[2018-02-08 19:21:45,563 DEBUG botocore.retryhandler] No retry needed.
+[2018-02-08 19:21:45,563 DEBUG botocore.hooks] Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x7f48de5a52d0>>
+[2018-02-08 19:21:45,564 DEBUG s3transfer.tasks] IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+[2018-02-08 19:21:45,564 DEBUG s3transfer.tasks] IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+[2018-02-08 19:21:45,564 DEBUG s3transfer.tasks] Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x7f48dd4fb150>, 'offset': 0}
+[2018-02-08 19:21:45,565 DEBUG s3transfer.tasks] IORenameFileTask(transfer_id=0, {'final_filename': u'/tmp/artifacts/taurus.yml'}) about to wait for the following futures []
+[2018-02-08 19:21:45,565 DEBUG s3transfer.tasks] IORenameFileTask(transfer_id=0, {'final_filename': u'/tmp/artifacts/taurus.yml'}) done waiting for dependent futures
+[2018-02-08 19:21:45,565 DEBUG s3transfer.tasks] Executing task IORenameFileTask(transfer_id=0, {'final_filename': u'/tmp/artifacts/taurus.yml'}) with kwargs {'osutil': <s3transfer.utils.OSUtils object at 0x7f48de5cfa50>, 'final_filename': u'/tmp/artifacts/taurus.yml', 'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x7f48dd4fb150>}
+[2018-02-08 19:21:45,565 DEBUG s3transfer.utils] Releasing acquire 0/None
+[2018-02-08 19:21:45,619 DEBUG Engine.capturehar.BrowserMobProxy] Trying BrowserMob Proxy: /root/.bzt/browsermob-proxy
+[2018-02-08 19:21:45,620 DEBUG bzt.utils] Executing shell: ['/root/.bzt/browsermob-proxy/bin/browsermob-proxy', '--help'] at .
+[2018-02-08 19:21:47,080 DEBUG Engine.capturehar.BrowserMobProxy] BMP check: ('Option                                  Description                            \n------                                  -----------                            \n-?, --help                              This help text                         \n--address                               The address to bind to (default:       \n                                          0.0.0.0)                             \n--port [Integer]                        The port to listen on (default: 8080)  \n--proxyPortRange [Integer]              The range of ports to use for proxies  \n                                          (default: [8081, 8581])              \n--ttl [Integer]                         Time in seconds until an unused proxy  \n                                          is deleted (default: 0)              \n--use-littleproxy [Boolean]             Use the littleproxy backend instead of \n                                          the legacy Jetty 5-based             \n                                          implementation (default: true)       \n', None)
+[2018-02-08 19:21:47,081 DEBUG Engine] Module config: local defaultdict(None, {'class': 'bzt.modules.provisioning.Local'})
+[2018-02-08 19:21:47,081 DEBUG root] Importing module: bzt.modules.provisioning
+[2018-02-08 19:21:47,081 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/lib/python2.7/dist-packages/bzt/modules/provisioning.pyc'>
+[2018-02-08 19:21:47,082 DEBUG Engine] Module config: selenium defaultdict(None, {'class': 'bztcustom.selenium_enhanced.ConcurrentSeleniumExecutor'})
+[2018-02-08 19:21:47,082 DEBUG root] Importing module: bztcustom.selenium_enhanced
+[2018-02-08 19:21:47,083 DEBUG root] Loading class: 'ConcurrentSeleniumExecutor' from <module 'bztcustom.selenium_enhanced' from '/usr/local/lib/python2.7/dist-packages/bztcustom/selenium_enhanced.pyc'>
+[2018-02-08 19:21:47,084 DEBUG Engine.local] Preparing executor: selenium/139950949016208
+[2018-02-08 19:21:47,084 DEBUG Engine] New artifact filename: /tmp/artifacts/classes
+[2018-02-08 19:21:47,108 INFO Engine.selenium.selenium-0] Installing ChromeDriver...
+[2018-02-08 19:21:47,109 INFO Engine.selenium.selenium-0.ChromeDriver] Will install ChromeDriver into /root/.bzt/selenium-taurus/tools/chromedriver/2.33
+[2018-02-08 19:21:47,109 INFO Engine.selenium.selenium-0.ChromeDriver] Downloading: https://chromedriver.storage.googleapis.com/2.33/chromedriver_linux64.zip
+[2018-02-08 19:21:47,110 DEBUG root] No progressbar for non-tty output: <colorama.ansitowin32.StreamWrapper object at 0x7f48e4c57310>
+[2018-02-08 19:21:49,044 INFO Engine.selenium.selenium-0.ChromeDriver] Unzipping /tmp/tmprjpDHM.zip to /root/.bzt/selenium-taurus/tools/chromedriver/2.33
+[2018-02-08 19:21:49,046 DEBUG root] Extracting /tmp/tmprjpDHM.zip to /root/.bzt/selenium-taurus/tools/chromedriver/2.33
+[2018-02-08 19:21:49,047 DEBUG root] Writing /root/.bzt/selenium-taurus/tools/chromedriver/2.33/chromedriver
+[2018-02-08 19:21:49,160 INFO Engine.selenium.selenium-0] Installing GeckoDriver...
+[2018-02-08 19:21:49,161 INFO Engine.selenium.selenium-0.GeckoDriver] Will install GeckoDriver into /root/.bzt/selenium-taurus/tools/geckodriver/0.19.0
+[2018-02-08 19:21:49,162 INFO Engine.selenium.selenium-0.GeckoDriver] Downloading: https://github.com/mozilla/geckodriver/releases/download/v0.19.0/geckodriver-v0.19.0-linux64.tar.gz
+[2018-02-08 19:21:49,162 DEBUG root] No progressbar for non-tty output: <colorama.ansitowin32.StreamWrapper object at 0x7f48e4c57310>
+[2018-02-08 19:21:51,516 INFO Engine.selenium.selenium-0.GeckoDriver] Untaring /tmp/tmphnxm4m.zip to /root/.bzt/selenium-taurus/tools/geckodriver/0.19.0
+[2018-02-08 19:21:51,588 DEBUG Engine.selenium.selenium-0] Using script type: nose
+[2018-02-08 19:21:51,589 DEBUG Engine] Module config: nose defaultdict(None, {'class': 'bzt.modules.python.ApiritifNoseExecutor'})
+[2018-02-08 19:21:51,589 DEBUG root] Importing module: bzt.modules.python
+[2018-02-08 19:21:51,597 DEBUG root] Loading class: 'ApiritifNoseExecutor' from <module 'bzt.modules.python' from '/usr/local/lib/python2.7/dist-packages/bzt/modules/python.pyc'>
+[2018-02-08 19:21:51,597 DEBUG Engine.nose] Extract defaultdict(None, {'script': 'blazeDemo_Selenium_with_unit_chrome.py'}) into scenarios
+[2018-02-08 19:21:51,598 DEBUG Engine] New artifact filename: /tmp/artifacts/ApiritifNoseExecutor.ldjson
+[2018-02-08 19:21:51,598 DEBUG Engine.nose] Skipping reader setup for executor nose/autogenerated_88c667c118
+[2018-02-08 19:21:51,599 DEBUG Engine] Module config: final-stats defaultdict(None, {'class': 'bzt.modules.reporting.FinalStatus'})
+[2018-02-08 19:21:51,599 DEBUG root] Importing module: bzt.modules.reporting
+[2018-02-08 19:21:51,603 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/lib/python2.7/dist-packages/bzt/modules/reporting.pyc'>
+[2018-02-08 19:21:51,604 DEBUG Engine] Module config: console defaultdict(None, {'disable': True, 'class': 'bzt.modules.console.ConsoleStatusReporter'})
+[2018-02-08 19:21:51,604 DEBUG root] Importing module: bzt.modules.console
+[2018-02-08 19:21:51,604 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/lib/python2.7/dist-packages/bzt/modules/console.pyc'>
+[2018-02-08 19:21:51,605 DEBUG Engine] Module config: ldjson-results defaultdict(None, {'class': 'bztcustom.ldjsonresults.LDJSONExporter'})
+[2018-02-08 19:21:51,605 DEBUG root] Importing module: bztcustom.ldjsonresults
+[2018-02-08 19:21:51,606 DEBUG root] Loading class: 'LDJSONExporter' from <module 'bztcustom.ldjsonresults' from '/usr/local/lib/python2.7/dist-packages/bztcustom/ldjsonresults.pyc'>
+[2018-02-08 19:21:51,607 DEBUG Engine] Module config: blazemeter defaultdict(None, {'data-address': 'https://data.blazemeter.com', 'class': 'bzt.modules.blazemeter.BlazeMeterUploader', 'address': 'https://a.blazemeter.com'})
+[2018-02-08 19:21:51,607 DEBUG root] Importing module: bzt.modules.blazemeter
+[2018-02-08 19:21:51,607 DEBUG root] Loading class: 'BlazeMeterUploader' from <module 'bzt.modules.blazemeter' from '/usr/local/lib/python2.7/dist-packages/bzt/modules/blazemeter.pyc'>
+[2018-02-08 19:21:51,608 WARNING Engine.blazemeter] No BlazeMeter API key provided, will upload anonymously
+[2018-02-08 19:21:51,615 DEBUG Engine.Configuration] Dumping YAML config into /tmp/artifacts/effective.yml
+[2018-02-08 19:21:51,718 DEBUG Engine.Configuration] Dumping JSON config into /tmp/artifacts/effective.json
+[2018-02-08 19:21:51,721 INFO Engine] Starting...
+[2018-02-08 19:21:51,721 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x7f48e204c4d0>
+[2018-02-08 19:21:51,722 DEBUG Engine] Startup <bzt.modules.services.VirtualDisplay object at 0x7f48e1ff6fd0>
+[2018-02-08 19:21:51,722 DEBUG easyprocess] param: "['Xvfb', '-help']" 
+[2018-02-08 19:21:51,723 DEBUG easyprocess] command: ['Xvfb', '-help']
+[2018-02-08 19:21:51,723 DEBUG easyprocess] joined command: Xvfb -help
+[2018-02-08 19:21:51,759 DEBUG easyprocess] process was started (pid=208)
+[2018-02-08 19:21:52,065 DEBUG easyprocess] process has ended
+[2018-02-08 19:21:52,065 DEBUG easyprocess] return code=0
+[2018-02-08 19:21:52,065 DEBUG easyprocess] stdout=
+[2018-02-08 19:21:52,065 DEBUG easyprocess] stderr=use: X [:<display>] [option]
+-a #                   default pointer acceleration (factor)
+-ac                    disable access control restrictions
+-audit int             set audit trail level
+-auth file             select authorization file
+-br                    create root window with black background
++bs                    enable any backing store support
+-bs                    disable any backing store support
+-c                     turns off key-click
+c #                    key-click volume (0-100)
+-cc int                default color visual class
+-nocursor              disable the cursor
+-core                  generate core dump on fatal error
+-displayfd fd          file descriptor to write display number to when ready to connect
+-dpi int               screen resolution in dots per inch
+-dpms                  disables VESA DPMS monitor control
+-deferglyphs [none|all|16] defer loading of [no|all|16-bit] glyphs
+-f #                   bell base (0-100)
+-fc string             cursor font
+-fn string             default font name
+-fp string             default font path
+-help                  prints message with these options
++iglx                  Allow creating indirect GLX contexts
+-iglx                  Prohibit creating indirect GLX contexts (default)
+-I                     ignore all remaining arguments
+-ld int                limit data space to N Kb
+-lf int                limit number of open files to N
+-ls int                limit stack space to N Kb
+-nolock                disable the locking mechanism
+-maxclients n          set maximum number of clients (power of two)
+-nolisten string       don't listen on protocol
+-listen string         listen on protocol
+-noreset               don't reset after last client exists
+-background [none]     create root window with no background
+-reset                 reset after last client exists
+-p #                   screen-saver pattern duration (minutes)
+-pn                    accept failure to listen on all ports
+-nopn                  reject failure to listen on all ports
+-r                     turns off auto-repeat
+r                      turns on auto-repeat 
+-render [default|mono|gray|color] set render color alloc policy
+-retro                 start with classic stipple and cursor
+-s #                   screen-saver timeout (minutes)
+-seat string           seat to run on
+-t #                   default pointer threshold (pixels/t)
+-terminate             terminate at server reset
+-to #                  connection time out
+-tst                   disable testing extensions
+ttyxx                  server started from init on /dev/ttyxx
+v                      video blanking for screen-saver
+-v                     screen-saver without video blanking
+-wm                    WhenMapped default backing-store
+-wr                    create root window with white background
+-maxbigreqsize         set maximal bigrequest size 
++xinerama              Enable XINERAMA extension
+-xinerama              Disable XINERAMA extension
+-dumbSched             Disable smart scheduling, enable old behavior
+-schedInterval int     Set scheduler interval in msec
+-sigstop               Enable SIGSTOP based startup
++extension name        Enable extension
+-extension name        Disable extension
+-query host-name       contact named host for XDMCP
+-broadcast             broadcast for XDMCP
+-multicast [addr [hops]] IPv6 multicast for XDMCP
+-indirect host-name    contact named host for indirect XDMCP
+-port port-num         UDP port number to send messages to
+-from local-address    specify the local address to connect from
+-once                  Terminate server after one session
+-class display-class   specify display class to send in manage
+-cookie xdm-auth-bits  specify the magic cookie for XDMCP
+-displayID display-id  manufacturer display ID for request
+[+-]accessx [ timeout [ timeout_mask [ feedback [ options_mask] ] ] ]
+                       enable/disable accessx key sequences
+-ardelay               set XKB autorepeat delay
+-arinterval            set XKB autorepeat interval
+-screen scrn WxHxD     set screen's width, height, depth
+-pixdepths list-of-int support given pixmap depths
++/-render		   turn on/off RENDER extension support(default on)
+-linebias n            adjust thin line pixelization
+-blackpixel n          pixel value for black
+-whitepixel n          pixel value for white
+-fbdir directory       put framebuffers in mmap'ed files in directory
+-shmem                 put framebuffers in shared memory
+[2018-02-08 19:21:52,066 DEBUG easyprocess] param: "['xauth', '-h']" 
+[2018-02-08 19:21:52,066 DEBUG easyprocess] command: ['xauth', '-h']
+[2018-02-08 19:21:52,066 DEBUG easyprocess] joined command: xauth -h
+[2018-02-08 19:21:52,084 DEBUG easyprocess] process was started (pid=209)
+[2018-02-08 19:21:52,100 DEBUG easyprocess] process has ended
+[2018-02-08 19:21:52,100 DEBUG easyprocess] return code=1
+[2018-02-08 19:21:52,100 DEBUG easyprocess] stdout=
+[2018-02-08 19:21:52,100 DEBUG easyprocess] stderr=usage:  xauth [-options ...] [command arg ...]
+
+where options include:
+    -f authfilename                name of authority file to use
+    -v                             turn on extra messages
+    -q                             turn off extra messages
+    -i                             ignore locks on authority file
+    -b                             break locks on authority file
+    -V                             show version number of xauth
+
+and commands have the following syntax:
+
+    add dpyname protoname hexkey   add entry
+    exit                           save changes and exit program
+    extract filename dpyname...    extract entries into file
+    help [topic]                   print help
+    info                           print information about entries
+    list [dpyname...]              list entries
+    merge filename...              merge entries from files
+    nextract filename dpyname...   numerically extract entries
+    nlist [dpyname...]             numerically list entries
+    nmerge filename...             numerically merge entries
+    quit                           abort changes and exit program
+    remove dpyname...              remove entries
+    source filename                read commands from file
+    version                        show version number of xauth
+    ?                              list available commands
+    generate dpyname protoname [options]  use server to generate entry
+    options are:
+      timeout n    authorization expiration time in seconds
+      trusted      clients using this entry are trusted
+      untrusted    clients using this entry are untrusted
+      group n      clients using this entry belong to application group n
+      data hexkey  auth protocol specific data needed to generate the entry
+
+
+A dash may be used with the "merge" and "source" to read from the
+standard input.  Commands beginning with "n" use numeric format.
+
+[2018-02-08 19:21:52,100 DEBUG easyprocess] param: "['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1024x768x24', ':1000']" 
+[2018-02-08 19:21:52,101 DEBUG easyprocess] command: ['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1024x768x24', ':1000']
+[2018-02-08 19:21:52,101 DEBUG easyprocess] joined command: Xvfb -br -nolisten tcp -screen 0 1024x768x24 :1000
+[2018-02-08 19:21:52,101 DEBUG easyprocess] param: "['xauth', '-h']" 
+[2018-02-08 19:21:52,101 DEBUG easyprocess] command: ['xauth', '-h']
+[2018-02-08 19:21:52,101 DEBUG easyprocess] joined command: xauth -h
+[2018-02-08 19:21:52,106 DEBUG easyprocess] process was started (pid=210)
+[2018-02-08 19:21:52,107 DEBUG easyprocess] process has ended
+[2018-02-08 19:21:52,107 DEBUG easyprocess] return code=1
+[2018-02-08 19:21:52,107 DEBUG easyprocess] stdout=
+[2018-02-08 19:21:52,107 DEBUG easyprocess] stderr=usage:  xauth [-options ...] [command arg ...]
+
+where options include:
+    -f authfilename                name of authority file to use
+    -v                             turn on extra messages
+    -q                             turn off extra messages
+    -i                             ignore locks on authority file
+    -b                             break locks on authority file
+    -V                             show version number of xauth
+
+and commands have the following syntax:
+
+    add dpyname protoname hexkey   add entry
+    exit                           save changes and exit program
+    extract filename dpyname...    extract entries into file
+    help [topic]                   print help
+    info                           print information about entries
+    list [dpyname...]              list entries
+    merge filename...              merge entries from files
+    nextract filename dpyname...   numerically extract entries
+    nlist [dpyname...]             numerically list entries
+    nmerge filename...             numerically merge entries
+    quit                           abort changes and exit program
+    remove dpyname...              remove entries
+    source filename                read commands from file
+    version                        show version number of xauth
+    ?                              list available commands
+    generate dpyname protoname [options]  use server to generate entry
+    options are:
+      timeout n    authorization expiration time in seconds
+      trusted      clients using this entry are trusted
+      untrusted    clients using this entry are untrusted
+      group n      clients using this entry belong to application group n
+      data hexkey  auth protocol specific data needed to generate the entry
+
+
+A dash may be used with the "merge" and "source" to read from the
+standard input.  Commands beginning with "n" use numeric format.
+
+[2018-02-08 19:21:52,108 DEBUG easyprocess] param: "['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1024x768x24', ':1001']" 
+[2018-02-08 19:21:52,108 DEBUG easyprocess] command: ['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1024x768x24', ':1001']
+[2018-02-08 19:21:52,108 DEBUG easyprocess] joined command: Xvfb -br -nolisten tcp -screen 0 1024x768x24 :1001
+[2018-02-08 19:21:52,108 INFO Engine.virtual-display] Starting virtual display[(1024, 768)]: :1001
+[2018-02-08 19:21:52,113 DEBUG easyprocess] process was started (pid=211)
+[2018-02-08 19:21:52,114 DEBUG pyvirtualdisplay.abstractdisplay] DISPLAY=:1001
+[2018-02-08 19:21:52,214 DEBUG Engine] Startup <bztcloud.CloudUtilsService object at 0x7f48e0b10350>
+[2018-02-08 19:21:52,215 DEBUG Engine.cloud-utils] Request: POST https://a.blazemeter.com/api/v4/taurus/r-v4-5a7ca3094c76b/notify {
+ "status": "starting", 
+ "token": "1390fe89dfa059a2bed86dfd1f8ff95d75ebdde20282b5322c98e863d577a533"
+}
+[2018-02-08 19:21:52,218 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-08 19:21:52,575 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/taurus/r-v4-5a7ca3094c76b/notify HTTP/1.1" 200 95
+[2018-02-08 19:21:52,579 DEBUG Engine.cloud-utils] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "status": "starting"
+    }
+}
+[2018-02-08 19:21:52,580 DEBUG Engine.cloud-utils] Request: POST https://a.blazemeter.com/api/v4/taurus/r-v4-5a7ca3094c76b/notify {
+ "status": "ready", 
+ "token": "1390fe89dfa059a2bed86dfd1f8ff95d75ebdde20282b5322c98e863d577a533"
+}
+[2018-02-08 19:21:52,582 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-08 19:21:52,900 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/taurus/r-v4-5a7ca3094c76b/notify HTTP/1.1" 200 92
+[2018-02-08 19:21:52,904 DEBUG Engine.cloud-utils] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "status": "ready"
+    }
+}
+[2018-02-08 19:21:52,905 INFO Engine.cloud-utils] Allowed to proceed with start
+[2018-02-08 19:21:52,905 DEBUG Engine] Startup <bztcloud.PeriodicFileUploader object at 0x7f48dfb74e90>
+[2018-02-08 19:21:52,906 DEBUG Engine] Startup <bztcloud.VersionSwitcherService object at 0x7f48dfb74f90>
+[2018-02-08 19:21:52,906 DEBUG Engine] Startup <bzt.modules.shellexec.ShellExecutor object at 0x7f48dfb05050>
+[2018-02-08 19:21:52,907 DEBUG Engine] Startup <bztcloud.S3Downloader object at 0x7f48dfb05410>
+[2018-02-08 19:21:52,907 DEBUG Engine] Startup <bztcustom.capturehar.CaptureHAR object at 0x7f48dfb05450>
+[2018-02-08 19:21:56,432 DEBUG urllib3.connectionpool] Starting new HTTP connection (1): localhost
+[2018-02-08 19:21:58,692 DEBUG urllib3.connectionpool] http://localhost:9090 "POST /proxy HTTP/1.1" 200 13
+[2018-02-08 19:21:58,695 DEBUG urllib3.connectionpool] Starting new HTTP connection (1): localhost
+[2018-02-08 19:21:58,751 DEBUG urllib3.connectionpool] http://localhost:9090 "PUT /proxy/8081/timeout HTTP/1.1" 200 0
+[2018-02-08 19:21:58,752 DEBUG Engine.capturehar] Created BMProxy: <browsermobproxy.client.Client object at 0x7f48dd46b250>
+[2018-02-08 19:21:58,754 DEBUG urllib3.connectionpool] Starting new HTTP connection (1): localhost
+[2018-02-08 19:21:58,770 DEBUG urllib3.connectionpool] http://localhost:9090 "PUT /proxy/8081/har HTTP/1.1" 204 0
+[2018-02-08 19:21:58,772 DEBUG Engine] Startup <bztcloud.FinalNotifier object at 0x7f48dfb053d0>
+[2018-02-08 19:21:58,772 DEBUG Engine] Startup <bztcloud.helpers.dynjmx.JMXOverrider object at 0x7f48dfb1c9d0>
+[2018-02-08 19:21:58,774 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x7f48e204ced0>
+[2018-02-08 19:21:58,775 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x7f48de51ea90>
+[2018-02-08 19:21:58,776 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x7f48de91ddd0>
+[2018-02-08 19:21:58,777 INFO Engine.console] Waiting for results...
+[2018-02-08 19:21:58,778 DEBUG Engine] Startup <bztcustom.ldjsonresults.LDJSONExporter object at 0x7f48dd4d1190>
+[2018-02-08 19:21:58,778 DEBUG Engine] Startup <bzt.modules.blazemeter.BlazeMeterUploader object at 0x7f48dd45eed0>
+[2018-02-08 19:21:58,779 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x7f48e201db90>
+[2018-02-08 19:21:58,780 DEBUG Engine.local] Delay setup for selenium/139950949016208: 0(start-at) + 0(delay) = 0
+[2018-02-08 19:21:58,794 DEBUG Engine.Configuration] Dumping YAML config into /tmp/artifacts/effective.yml
+[2018-02-08 19:21:59,010 DEBUG Engine.Configuration] Dumping JSON config into /tmp/artifacts/effective.json
+[2018-02-08 19:21:59,018 DEBUG root] Leveling down log file verbosity, use -v option to have DEBUG messages enabled
+[2018-02-08 19:21:59,018 DEBUG root] Leveled up log file verbosity
+[2018-02-08 19:21:59,018 DEBUG Engine.selenium] Activating executor at offset 0
+[2018-02-08 19:21:59,019 DEBUG Engine] New artifact filename: /tmp/artifacts/apiritif-
+[2018-02-08 19:21:59,019 DEBUG Engine] New artifact filename: /tmp/artifacts/nose.out
+[2018-02-08 19:21:59,020 DEBUG Engine] New artifact filename: /tmp/artifacts/nose.err
+[2018-02-08 19:21:59,021 DEBUG Engine.nose] Running process with env {'https_proxy': 'http://localhost:8081/', 'http_proxy': 'http://localhost:8081/', 'CHROMIUM_USER_FLAGS': '--proxy-server=http://localhost:8081', 'PYTHONPATH': ':/usr/local/lib/python2.7/dist-packages', 'HTTPS_PROXY': 'http://localhost:8081/', 'PATH': '/root/.bzt/selenium-taurus/tools/chromedriver/2.33:/root/.bzt/selenium-taurus/tools/geckodriver/0.19.0:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HTTP_PROXY': 'http://localhost:8081/'}
+[2018-02-08 19:21:59,021 DEBUG Engine.nose] Executing shell from /tmp/artifacts: ['/usr/bin/python', '-m', 'apiritif.loadgen', '--result-file-template', '/tmp/artifacts/apiritif-%s.csv', '--hold-for', '900.0', 'blazeDemo_Selenium_with_unit_chrome.py']
+[2018-02-08 19:21:59,022 DEBUG bzt.utils] Executing shell: ['/usr/bin/python', '-m', 'apiritif.loadgen', '--result-file-template', '/tmp/artifacts/apiritif-%s.csv', '--hold-for', '900.0', 'blazeDemo_Selenium_with_unit_chrome.py'] at /tmp/artifacts
+[2018-02-08 19:21:59,279 DEBUG root] Leveling down log file verbosity, use -v option to have DEBUG messages enabled
+[2018-02-08 19:21:59,492 WARNING Engine.shellexec.Task] Errors for atop -a -w atop.binlog 15:
+Floating point exception (core dumped)
+
+[2018-02-08 19:22:30,376 INFO Engine.nose.JTLReader] Changed data analysis delay to 32s
+[2018-02-08 19:22:39,422 WARNING Engine.cloud-utils] Got unhandled command: {u'cmd': None}
+[2018-02-08 19:22:40,853 INFO periodic_uploader] uploading /tmp/artifacts/bzt.log to users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/bzt.log
+[2018-02-08 19:23:08,436 INFO Engine.console] Current: 1 vu	0 succ	1 fail	16.010 avg rt	/	Cumulative: 16.010 avg rt, 100% failures
+[2018-02-08 19:23:20,445 INFO Engine.console] Current: 1 vu	0 succ	1 fail	12.605 avg rt	/	Cumulative: 14.308 avg rt, 100% failures
+[2018-02-08 19:23:23,457 INFO Engine.console] Current: 1 vu	1 succ	0 fail	8.028 avg rt	/	Cumulative: 11.211 avg rt, 0% failures
+[2018-02-08 19:23:37,467 INFO Engine.console] Current: 1 vu	1 succ	0 fail	7.298 avg rt	/	Cumulative: 10.428 avg rt, 0% failures
+[2018-02-08 19:23:38,451 WARNING Engine.cloud-utils] Got unhandled command: {u'cmd': None}
+[2018-02-08 19:23:41,729 INFO periodic_uploader] uploading /tmp/artifacts/bzt.log to users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/bzt.log
+[2018-02-08 19:23:57,480 INFO Engine.console] Current: 1 vu	0 succ	1 fail	15.357 avg rt	/	Cumulative: 11.250 avg rt, 0% failures
+[2018-02-08 19:24:09,495 INFO Engine.console] Current: 1 vu	0 succ	1 fail	2.891 avg rt	/	Cumulative: 10.233 avg rt, 0% failures
+[2018-02-08 19:24:21,503 INFO Engine.console] Current: 1 vu	0 succ	1 fail	2.694 avg rt	/	Cumulative: 9.396 avg rt, 0% failures
+[2018-02-08 19:24:27,512 INFO Engine.console] Current: 1 vu	1 succ	0 fail	6.702 avg rt	/	Cumulative: 9.397 avg rt, 0% failures
+[2018-02-08 19:24:37,520 WARNING Engine.cloud-utils] Got unhandled command: {u'cmd': None}
+[2018-02-08 19:24:42,443 INFO periodic_uploader] uploading /tmp/artifacts/bzt.log to users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/bzt.log
+[2018-02-08 19:24:47,530 INFO Engine.console] Current: 1 vu	0 succ	1 fail	12.706 avg rt	/	Cumulative: 9.673 avg rt, 0% failures
+[2018-02-08 19:24:59,542 INFO Engine.console] Current: 1 vu	0 succ	1 fail	12.155 avg rt	/	Cumulative: 9.864 avg rt, 0% failures
+[2018-02-08 19:25:05,801 INFO Engine.console] Current: 1 vu	1 succ	0 fail	5.952 avg rt	/	Cumulative: 9.747 avg rt, 0% failures
+[2018-02-08 19:25:10,804 INFO Engine.console] Current: 1 vu	1 succ	0 fail	5.937 avg rt	/	Cumulative: 9.509 avg rt, 0% failures
+[2018-02-08 19:25:34,827 INFO Engine.console] Current: 1 vu	0 succ	1 fail	14.387 avg rt	/	Cumulative: 9.796 avg rt, 0% failures
+[2018-02-08 19:25:36,829 WARNING Engine.cloud-utils] Got unhandled command: {u'cmd': None}
+[2018-02-08 19:25:43,166 INFO periodic_uploader] uploading /tmp/artifacts/bzt.log to users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/bzt.log
+[2018-02-08 19:25:49,843 INFO Engine.console] Current: 1 vu	0 succ	1 fail	12.072 avg rt	/	Cumulative: 9.923 avg rt, 0% failures
+[2018-02-08 19:25:55,853 INFO Engine.console] Current: 1 vu	0 succ	1 fail	4.733 avg rt	/	Cumulative: 9.469 avg rt, 0% failures
+[2018-02-08 19:25:56,839 INFO Engine.nose.JTLReader] Changed data analysis delay to 31s
+[2018-02-08 19:26:01,856 INFO Engine.console] Current: 1 vu	0 succ	1 fail	12.065 avg rt	/	Cumulative: 9.592 avg rt, 0% failures
+[2018-02-08 19:26:13,870 INFO Engine.console] Current: 1 vu	0 succ	1 fail	12.033 avg rt	/	Cumulative: 9.703 avg rt, 0% failures
+[2018-02-08 19:26:35,939 WARNING Engine.cloud-utils] Got unhandled command: {u'cmd': None}
+[2018-02-08 19:26:43,949 INFO periodic_uploader] uploading /tmp/artifacts/bzt.log to users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/bzt.log
+[2018-02-08 19:26:54,969 INFO Engine.console] Current: 1 vu	1 succ	0 fail	5.980 avg rt	/	Cumulative: 9.361 avg rt, 0% failures
+[2018-02-08 19:26:55,946 INFO Engine.nose.JTLReader] Changed data analysis delay to 32s
+[2018-02-08 19:27:36,044 WARNING Engine.cloud-utils] Got unhandled command: {u'cmd': None}
+[2018-02-08 19:27:37,046 INFO Engine.console] Current: 1 vu	1 succ	0 fail	35.178 avg rt	/	Cumulative: 10.283 avg rt, 0% failures
+[2018-02-08 19:27:44,630 INFO periodic_uploader] uploading /tmp/artifacts/bzt.log to users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/bzt.log
+[2018-02-08 19:27:53,064 INFO Engine.console] Current: 1 vu	1 succ	0 fail	5.937 avg rt	/	Cumulative: 9.990 avg rt, 0% failures
+[2018-02-08 19:27:58,078 INFO Engine.console] Current: 1 vu	1 succ	0 fail	5.891 avg rt	/	Cumulative: 10.000 avg rt, 0% failures
+[2018-02-08 19:28:20,157 INFO Engine.console] Current: 1 vu	1 succ	0 fail	15.704 avg rt	/	Cumulative: 10.172 avg rt, 0% failures
+[2018-02-08 19:28:36,170 WARNING Engine.cloud-utils] Got unhandled command: {u'cmd': None}
+[2018-02-08 19:28:45,298 INFO periodic_uploader] uploading /tmp/artifacts/bzt.log to users/339612/tests/5551396/reports/r-v4-5a7ca3094c76b/bzt.log
+[2018-02-08 19:28:48,188 INFO Engine.console] Current: 1 vu	1 succ	0 fail	5.966 avg rt	/	Cumulative: 10.210 avg rt, 0% failures
+[2018-02-08 19:29:00,197 INFO Engine.console] Current: 1 vu	1 succ	0 fail	16.001 avg rt	/	Cumulative: 10.371 avg rt, 0% failures
+[2018-02-08 19:29:09,227 INFO Engine.cloud-utils] Got stop command
+[2018-02-08 19:29:09,228 WARNING Engine] Please wait for graceful shutdown...
+[2018-02-08 19:29:09,228 DEBUG root] Leveled up log file verbosity
+[2018-02-08 19:29:09,229 INFO Engine] Shutting down...
+[2018-02-08 19:29:09,229 DEBUG Engine.local] Shutdown selenium/139950949016208
+[2018-02-08 19:29:10,230 INFO Engine.nose] Terminating process PID 242 with signal 15 (59 tries left)
+[2018-02-08 19:29:11,241 INFO Engine.nose] Terminating process PID 242 with signal 15 (58 tries left)
+[2018-02-08 19:29:11,241 DEBUG Engine.selenium.selenium-0] Selenium tests ran for 432.222990036 seconds
+[2018-02-08 19:29:11,242 DEBUG pyvirtualdisplay.abstractdisplay] unset DISPLAY
+[2018-02-08 19:29:11,242 DEBUG easyprocess] stopping process (pid=211 cmd="['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1024x768x24', ':1001']")
+[2018-02-08 19:29:11,242 DEBUG easyprocess] process is active -> sending SIGTERM
+[2018-02-08 19:29:11,245 DEBUG easyprocess] process has ended
+[2018-02-08 19:29:11,245 DEBUG easyprocess] return code=0
+[2018-02-08 19:29:11,245 DEBUG easyprocess] stdout=
+[2018-02-08 19:29:11,245 DEBUG easyprocess] stderr=
+[2018-02-08 19:29:11,245 DEBUG Engine.cloud-utils] Request: POST https://a.blazemeter.com/api/v4/taurus/r-v4-5a7ca3094c76b/notify {
+ "status": "shutting down", 
+ "token": "1390fe89dfa059a2bed86dfd1f8ff95d75ebdde20282b5322c98e863d577a533"
+}
+[2018-02-08 19:29:11,247 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-08 19:29:11,556 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/taurus/r-v4-5a7ca3094c76b/notify HTTP/1.1" 200 100
+[2018-02-08 19:29:11,559 DEBUG Engine.cloud-utils] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "status": "shutting down"
+    }
+}
+[2018-02-08 19:29:11,559 DEBUG Engine] New artifact filename: /tmp/artifacts/selenium-139950949016208.har
+[2018-02-08 19:29:11,559 INFO Engine.capturehar] Writing HAR file to /tmp/artifacts/selenium-139950949016208.har
+[2018-02-08 19:29:11,561 DEBUG urllib3.connectionpool] Starting new HTTP connection (1): localhost
+[2018-02-08 19:29:11,614 DEBUG urllib3.connectionpool] http://localhost:9090 "GET /proxy/8081/har HTTP/1.1" 200 None
+[2018-02-08 19:29:11,854 DEBUG Engine.capturehar] Closing BMProxy: <browsermobproxy.client.Client object at 0x7f48dd46b250>
+[2018-02-08 19:29:11,856 DEBUG urllib3.connectionpool] Starting new HTTP connection (1): localhost
+[2018-02-08 19:29:14,072 DEBUG urllib3.connectionpool] http://localhost:9090 "DELETE /proxy/8081 HTTP/1.1" 200 0
+[2018-02-08 19:29:14,073 DEBUG Engine] New artifact filename: /tmp/artifacts/bmp-1.log
+[2018-02-08 19:29:14,073 DEBUG Engine] New artifact filename: /tmp/artifacts/bmp-server.log
+[2018-02-08 19:29:14,073 DEBUG Engine] New artifact filename: /tmp/artifacts/selenium-139950949016208.har.js
+[2018-02-08 19:29:14,075 DEBUG Engine] New artifact filename: /tmp/artifacts/selenium-139950949016208.har.scr.js
+[2018-02-08 19:29:14,075 DEBUG Engine] New artifact filename: /tmp/artifacts/selenium-139950949016208.har.html
+[2018-02-08 19:29:14,075 INFO Engine.capturehar] Writing HAR view report to /tmp/artifacts/selenium-139950949016208.har.html
+[2018-02-08 19:29:14,083 DEBUG Engine.Configuration] Dumping YAML config into /tmp/artifacts/effective.yml
+[2018-02-08 19:29:14,136 DEBUG Engine.Configuration] Dumping JSON config into /tmp/artifacts/effective.json
+[2018-02-08 19:29:14,137 WARNING root] Interrupted by user
+[2018-02-08 19:29:14,138 DEBUG root] ManualShutdown: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bzt/cli.py", line 225, in perform
+    self.engine.run()
+  File "/usr/local/lib/python2.7/dist-packages/bzt/engine.py", line 202, in run
+    reraise(exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/bzt/engine.py", line 184, in run
+    self._wait()
+  File "/usr/local/lib/python2.7/dist-packages/bzt/engine.py", line 220, in _wait
+    while not self._check_modules_list():
+  File "/usr/local/lib/python2.7/dist-packages/bzt/engine.py", line 210, in _check_modules_list
+    finished |= bool(module.check())
+  File "/usr/local/lib/python2.7/dist-packages/bztcloud/__init__.py", line 94, in check
+    self.handle_commands()
+  File "/usr/local/lib/python2.7/dist-packages/bztcloud/__init__.py", line 106, in handle_commands
+    raise ManualShutdown()
+ManualShutdown
+[2018-02-08 19:29:14,138 INFO Engine] Post-processing...
+[2018-02-08 19:29:14,138 DEBUG Engine.local] Post-process selenium/139950949016208
+[2018-02-08 19:29:14,139 DEBUG Engine.local] Exception in post_process of ConcurrentSeleniumExecutor: Empty results, most likely None (ConcurrentSeleniumExecutor) failed. Actual reason for this can be found in logs under /tmp/artifacts
+Executor selenium/139950948903760
+ApiritifNoseExecutor STDOUT:
+2018-02-08 19:22:00,174:INFO:242:140173012064000:loadgen:Total workers: 1
+2018-02-08 19:22:00,248:INFO:248:140173012064000:loadgen:Adding worker: idx=0	concurrency=1	results=/tmp/artifacts/apiritif-0.csv Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bzt/modules/provisioning.py", line 168, in post_process
+    raise ToolError(message, diagnostics)
+ToolError: Empty results, most likely None (ConcurrentSeleniumExecutor) failed. Actual reason for this can be found in logs under /tmp/artifacts
+Executor selenium/139950948903760
+ApiritifNoseExecutor STDOUT:
+2018-02-08 19:22:00,174:INFO:242:140173012064000:loadgen:Total workers: 1
+2018-02-08 19:22:00,248:INFO:248:140173012064000:loadgen:Adding worker: idx=0	concurrency=1	results=/tmp/artifacts/apiritif-0.csv
+
+[2018-02-08 19:29:14,139 DEBUG Engine] post_process: Empty results, most likely None (ConcurrentSeleniumExecutor) failed. Actual reason for this can be found in logs under /tmp/artifacts
+Executor selenium/139950948903760
+ApiritifNoseExecutor STDOUT:
+2018-02-08 19:22:00,174:INFO:242:140173012064000:loadgen:Total workers: 1
+2018-02-08 19:22:00,248:INFO:248:140173012064000:loadgen:Adding worker: idx=0	concurrency=1	results=/tmp/artifacts/apiritif-0.csv
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bzt/engine.py", line 266, in post_process
+    module.post_process()
+  File "/usr/local/lib/python2.7/dist-packages/bzt/modules/provisioning.py", line 175, in post_process
+    reraise(exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/bzt/modules/provisioning.py", line 168, in post_process
+    raise ToolError(message, diagnostics)
+ToolError: Empty results, most likely None (ConcurrentSeleniumExecutor) failed. Actual reason for this can be found in logs under /tmp/artifacts
+Executor selenium/139950948903760
+ApiritifNoseExecutor STDOUT:
+2018-02-08 19:22:00,174:INFO:242:140173012064000:loadgen:Total workers: 1
+2018-02-08 19:22:00,248:INFO:248:140173012064000:loadgen:Adding worker: idx=0	concurrency=1	results=/tmp/artifacts/apiritif-0.csv
+
+[2018-02-08 19:29:14,139 DEBUG Engine.selenium.ConcurrentLoadReader.TestReportReader.LDJSONReader] No data to start reading yet
+[2018-02-08 19:29:14,139 DEBUG Engine.selenium.ConcurrentLoadReader] Buffer len: 0
+[2018-02-08 19:29:14,139 DEBUG Engine.nose.JTLReader.IncrementalCSVReader] Reading JTL: /tmp/artifacts/apiritif-0.csv
+[2018-02-08 19:29:14,139 DEBUG Engine.nose.JTLReader.IncrementalCSVReader] Read lines: 0 / 0 bytes (at speed 1048576)
+[2018-02-08 19:29:14,139 DEBUG Engine.nose.JTLReader] Buffer len: 3
+[2018-02-08 19:29:14,139 DEBUG Engine.nose.JTLReader] Aggregating: 1518118099
+[2018-02-08 19:29:14,141 DEBUG Engine.nose.JTLReader] Aggregating: 1518118115
+[2018-02-08 19:29:14,142 DEBUG Engine.nose.JTLReader] Aggregating: 1518118127
+[2018-02-08 19:29:14,143 DEBUG Engine.consolidator] Consolidator buffer[4]: [1518118099, 1518118115, 1518118127, 1518118093]
+[2018-02-08 19:29:14,143 DEBUG Engine.consolidator] Merging into 1518118093
+[2018-02-08 19:29:14,143 DEBUG Engine.consolidator] Merging 1518118093
+[2018-02-08 19:29:14,145 DEBUG Engine.consolidator] Processed datapoint: 1518118093/None
+[2018-02-08 19:29:14,146 DEBUG Engine.consolidator] Merging into 1518118099
+[2018-02-08 19:29:14,146 DEBUG Engine.consolidator] Merging 1518118099
+[2018-02-08 19:29:14,148 DEBUG Engine.consolidator] Processed datapoint: 1518118099/None
+[2018-02-08 19:29:14,148 DEBUG Engine.consolidator] Merging into 1518118115
+[2018-02-08 19:29:14,148 DEBUG Engine.consolidator] Merging 1518118115
+[2018-02-08 19:29:14,150 DEBUG Engine.consolidator] Processed datapoint: 1518118115/None
+[2018-02-08 19:29:14,150 DEBUG Engine.consolidator] Merging into 1518118127
+[2018-02-08 19:29:14,150 DEBUG Engine.consolidator] Merging 1518118127
+[2018-02-08 19:29:14,152 DEBUG Engine.consolidator] Processed datapoint: 1518118127/None
+[2018-02-08 19:29:14,152 INFO Engine.final-stats] Test duration: 0:07:13
+[2018-02-08 19:29:14,153 INFO Engine.final-stats] Samples count: 40, 42.50% failures
+[2018-02-08 19:29:14,153 INFO Engine.final-stats] Average times: total 10.476, latency 0.000, connect 0.000
+[2018-02-08 19:29:14,153 INFO Engine.final-stats] Percentile 0.0%: 2.694
+[2018-02-08 19:29:14,153 INFO Engine.final-stats] Percentile 50.0%: 12.032
+[2018-02-08 19:29:14,153 INFO Engine.final-stats] Percentile 90.0%: 15.704
+[2018-02-08 19:29:14,154 INFO Engine.final-stats] Percentile 95.0%: 16.010
+[2018-02-08 19:29:14,154 INFO Engine.final-stats] Percentile 99.0%: 35.178
+[2018-02-08 19:29:14,154 INFO Engine.final-stats] Percentile 99.9%: 35.178
+[2018-02-08 19:29:14,154 INFO Engine.final-stats] Percentile 100.0%: 35.178
+[2018-02-08 19:29:14,154 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2018-02-08 19:29:14,155 DEBUG Engine.blazemeter] KPI bulk buffer len in post-proc: 0
+[2018-02-08 19:29:14,155 INFO Engine.blazemeter] Sending remaining KPI data to server...
+[2018-02-08 19:29:14,263 DEBUG User] Request: POST https://a.blazemeter.com/api/v4/image/r-v4-5a7ca3094c76b/files?signature=fab8b607a2f3cd540704c43489594fcf --===============3264944936722522970==
+Content-Disposition: file; name="file"; filename="r-v4-5a7ca3094c76b-0-c.monitoring.json"
+Content-Type: application/json
+
+{
+ "kpis": {
+  "Connections": "Connections", 
+  "CPU": "CPU", 
+  "Network I/O": "Network I/
+[2018-02-08 19:29:14,264 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-08 19:29:16,031 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/image/r-v4-5a7ca3094c76b/files?signature=fab8b607a2f3cd540704c43489594fcf HTTP/1.1" 200 115
+[2018-02-08 19:29:16,034 DEBUG User] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        "r-v4-5a7ca3094c76b-0-c.monitoring.json"
+    ]
+}
+[2018-02-08 19:29:16,035 DEBUG Engine.blazemeter] Set last check time to: 1518117711.61
+[2018-02-08 19:29:16,035 DEBUG Engine.cloud-utils] Request: POST https://a.blazemeter.com/api/v4/taurus/r-v4-5a7ca3094c76b/notify {
+ "status": "post-processing", 
+ "token": "1390fe89dfa059a2bed86dfd1f8ff95d75ebdde20282b5322c98e863d577a533"
+}
+[2018-02-08 19:29:16,036 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-08 19:29:16,352 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/taurus/r-v4-5a7ca3094c76b/notify HTTP/1.1" 200 102
+[2018-02-08 19:29:16,355 DEBUG Engine.cloud-utils] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "status": "post-processing"
+    }
+}
+[2018-02-08 19:29:16,355 DEBUG Engine.shellexec.Task] Task: /usr/local/bztcloud/jetlag-run.sh is not finished yet
+[2018-02-08 19:29:16,355 INFO Engine.shellexec.Task] Background task was not completed, shutting it down: /usr/local/bztcloud/jetlag-run.sh
+[2018-02-08 19:29:17,357 INFO Engine.shellexec.Task] Terminating process PID 156 with signal 15 (59 tries left)
+[2018-02-08 19:29:17,358 INFO Engine.shellexec.Task] Starting shell command: /usr/local/bztcloud/process-cleanup.sh
+[2018-02-08 19:29:27,471 DEBUG Engine.shellexec.Task] Task was finished with exit code 0: /usr/local/bztcloud/process-cleanup.sh
+[2018-02-08 19:29:27,471 DEBUG Engine.final-notifier] Request: POST https://a.blazemeter.com/api/v4/taurus/r-v4-5a7ca3094c76b/notify {
+ "status": "bzt-done", 
+ "token": "1390fe89dfa059a2bed86dfd1f8ff95d75ebdde20282b5322c98e863d577a533"
+}
+[2018-02-08 19:29:27,472 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2018-02-08 19:29:27,796 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/taurus/r-v4-5a7ca3094c76b/notify HTTP/1.1" 200 95
+[2018-02-08 19:29:27,798 DEBUG Engine.final-notifier] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "status": "bzt-done"
+    }
+}
+[2018-02-08 19:29:27,802 DEBUG Engine.Configuration] Dumping YAML config into /tmp/artifacts/effective.yml
+[2018-02-08 19:29:27,855 DEBUG Engine.Configuration] Dumping JSON config into /tmp/artifacts/effective.json
+[2018-02-08 19:29:27,856 DEBUG root] Child Process Error: Empty results, most likely None (ConcurrentSeleniumExecutor) failed. Actual reason for this can be found in logs under /tmp/artifacts
+Executor selenium/139950948903760
+ApiritifNoseExecutor STDOUT:
+2018-02-08 19:22:00,174:INFO:242:140173012064000:loadgen:Total workers: 1
+2018-02-08 19:22:00,248:INFO:248:140173012064000:loadgen:Adding worker: idx=0	concurrency=1	results=/tmp/artifacts/apiritif-0.csv
+[2018-02-08 19:29:27,857 DEBUG root] Executor selenium/139950948903760
+[2018-02-08 19:29:27,857 DEBUG root] ApiritifNoseExecutor STDOUT:
+2018-02-08 19:22:00,174:INFO:242:140173012064000:loadgen:Total workers: 1
+2018-02-08 19:22:00,248:INFO:248:140173012064000:loadgen:Adding worker: idx=0	concurrency=1	results=/tmp/artifacts/apiritif-0.csv
+[2018-02-08 19:29:27,857 DEBUG root] ToolError: Empty results, most likely None (ConcurrentSeleniumExecutor) failed. Actual reason for this can be found in logs under /tmp/artifacts
+Executor selenium/139950948903760
+ApiritifNoseExecutor STDOUT:
+2018-02-08 19:22:00,174:INFO:242:140173012064000:loadgen:Total workers: 1
+2018-02-08 19:22:00,248:INFO:248:140173012064000:loadgen:Adding worker: idx=0	concurrency=1	results=/tmp/artifacts/apiritif-0.csv
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bzt/cli.py", line 232, in perform
+    self.engine.post_process()
+  File "/usr/local/lib/python2.7/dist-packages/bzt/engine.py", line 279, in post_process
+    reraise(exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/bzt/engine.py", line 266, in post_process
+    module.post_process()
+  File "/usr/local/lib/python2.7/dist-packages/bzt/modules/provisioning.py", line 175, in post_process
+    reraise(exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/bzt/modules/provisioning.py", line 168, in post_process
+    raise ToolError(message, diagnostics)
+ToolError: Empty results, most likely None (ConcurrentSeleniumExecutor) failed. Actual reason for this can be found in logs under /tmp/artifacts
+Executor selenium/139950948903760
+ApiritifNoseExecutor STDOUT:
+2018-02-08 19:22:00,174:INFO:242:140173012064000:loadgen:Total workers: 1
+2018-02-08 19:22:00,248:INFO:248:140173012064000:loadgen:Adding worker: idx=0	concurrency=1	results=/tmp/artifacts/apiritif-0.csv
+[2018-02-08 19:29:27,857 INFO root] Artifacts dir: /tmp/artifacts
+[2018-02-08 19:29:27,857 WARNING root] Done performing with code: 2
+[2018-02-08 19:29:27,857 DEBUG root] Closing log handler: /tmp/artifacts/bzt.log

@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+<head>
+    <title>HTTP Archive Viewer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="selenium-139697538663056.har.js"></script>
+    <script src="selenium-139697538663056.har.scr.js"></script>
+    <link rel="stylesheet" href="http://www.softwareishard.com/har/viewer/css/harViewer.css" type="text/css"/>
+    <style>
+        .filmStrip {
+            height: 100px;
+        }
+
+        .filmStrip td {
+            padding: 0;
+            border: 0;
+            box-shadow: none;
+        }
+
+        .filmStrip .netTimeCol {
+            background-color: gray;
+            overflow: hidden;
+        }
+
+        .filmStrip .netTimeCol img {
+            height: 100px;
+        }
+
+        .filmStrip .netTimeCol img.same {
+            opacity: 0.75;
+            filter: grayscale(100%);
+        }
+
+        .filmStrip .netTimeCol .guide {
+            border-right: 1px solid rgba(0, 0, 255, 0.75);
+            display: none;
+            font-size: 0;
+            height: 7000px;
+            line-height: normal;
+            position: fixed;
+            float: left;
+            top: 0;
+            left: 7000px;
+            width: 0;
+            z-index: 9991;
+            margin-left: 1px;
+            margin-right: 1px;
+        }
+
+        .filmStrip .netTimeCol .guide img {
+            border: 1px solid gray;
+            height: 300px;
+            width: 0;
+            position: fixed;
+        }
+
+        .filmStrip .netTimeCol .guide span {
+            background-color: silver;
+            position: fixed;
+            font-size: 12px;
+            padding: 2px 4px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script data-main="harViewer" src="http://www.softwareishard.com/har/viewer/scripts/require.js"></script>
+    <script>
+        /**
+         * note that this source code is under proprietary license, copyright by CA Technologies Inc.
+         */
+
+        var SCREENSHOTS = {"size": [0, 0], "files": []};
+        if (SCR_SOURCE_DATA["1"]) {
+            SCREENSHOTS = SCR_SOURCE_DATA["1"];
+        }
+        var scrTS = getScrTimestamps();
+        var ranges = getRanges();
+
+        function addFilmStripBar() {
+            var tr = $("<tr class='netRow filmStrip'></tr>");
+            tr.append("<td class='netHrefCol netCol'></td>");
+            tr.append("<td class='netStatusCol netCol'></td>");
+            tr.append("<td class='netTypeCol netCol'></td>");
+            tr.append("<td class='netDomainCol netCol'></td>");
+            tr.append("<td class='netSizeCol netCol'></td>");
+            tr.append("<td class='netTimeCol netCol'></td>");
+            tr.append("<td class='netOptionsCol netCol'></td>");
+            tr.insertAfter(".netTable .netSizerRow");
+            return tr.find(".netTimeCol");
+        }
+
+        function getScrTimestamps() {
+            var scrTS = [];
+            for (var ts in SCREENSHOTS["files"]) {
+                //noinspection JSUnfilteredForInLoop
+                scrTS.push(parseInt(ts));
+            }
+            return scrTS;
+        }
+
+        function getRanges() {
+            var entries = HAR_SOURCE_DATA['log']['entries'];
+            var startTimes = [];
+            var endTimes = [];
+            for (var n = 0; n < entries.length; n++) {
+                var start = new Date(entries[n].startedDateTime);
+                startTimes.push(start);
+                var end = new Date(start);
+                end.setMilliseconds(start.getMilliseconds() + entries[n].time);
+                endTimes.push(end);
+            }
+
+            var scrTS = getScrTimestamps();
+            return {
+                scrFrom: Math.min.apply(null, scrTS),
+                scrTo: Math.max.apply(null, scrTS),
+                harFrom: Math.min.apply(null, startTimes),
+                harTo: Math.max.apply(null, endTimes)
+            }
+        }
+
+        // this if for beautiful filmstip
+        function getClosestTS(target, scrTS) {
+            var ret = scrTS[0];
+            var dist = target; // just big enough
+            for (var n = 0; n < scrTS.length; n++) {
+                var newDist = Math.abs(scrTS[n] - target);
+                if (newDist < dist) {
+                    ret = scrTS[n];
+                    dist = newDist;
+                }
+            }
+            return ret;
+        }
+
+        // this is strict truth for waterfall
+        function getAfterTS(target, scrTS) {
+            var ret = scrTS[0];
+            for (var n = 0; n < scrTS.length; n++) {
+                if (scrTS[n] > target) {
+                    break;
+                }
+                ret = scrTS[n];
+            }
+            return ret;
+        }
+
+        function msToTime(ms) {
+            function addZ(n) {
+                return (n < 10 ? '0' : '') + n;
+            }
+
+            var dt = new Date(ms);
+            var mins = dt.getMinutes();
+            var secs = dt.getSeconds();
+            var millis = dt.getMilliseconds();
+
+            return addZ(mins) + ':' + addZ(secs) + "." + millis;
+        }
+
+        function addGuide(bar) {
+            var time = $("<span></span>");
+            var img = $("<img/>");
+            var guide = $("<div></div>").addClass("guide").append(img).append(time);
+            bar.mousemove(function (evt) {
+                guide.css("left", evt.clientX);
+                img.css("left", evt.clientX - img.width() / 2).css("top", evt.clientY - img.height() / 2);
+
+                var offset = (evt.pageX - bar.position().left) / bar.width();
+                var ms = offset * (ranges.harTo - ranges.harFrom);
+                time.text(msToTime(ms));
+                time.css("left", evt.clientX + img.width() / 2 - time.width() - 6).css("top", evt.clientY + img.height() / 2 - 17);
+                var target = ranges.harFrom + ms;
+                var src = SCREENSHOTS["files"][getAfterTS(target, scrTS)];
+                if (img.attr("src") != src) {
+                    img.attr("src", src);
+                }
+            });
+
+            img.click(function (evt) {
+                evt.stopPropagation();
+                guide.hide();
+            });
+
+            bar.click(function () {
+                guide.height($(window).height());
+                guide.show();
+            });
+
+            bar.append(guide);
+            return guide;
+        }
+
+        function showFilmStrip() {
+            if (SCREENSHOTS['files'].length == 0) {
+                return;
+            }
+
+            var bar = addFilmStripBar();
+            var guide = addGuide(bar);
+
+            var imgWidth = Math.round(SCREENSHOTS["size"][0] / SCREENSHOTS["size"][1] * bar.height());
+            guide.find("img").width(imgWidth * 3);
+            var imgCount = bar.width() / imgWidth;
+            var prev = null;
+            for (var n = 0; n < Math.ceil(imgCount); n++) {
+                var target = ranges.harFrom + (n + 0.5) * (ranges.harTo - ranges.harFrom) / imgCount; // 0.5 to get middle of the img
+                var src = SCREENSHOTS["files"][getAfterTS(target, scrTS)];
+                var img = $("<img width='" + imgWidth + "' src='" + src + "'/>").attr('alt', target);
+                if (src == prev) {
+                    img.addClass("same");
+                }
+                prev = src;
+                var a = $("<a href='" + src + "'></a>").append(img);
+                bar.append(a);
+            }
+        }
+
+        var loader = require.config({baseUrl: "http://www.softwareishard.com/har/viewer/scripts/"});
+        loader(["harViewer"], function () {
+            var content = document.getElementById("content");
+            var harView = content.repObject;
+            harView.appendPreview(HAR_SOURCE_DATA);
+            harView.showTabBar(false);
+            $("div.toolbar").hide();
+
+            showFilmStrip();
+        });
+    </script>
+</head>
+<body class="harBody">
+
+<div id="content"></div>
+
+</body>
+</html>

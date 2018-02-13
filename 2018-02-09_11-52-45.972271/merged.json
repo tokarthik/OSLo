@@ -1,0 +1,13 @@
+{
+ "execution": {
+  "locations": {
+   "us-east-2": 2, 
+   "sa-east-1": 1
+  }
+ }, 
+ "modules": {
+  "blazemeter": {
+   "token": "********"
+  }
+ }
+}

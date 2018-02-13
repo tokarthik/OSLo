@@ -1,17 +1,13 @@
 execution: 
-- concurrency: 2
-  # iterations: 5
-  hold-for: 15m
+- concurrency: 1
+  iterations: 5
+  # hold-for: 2m
   executor: selenium
   runner: nose
   scenario:
     script: ./blazeDemo_Selenium_with_unit_chrome.py
-  locations:
-    us-west-1: 15
-    us-east-1: 15
 # - execution: jmeter
   # scenario: blazedemo
-  locations-weighted: false
 
 services:
 - capturehar

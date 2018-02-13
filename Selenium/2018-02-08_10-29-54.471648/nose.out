@@ -1,0 +1,2 @@
+2018-02-08 10:29:56,300:INFO:5873:123145355509760:loadgen:Total workers: 1
+2018-02-08 10:29:56,312:INFO:5877:123145355509760:loadgen:Adding worker: idx=0	concurrency=1	results=/Users/daper01/Documents/OSLo/Selenium/2018-02-08_10-29-54.471648/apiritif-0.csv

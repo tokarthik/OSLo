@@ -1,0 +1,18 @@
+---
+execution:
+- concurrency: 1
+  executor: selenium
+  hold-for: 2m
+  locations:
+    us-east-1: 1
+    us-west-1: 2
+  locations-weighted: false
+  runner: nose
+  scenario:
+    script: ./blazeDemo_Selenium_with_unit_chrome.py
+modules:
+  blazemeter:
+    token: '********'
+services:
+- capturehar
+

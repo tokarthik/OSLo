@@ -1,0 +1,29 @@
+2018-02-08 10:05:54,821:INFO:5633:123145323978752:loadgen:Total workers: 1
+2018-02-08 10:05:54,830:INFO:5637:123145323978752:loadgen:Adding worker: idx=0	concurrency=1	results=/Users/daper01/Documents/OSLo/Selenium/2018-02-08_10-05-53.710766/apiritif-0.csv
+Welcome Page Reached
+clicked
+Reserve Page Reached
+clicked
+Purchase Page Reached
+Welcome Page Reached
+clicked
+Reserve Page Reached
+clicked
+Purchase Page Reached
+Welcome Page Reached
+clicked
+Reserve Page Reached
+clicked
+Purchase Page Reached
+Welcome Page Reached
+clicked
+Reserve Page Reached
+clicked
+Purchase Page Reached
+Welcome Page Reached
+clicked
+Reserve Page Reached
+clicked
+Purchase Page Reached
+2018-02-08 10:06:24,740:INFO:5637:123145323978752:loadgen:Workers finished, awaiting result writer
+2018-02-08 10:06:24,841:INFO:5637:123145323978752:loadgen:Results written, shutting down

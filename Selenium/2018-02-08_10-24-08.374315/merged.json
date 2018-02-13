@@ -1,0 +1,26 @@
+{
+ "services": [
+  "capturehar"
+ ], 
+ "execution": [
+  {
+   "scenario": {
+    "script": "./blazeDemo_Selenium_with_unit_chrome.py"
+   }, 
+   "runner": "nose", 
+   "locations": {
+    "us-east-1": 1, 
+    "us-west-1": 2
+   }, 
+   "concurrency": 1, 
+   "executor": "selenium", 
+   "locations-weighted": false, 
+   "hold-for": "2m"
+  }
+ ], 
+ "modules": {
+  "blazemeter": {
+   "token": "********"
+  }
+ }
+}
