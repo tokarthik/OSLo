@@ -1,9 +1,0 @@
----
-execution:
-  locations:
-    sa-east-1: 1
-    us-east-2: 2
-modules:
-  blazemeter:
-    token: '********'
-
